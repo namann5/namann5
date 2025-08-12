@@ -6,11 +6,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=namann5&label=Profile%20views&color=0e75b6&style=flat" alt="namann5" /> </p>
 
-- 🔭 I’m currently 2nd year student at **GLA University**
-
-- 🌱 I’m currently learning **JAVA , FRONTEND**
-
-- 📫 How to reach me **naman.2002.as@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
