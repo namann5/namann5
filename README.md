@@ -1,26 +1,92 @@
-![logo](https://github.com/namann5/namann5/blob/main/GDevelop%20banner.png)
-<h1 align="center">Hi 👋, I'm Naman Singh</h1>
-<h3 align="center">A passionate Software Engineer Developer from India</h3>
+<!-- HEADER -->
+![banner](https://github.com/namann5/namann5/blob/main/GDevelop%20banner.png)
 
-<img align = "right" alt = "coding" width ="400" src = "https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif">
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=namann5&label=Profile%20views&color=0e75b6&style=flat" alt="namann5" /> </p>
+### `< Software Engineer />` · 🇮🇳 India · Building things that shouldn't work, but do
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00F5A0&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;DSA+Enjoyer+%F0%9F%94%A5;Always+shipping%2C+rarely+sleeping;open+to+work+%E2%9C%85)](https://git.io/typing-svg)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/naman_singh_e807dfdf14b5c" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="naman_singh_e807dfdf14b5c" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/naman" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="naman" height="30" width="40" /></a>
-<a href="https://instagram.com/namann_05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="namann_05" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/naman_singh_cs25" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="naman_singh_cs25" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/namann5" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="namann5" height="30" width="40" /></a>
-</p>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a>  </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=namann5&show_icons=true&locale=en&layout=compact" alt="namann5" /></p>
+## ⚡ who am i
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&locale=en" alt="namann5" /></p>
+<img align="right" alt="coding" width="360" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" />
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&" alt="namann5" /></p>
+```js
+const naman = {
+  pronouns: "he/him",
+  location: "India 🇮🇳",
+  stack: ["Java", "React", "Node.js", "Django", "C++"],
+  currentlyBuilding: "something cool (probably)",
+  funFact: "I debug with console.log and I'm not ashamed",
+  lookingFor: "collabs, internships, cool projects",
+};
+```
+
+<br clear="right" />
+
+---
+
+## 🛠️ tech stack
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+
+**Backend & DB**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+---
+
+## 📊 github stats
+
+<div align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00f5a0&icon_color=00d9f5&text_color=e6edf3" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00f5a0&text_color=e6edf3" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=namann5&theme=dark&hide_border=true&background=0D1117&ring=00F5A0&fire=00D9F5&currStreakLabel=00F5A0" />
+</div>
+
+---
+
+## 🔗 find me online
+
+<div align="left">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/naman_singh_cs25)
+[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/namann_05)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=namann5&style=flat-square&color=00f5a0&label=profile+views" />
+
+  > *"first, solve the problem. then, write the code."*
+</div>
