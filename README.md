@@ -9,7 +9,7 @@
 
 ---
 
-## 💀 naman. fullstack. unhinged.
+##  naman. fullstack. unhinged.
 
 <img align="right" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" width="360" alt="coding" />
 
