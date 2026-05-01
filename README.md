@@ -20,7 +20,7 @@ B.Tech CSE @ GLA University · 2028 · GSSoC 2026 Contributor
 
 <img align="right" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" width="300" alt="coding" />
 
-I build backend systems — REST APIs, AI-integrated services, and distributed tooling. My primary stack is Node.js + Express + MongoDB, with Python for ML-adjacent work. Currently contributing to Rocket.Chat under GSSoC 2026 (AI/Agents track), focused on replacing in-memory job execution with a persistent Agenda.js queue in the ABAC permission system.
+I build backend systems — REST APIs, AI-integrated services, and distributed tooling. My primary stack is Node.js + Express + MongoDB, with Python for ML-adjacent work. Currently contributing in GSSoC 2026 (AI/Agents track), focused on replacing in-memory job execution with a persistent Agenda.js queue in the ABAC permission system.
 
 I care about system correctness, clean abstractions, and code that ships without surprises.
 
