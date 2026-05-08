@@ -10,7 +10,7 @@
 
 # Naman Singh
 
-**Backend Developer** · India 🇮🇳 · Open to Internships
+**FullStack Developer** · India 🇮🇳 · Open to Internships
 
 B.Tech CSE @ GLA University · 2028 · GSSoC 2026 Contributor
 
