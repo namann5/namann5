@@ -73,6 +73,14 @@ Webhook-based chatbot targeting Indian MSMEs. Supports Hindi, Tamil, Telugu, Ben
 
 ---
 
+## Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=4" />
+</div>
+
+---
+
 ## Stats
 
 <div align="center">
