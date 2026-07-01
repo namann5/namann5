@@ -96,21 +96,11 @@ Designed as a ₹499–999/month SaaS product.
 
 <br/>
 
-## 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy-winning.vercel.app/?username=namann5&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=4" />
-</div>
-
-> ⚠️ The original `github-profile-trophy.vercel.app` is currently returning a 402 error for every user (a known outage on the maintainer's free hosting tier). This uses a community-hosted mirror instead — see the note at the bottom of this file if it ever needs swapping again.
-
-<br/>
-
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&include_all_commits=true&count_private=true"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8b949e"/>
 
 <img src="https://streak-stats.demolab.com?user=namann5&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e" />
@@ -118,7 +108,19 @@ Designed as a ₹499–999/month SaaS product.
 </div>
 
 <div align="center">
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=namann5&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8b949e&layout=compact" />
+</div>
+
+<div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" />
+</div>
+
+<br/>
+
+## 🏆 Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=4" />
 </div>
 
 <br/>
@@ -136,27 +138,6 @@ Designed as a ₹499–999/month SaaS product.
 <div align="center">
 <img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-snake.svg" />
 </div>
-
-> ⚠️ This image will 404 until you add the workflow below — GitHub can't generate this SVG on its own, it needs a scheduled Action running in your `namann5/namann5` repo to build it from your live contribution graph. Setup steps are at the bottom of this file.
-
-<br/>
-
-<details>
-<summary>🔧 One-time setup: enable the snake contribution graph</summary>
-
-<br/>
-
-This isn't automatic — GitHub needs a workflow file in your `namann5/namann5` repo to build the SVG on a schedule.
-
-1. In your `namann5/namann5` repo, create `.github/workflows/snake.yml` with the contents from the `snake.yml` file provided alongside this README.
-2. Commit and push it to your `main` branch.
-3. Go to the **Actions** tab of your repo and manually run the "Generate Snake" workflow once (don't wait for the schedule).
-4. It will push the generated SVG to a branch called `output` — the image in this README already points to the right path once that exists.
-5. If your default branch isn't `main`, update the `branches` value inside the workflow file to match.
-
-Trophies mirror note: if `github-profile-trophy-winning.vercel.app` ever goes down too, other working mirrors as of now are `github-profile-trophy-fork-two.vercel.app`, `github-profile-trophy-liard-delta.vercel.app`, and `github-profile-trophy-kannan.vercel.app` — just swap the domain in the `<img src>` and keep the same query params.
-
-</details>
 
 <br/>
 
