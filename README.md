@@ -123,6 +123,14 @@ Designed as a ₹499–999/month SaaS product.
 
 <br/>
 
+## 🎨 Git Artwork
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/gitartwork.svg" width="100%" alt="gitartwork" />
+</div>
+
+<br/>
+
 ## 🐍 Contribution Graph
 
 <div align="center">
