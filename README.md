@@ -99,16 +99,27 @@ Designed as a ₹499–999/month SaaS product.
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=github&show=reviews,discussions_started"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8b949e&size_weight=0.5&count_weight=0.5"/>
-
-<img src="https://streak-stats.demolab.com?user=namann5&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,discussions_started"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8b949e&size_weight=0.5&count_weight=0.5"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true&radius=8" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=namann5&theme=tokyonight" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=namann5&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=namann5&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=namann5&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=namann5&theme=tokyonight" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=namann5&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true&radius=8" />
 </div>
 
 <br/>
