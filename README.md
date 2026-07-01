@@ -1,4 +1,4 @@
-![banner](https://github.com/namann5/namann5/blob/main/GDevelop%20banner.png)
+![banner](https://raw.githubusercontent.com/namann5/namann5/main/GDevelop%20banner.png)
 
 <div align="center">
 
@@ -50,7 +50,7 @@ Detects AI-generated images using a multi-signal scoring pipeline:
 - Visual artifact analysis via Sharp — **30%**
 - EXIF metadata forensics — **20%**
 
-Returns a verdict across four confidence tiers. Built the full backend, scoring engine, and API layer.
+Returns a verdict across four confidence tiers.
 
 `Node.js` `Express` `MongoDB` `Sharp` `React`
 
@@ -58,8 +58,6 @@ Returns a verdict across four confidence tiers. Built the full backend, scoring 
 <td width="50%" valign="top">
 
 ### 💬 WhatsApp Multilingual Chatbot
-<img src="https://i.pinimg.com/originals/e8/f4/53/e8f453b3efa75b23c57bbc1c4ae6d6ad.gif" width="100%" alt="dev" />
-
 **Indic-language SaaS for MSMEs**
 
 Webhook-based chatbot targeting Indian MSMEs. Supports **Hindi, Tamil, Telugu, Bengali, Marathi** via Sarvam AI for Indic language routing, with Gemini handling response generation.
