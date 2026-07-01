@@ -20,7 +20,7 @@
 Backend engineer building REST APIs, AI-integrated services, and distributed tooling. Primary stack: **Node.js + Express + MongoDB**, with **Python** for ML-adjacent work.
 
 - [**DeepScan**](https://github.com/namann5/Ai_deepfake) — AI-powered deepfake & synthetic image detection with PyTorch (Xception) + EXIF forensics + weighted score fusion
-- [**HELPDESK.AI**](https://github.com/ritesh-1918/HELPDESK.AI) — Contributed DistilBERT classification, NER metadata extraction, and GitHub Models integration to this full-stack AI helpdesk platform
+- [**Autonomous Driving System**](https://github.com/namann5/autonomous-driving-system) — Real-time ADAS perception pipeline with YOLOv8 detection, ByteTrack, MiDaS depth, lane detection, collision risk analysis, and a React dashboard
 - [**Ai_Customer_Service**](https://github.com/namann5/Ai_Customer_Service) — AI-driven customer service automation for support ticket handling
 - [**Achievement-Management-System**](https://github.com/namann5/Achievement-Management-System) — Student & faculty achievement tracking with approval workflows
 
@@ -59,14 +59,14 @@ Supports both image and video upload with real-time results.
 </td>
 <td width="50%" valign="top">
 
-### HELPDESK.AI
-**AI-Neural Helpdesk & Ticket Orchestrator** *(Open Source Contributor)*
+### Autonomous Driving System
+**Real-Time ADAS Perception Pipeline**
 
-Full-stack AI helpdesk platform using DistilBERT for ticket classification, custom NER for metadata extraction (hostnames, IPs, serials), sentence-transformers for duplicate detection, and GitHub Models/Gemini for auto-resolution suggestions.
+Perception stack with YOLOv8 object detection, ByteTrack multi-object tracking, MiDaS monocular depth estimation, Hough + polyfit lane detection, and collision risk analysis (TTC + distance-based).
 
-Built on a 4-layer enterprise architecture with Supabase RLS multi-tenancy.
+Includes a full-stack dashboard with live WebSocket video streaming and real-time telemetry.
 
-[`ritesh-1918/HELPDESK.AI`](https://github.com/ritesh-1918/HELPDESK.AI) · `FastAPI` `React` `Supabase` `DistilBERT` `GitHub Models` `Docker`
+`Python` `YOLOv8` `PyTorch` `FastAPI` `React` `TypeScript` `OpenCV`
 
 </td>
 </tr>
