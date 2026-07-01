@@ -19,10 +19,10 @@
 
 Backend engineer building REST APIs, AI-integrated services, and distributed tooling. Primary stack: **Node.js + Express + MongoDB**, with **Python** for ML-adjacent work.
 
-- B.Tech CSE @ **GLA University**, Class of 2028
-- Contributing to **GSSoC 2026** (AI/Agents track) — persistent **Agenda.js** job queue for ABAC permission system
-- Open to **Software Engineer internships**
-- Care about system correctness, clean abstractions, and code that ships without surprises
+- [**DeepScan**](https://github.com/namann5/Ai_deepfake) — AI-powered deepfake & synthetic image detection with PyTorch (Xception) + EXIF forensics + weighted score fusion
+- [**HELPDESK.AI**](https://github.com/namann5/HELPDESK.AI) — Full-stack AI helpdesk platform using DistilBERT classification, NER metadata extraction, and GitHub Models integration
+- [**Ai_Customer_Service**](https://github.com/namann5/Ai_Customer_Service) — AI-driven customer service automation for support ticket handling
+- [**Achievement-Management-System**](https://github.com/namann5/Achievement-Management-System) — Student & faculty achievement tracking with approval workflows
 
 <br clear="right"/>
 
@@ -45,28 +45,28 @@ Backend engineer building REST APIs, AI-integrated services, and distributed too
 <td width="50%" valign="top">
 
 ### DeepScan
-**AI-Generated Media Verifier**
+**AI-Powered Deepfake & Synthetic Media Detector**
 
-Multi-signal scoring pipeline for detecting AI-generated images:
-- Model confidence — **50%**
-- Visual artifact analysis via Sharp — **30%**
-- EXIF metadata forensics — **20%**
+3-layer detection pipeline powered by a PyTorch Xception model:
+- Deep learning inference — Xception backbone for visual forgery features
+- EXIF metadata forensics — camera info, AI software flags, timestamp analysis
+- Weighted score fusion — combines all signals into a final probability verdict
 
-Returns verdict across four confidence tiers.
+Supports both image and video upload with real-time results.
 
-`Node.js` `Express` `MongoDB` `Sharp` `React`
+`Node.js` `Express` `MongoDB` `FastAPI` `PyTorch` `React`
 
 </td>
 <td width="50%" valign="top">
 
-### WhatsApp Multilingual Chatbot
-**Indic-language SaaS for MSMEs**
+### HELPDESK.AI
+**AI-Neural Helpdesk & Ticket Orchestrator**
 
-Webhook-based chatbot supporting **Hindi, Tamil, Telugu, Bengali, Marathi** via Sarvam AI for Indic language routing, with Gemini handling response generation.
+Full-stack AI helpdesk platform using DistilBERT for ticket classification, custom NER for metadata extraction (hostnames, IPs, serials), sentence-transformers for duplicate detection, and GitHub Models/Gemini for auto-resolution suggestions.
 
-Designed as a ₹499–999/month SaaS product.
+Built on a 4-layer enterprise architecture with Supabase RLS multi-tenancy.
 
-`Node.js` `Express` `Gemini` `Sarvam AI`
+`FastAPI` `React` `Supabase` `DistilBERT` `GitHub Models` `Docker`
 
 </td>
 </tr>
