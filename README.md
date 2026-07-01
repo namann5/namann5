@@ -87,24 +87,14 @@ Designed as a ₹499–999/month SaaS product.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=github_dark&hide_border=true&hide_rank=true&include_all_commits=true&count_private=true&show=reviews,discussions_started" />
-  <img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=default&hide_border=true&hide_rank=true&include_all_commits=true&count_private=true&show=reviews,discussions_started" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=donut&theme=github_dark&hide_border=true&size_weight=0.5&count_weight=0.5" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=donut&theme=default&hide_border=true&size_weight=0.5&count_weight=0.5" />
-</picture>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=namann5&theme=github_dark" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=namann5&theme=github-dark&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=namann5&theme=default&hide_border=true" />
-</picture>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=namann5&theme=github_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=namann5&theme=github_dark" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=react-dark&hide_border=true&radius=8" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=default&hide_border=true&radius=8" />
-</picture>
+<img src="https://streak-stats.demolab.com?user=namann5&theme=github-dark&hide_border=true" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=react-dark&hide_border=true&radius=8" />
 
 </div>
 
