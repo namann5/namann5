@@ -1,106 +1,165 @@
-<![banner](https://github.com/namann5/namann5/blob/main/GDevelop%20banner.png)
+![banner](https://github.com/namann5/namann5/blob/main/GDevelop%20banner.png)
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+Engineer+%7C+Node.js+%2B+Python;Building+production-grade+systems;Open+Source+Contributor+%E2%80%94+GSSoC+2026)](https://git.io/typing-svg)
+<a href="https://linkedin.com/in/naman"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://leetcode.com/namann5"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+<a href="https://dev.to/naman_singh_e807dfdf14b5c"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"/></a>
+<a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+production-grade+backend+systems;REST+APIs+%2B+AI-integrated+services;Open+Source+Contributor+%E2%80%94+GSSoC+2026;Currently+shipping+an+Agenda.js+job+queue" alt="Typing SVG"/>
 
 </div>
 
----
+<br/>
 
-# Naman Singh
-
-**FullStack Developer** · India 🇮🇳 · Open to Internships
-
-B.Tech CSE @ GLA University · 2028 · GSSoC 2026 Contributor
-
----
-
-## About
-
+## 👋 About Me
 <img align="right" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" width="300" alt="coding" />
 
-I build backend systems — REST APIs, AI-integrated services, and distributed tooling. My primary stack is Node.js + Express + MongoDB, with Python for ML-adjacent work. Currently contributing in GSSoC 2026 (AI/Agents track), focused on replacing in-memory job execution with a persistent Agenda.js queue in the ABAC permission system.
+I build backend systems — REST APIs, AI-integrated services, and distributed tooling. My primary stack is **Node.js + Express + MongoDB**, with **Python** for ML-adjacent work.
 
-I care about system correctness, clean abstractions, and code that ships without surprises.
-
+- 🎓 B.Tech CSE @ **GLA University**, Class of 2028
+- 🌱 Currently contributing to **GSSoC 2026** (AI/Agents track) — replacing in-memory job execution with a persistent **Agenda.js** queue in an ABAC permission system
+- 💼 Open to **Software Engineer internships**
+- ⚡ I care about system correctness, clean abstractions, and code that ships without surprises
 <br clear="right"/>
 
----
+<br/>
 
-## Projects
+## 🛠️ Tech Stack
 
-### DeepScan — AI-Generated Media Verifier
-> Node.js · Express · MongoDB · Sharp · React
+<div align="center">
 
-Detects AI-generated images using a multi-signal scoring pipeline: model confidence (50%), visual artifact analysis via Sharp (30%), and EXIF metadata forensics (20%). Returns a verdict across four confidence tiers. Built the full backend, scoring engine, and API layer.
+<img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp,nodejs,express,fastapi,react,mongodb,mysql,sqlite,docker,git,github,linux&theme=dark" />
 
----
+</div>
 
-### WhatsApp Multilingual Chatbot
+<div align="center">
 
-<img align="right" src="https://i.pinimg.com/originals/e8/f4/53/e8f453b3efa75b23c57bbc1c4ae6d6ad.gif" width="240" alt="dev" />
+![Node.js](https://img.shields.io/badge/-Node.js-000?style=flat-square&logo=node.js)
+![Express](https://img.shields.io/badge/-Express-000?style=flat-square&logo=express)
+![MongoDB](https://img.shields.io/badge/-MongoDB-000?style=flat-square&logo=mongodb&logoColor=47A248)
+![Gemini](https://img.shields.io/badge/-Google%20Gemini-000?style=flat-square&logo=googlegemini&logoColor=8E75B2)
+![OpenAI](https://img.shields.io/badge/-OpenAI-000?style=flat-square&logo=openai)
+![LangChain](https://img.shields.io/badge/-LangChain-000?style=flat-square&logo=langchain&logoColor=1C3C3C)
+![Docker](https://img.shields.io/badge/-Docker-000?style=flat-square&logo=docker&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-000?style=flat-square&logo=githubactions&logoColor=2088FF)
 
-> Node.js · Express · Google Gemini · Sarvam AI
+</div>
 
-Webhook-based chatbot targeting Indian MSMEs. Supports Hindi, Tamil, Telugu, Bengali, and Marathi via Sarvam AI for Indic language routing. Gemini handles response generation. Designed as a ₹499–999/month SaaS product.
+<br/>
 
-<br clear="right"/>
+## 🚀 Featured Projects
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Open Source
+### 🔍 DeepScan
+**AI-Generated Media Verifier**
+
+Detects AI-generated images using a multi-signal scoring pipeline:
+- Model confidence — **50%**
+- Visual artifact analysis via Sharp — **30%**
+- EXIF metadata forensics — **20%**
+
+Returns a verdict across four confidence tiers. Built the full backend, scoring engine, and API layer.
+
+`Node.js` `Express` `MongoDB` `Sharp` `React`
+
+</td>
+<td width="50%" valign="top">
+
+### 💬 WhatsApp Multilingual Chatbot
+<img src="https://i.pinimg.com/originals/e8/f4/53/e8f453b3efa75b23c57bbc1c4ae6d6ad.gif" width="100%" alt="dev" />
+
+**Indic-language SaaS for MSMEs**
+
+Webhook-based chatbot targeting Indian MSMEs. Supports **Hindi, Tamil, Telugu, Bengali, Marathi** via Sarvam AI for Indic language routing, with Gemini handling response generation.
+
+Designed as a ₹499–999/month SaaS product.
+
+`Node.js` `Express` `Google Gemini` `Sarvam AI`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🌐 Open Source
 
 | Org | Contribution | Status |
 |---|---|---|
 | OSCG'26 | CSV export feature with auth middleware + test coverage | ✅ Merged |
+| GSSoC'26 | Agenda.js persistent job queue for ABAC permission system | 🔄 In Progress |
 
----
+<br/>
 
-## Stack
-
-**Languages** — JavaScript · TypeScript · Python · Java · C++
-
-**Backend** — Node.js · Express · FastAPI · REST APIs
-
-**Databases** — MongoDB · MySQL · SQLite
-
-**AI/ML** — Google Gemini · OpenAI · LangChain · RAG pipelines
-
-**Infra** — Docker · GitHub Actions · Linux · Git
-
-**Frontend** — React *(when necessary)*
-
----
-
-## Trophies
+## 🏆 Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=4" />
+<img src="https://github-profile-trophy-winning.vercel.app/?username=namann5&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=4" />
 </div>
 
----
+> ⚠️ The original `github-profile-trophy.vercel.app` is currently returning a 402 error for every user (a known outage on the maintainer's free hosting tier). This uses a community-hosted mirror instead — see the note at the bottom of this file if it ever needs swapping again.
 
-## Stats
+<br/>
+
+## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=namann5&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8b949e"/>
+
+<img src="https://streak-stats.demolab.com?user=namann5&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e" />
+
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" />
 </div>
 
----
+<br/>
 
-## Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
-
----
+## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=namann5&style=flat-square&color=58A6FF&label=profile+views" />
+<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-snake.svg" />
+</div>
+
+> ⚠️ This image will 404 until you add the workflow below — GitHub can't generate this SVG on its own, it needs a scheduled Action running in your `namann5/namann5` repo to build it from your live contribution graph. Setup steps are at the bottom of this file.
+
+<br/>
+
+<details>
+<summary>🔧 One-time setup: enable the snake contribution graph</summary>
+
+<br/>
+
+This isn't automatic — GitHub needs a workflow file in your `namann5/namann5` repo to build the SVG on a schedule.
+
+1. In your `namann5/namann5` repo, create `.github/workflows/snake.yml` with the contents from the `snake.yml` file provided alongside this README.
+2. Commit and push it to your `main` branch.
+3. Go to the **Actions** tab of your repo and manually run the "Generate Snake" workflow once (don't wait for the schedule).
+4. It will push the generated SVG to a branch called `output` — the image in this README already points to the right path once that exists.
+5. If your default branch isn't `main`, update the `branches` value inside the workflow file to match.
+
+Trophies mirror note: if `github-profile-trophy-winning.vercel.app` ever goes down too, other working mirrors as of now are `github-profile-trophy-fork-two.vercel.app`, `github-profile-trophy-liard-delta.vercel.app`, and `github-profile-trophy-kannan.vercel.app` — just swap the domain in the `<img src>` and keep the same query params.
+
+</details>
+
+<br/>
+
+<div align="center">
+
+### 📫 Let's Connect
+
+I'm actively looking for **Software Engineer internships** — feel free to reach out if you're hiring or want to collaborate on something.
+
+<img src="https://komarev.com/ghpvc/?username=namann5&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0D1117&height=100&section=footer" width="100%"/>
+
 </div>
