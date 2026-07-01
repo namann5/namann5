@@ -20,7 +20,7 @@
 Backend engineer building REST APIs, AI-integrated services, and distributed tooling. Primary stack: **Node.js + Express + MongoDB**, with **Python** for ML-adjacent work.
 
 - [**DeepScan**](https://github.com/namann5/Ai_deepfake) — AI-powered deepfake & synthetic image detection with PyTorch (Xception) + EXIF forensics + weighted score fusion
-- [**HELPDESK.AI**](https://github.com/namann5/HELPDESK.AI) — Full-stack AI helpdesk platform using DistilBERT classification, NER metadata extraction, and GitHub Models integration
+- [**HELPDESK.AI**](https://github.com/ritesh-1918/HELPDESK.AI) — Contributed DistilBERT classification, NER metadata extraction, and GitHub Models integration to this full-stack AI helpdesk platform
 - [**Ai_Customer_Service**](https://github.com/namann5/Ai_Customer_Service) — AI-driven customer service automation for support ticket handling
 - [**Achievement-Management-System**](https://github.com/namann5/Achievement-Management-System) — Student & faculty achievement tracking with approval workflows
 
@@ -60,13 +60,13 @@ Supports both image and video upload with real-time results.
 <td width="50%" valign="top">
 
 ### HELPDESK.AI
-**AI-Neural Helpdesk & Ticket Orchestrator**
+**AI-Neural Helpdesk & Ticket Orchestrator** *(Open Source Contributor)*
 
 Full-stack AI helpdesk platform using DistilBERT for ticket classification, custom NER for metadata extraction (hostnames, IPs, serials), sentence-transformers for duplicate detection, and GitHub Models/Gemini for auto-resolution suggestions.
 
 Built on a 4-layer enterprise architecture with Supabase RLS multi-tenancy.
 
-`FastAPI` `React` `Supabase` `DistilBERT` `GitHub Models` `Docker`
+[`ritesh-1918/HELPDESK.AI`](https://github.com/ritesh-1918/HELPDESK.AI) · `FastAPI` `React` `Supabase` `DistilBERT` `GitHub Models` `Docker`
 
 </td>
 </tr>
