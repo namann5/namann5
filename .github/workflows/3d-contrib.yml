@@ -1,0 +1,21 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate 3D contribution graph
+        uses: yoshi389119/github-profile-3d-contrib@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: namann5
+        with:
+          filename: profile-3d-contrib/profile-night-rainbow.svg
