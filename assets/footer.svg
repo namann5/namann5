@@ -1,0 +1,13 @@
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="120" fill="transparent"/>
+  <line x1="50" y1="60" x2="750" y2="60" stroke="url(#grad)" stroke-width="2" stroke-linecap="round"/>
+  <text x="400" y="50" font-family="'Segoe UI', Arial, sans-serif" font-size="16" text-anchor="middle" fill="#FFD700">Made with 💛 by namann5</text>
+  <text x="400" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b949e">Backend Engineer • AI Enthusiast • Open Source Contributor</text>
+</svg>

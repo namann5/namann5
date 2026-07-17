@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 160">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="480" height="160" fill="url(#bg)"/>
+  
+  <!-- 3D Grid effect -->
+  <g transform="translate(40, 20)">
+    <!-- Isometric grid -->
+    <g transform="skewY(-30) skewX(30)">
+      <!-- Grid squares -->
+      <rect x="0" y="0" width="20" height="20" fill="#FFD700" opacity="0.8" rx="2"/>
+      <rect x="25" y="0" width="20" height="20" fill="#FFA000" opacity="0.6" rx="2"/>
+      <rect x="50" y="0" width="20" height="20" fill="#FFD700" opacity="0.9" rx="2"/>
+      <rect x="75" y="0" width="20" height="20" fill="#FFC107" opacity="0.7" rx="2"/>
+      <rect x="100" y="0" width="20" height="20" fill="#FFD700" opacity="0.85" rx="2"/>
+      <rect x="125" y="0" width="20" height="20" fill="#FFA000" opacity="0.75" rx="2"/>
+      <rect x="150" y="0" width="20" height="20" fill="#FFD700" opacity="0.95" rx="2"/>
+      <rect x="175" y="0" width="20" height="20" fill="#FFC107" opacity="0.65" rx="2"/>
+      
+      <rect x="0" y="25" width="20" height="20" fill="#FFA000" opacity="0.7" rx="2"/>
+      <rect x="25" y="25" width="20" height="20" fill="#FFD700" opacity="0.9" rx="2"/>
+      <rect x="50" y="25" width="20" height="20" fill="#FFC107" opacity="0.6" rx="2"/>
+      <rect x="75" y="25" width="20" height="20" fill="#FFD700" opacity="0.8" rx="2"/>
+      <rect x="100" y="25" width="20" height="20" fill="#FFA000" opacity="0.75" rx="2"/>
+      <rect x="125" y="25" width="20" height="20" fill="#FFD700" opacity="0.95" rx="2"/>
+      <rect x="150" y="25" width="20" height="20" fill="#FFC107" opacity="0.7" rx="2"/>
+      <rect x="175" y="25" width="20" height="20" fill="#FFD700" opacity="0.85" rx="2"/>
+      
+      <rect x="0" y="50" width="20" height="20" fill="#FFD700" opacity="0.85" rx="2"/>
+      <rect x="25" y="50" width="20" height="20" fill="#FFC107" opacity="0.65" rx="2"/>
+      <rect x="50" y="50" width="20" height="20" fill="#FFD700" opacity="0.9" rx="2"/>
+      <rect x="75" y="50" width="20" height="20" fill="#FFA000" opacity="0.75" rx="2"/>
+      <rect x="100" y="50" width="20" height="20" fill="#FFD700" opacity="0.8" rx="2"/>
+      <rect x="125" y="50" width="20" height="20" fill="#FFC107" opacity="0.95" rx="2"/>
+      <rect x="150" y="50" width="20" height="20" fill="#FFD700" opacity="0.7" rx="2"/>
+      <rect x="175" y="50" width="20" height="20" fill="#FFA000" opacity="0.6" rx="2"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="240" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#FFD700" font-weight="bold">namann5's Contribution Graph</text>
+</svg>
