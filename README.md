@@ -200,6 +200,12 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 </div>
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+
+</div>
+
 ---
 
 ### 🎯 Beyond Code
