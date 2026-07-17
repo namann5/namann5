@@ -208,6 +208,10 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=namann5&layout=compact&hide_border=true&bg_color=0d1117&title_color=E62429&text_color=c9d1d9" height="180"/>
 
+<a href="https://leetcode.com/namann5">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+</a>
+
 </div>
 
 <div align="center">
