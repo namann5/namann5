@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,30:FFA000,60:B8860B,100:1a1a2e&height=260&section=header&text=NAMAN%20SINGH&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Principal%20Backend%20Architect%20%7C%20AI%20Systems%20Engineer%20%7C%20Open%20Source%20Maintainer&descSize=16&descAlignY=60&animation=fadeIn&stroke=FFD700" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FFA000,100:1a1a2e&height=220&section=header&text=namann5&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=2nd%20Year%20BTech%20%7C%20Backend%20Developer%20%7C%20AI%20Enthusiast&descSize=18&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -12,18 +12,7 @@
 
 <br/>
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   "Any fool can write code that a computer can understand.                  │
-│    Good programmers write code that humans can understand."                 │
-│                                                                             │
-│                                    — Martin Fowler                           │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&lines=Principal+Backend+Architect+%7C+15%2B+Years+of+Systems+Thinking;Building+Distributed+Systems+that+Scale+to+Millions;Open+Source+Maintainer+%7C+Community+Leader;AI+%2F%ML+Integration+Architect+%7C+Performance+Obsessed;Former+Tech+Lead+%7C+Now+Building+the+Future)
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=FFD700&center=true&vCenter=true&width=600&lines=Backend+Developer+%7C+AI+Enthusiast;Building+Projects+that+Matter;Open+Source+Contributor+%E2%80%94+GSSoC+2026;Always+Learning+%7C+Always+Building)
 
 <br/>
 
@@ -33,46 +22,127 @@
 
 ---
 
+### 👋 About Me
+
+<img align="right" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" width="250" alt="coding" />
+
+Hey there! I'm **Naman**, a **2nd year BTech student** passionate about building things with code.
+
+Currently diving deep into **backend development** and **AI/ML**, I love turning ideas into working products. When I'm not debugging at 3 AM, you'll find me contributing to open source or exploring new technologies.
+
+**What I'm doing right now:**
+- 🎓 Pursuing BTech in Computer Science
+- 💻 Building backend systems with Node.js & Python
+- 🤖 Exploring AI/ML integration in real-world apps
+- 🌟 Contributing to open source (GSSoC'26, OSCG'26)
+
+**My Philosophy:**
+> *"The best way to learn is by building. The best code is the code you can understand."*
+
+<br clear="right"/>
+
+---
+
+### 🛠️ Tech Stack
+
 <div align="center">
 
-### `> whoami`
+**Languages**
+<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp&theme=dark" />
+
+**Frameworks**
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,react,flask&theme=dark" />
+
+**Databases**
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis&theme=dark" />
+
+**AI & ML**
+<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,jupyter&theme=dark" />
+
+**Tools**
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman&theme=dark" />
 
 </div>
 
+---
+
+### 🚀 Featured Projects
+
 <table>
 <tr>
-<td width="70%" valign="top">
+<td width="50%" valign="top">
 
-**Principal Backend Architect** with **15+ years** of engineering wisdom distilled into every line of code I write. I don't just build systems — I architect **resilient, scalable, and elegant** solutions that stand the test of time.
+#### DeepScan 🔍
+**AI-Powered Deepfake Detection**
 
-My journey began with C and Assembly. Today, I architect **distributed microservices**, design **event-driven systems**, and lead **AI integration** initiatives that process millions of requests daily.
+Built a deep learning system that detects manipulated images and videos. Uses a PyTorch Xception model with EXIF forensics for accurate detection.
 
-**Core Belief:** *Software is a craft. Every system should be built as if you'll be maintaining it for the next decade — because someone will.*
+**Tech:** `Python` `PyTorch` `FastAPI` `React` `MongoDB`
 
-<br/>
+**What I learned:**
+- Deep learning model training & deployment
+- Building real-time inference pipelines
+- Frontend-backend integration
 
-**🎯 Current Mission:**
-> Building the next generation of AI-powered backend systems that are not only performant but **architecturally sound** for the demands of tomorrow.
-
-**💡 Engineering Philosophy:**
-> *"Simplicity is the ultimate sophistication."* — I believe in clean architecture, SOLID principles, and code that tells a story.
-
-**🏛️ Architecture Principles:**
-```
-• Design for failure, code for success
-• Measure twice, deploy once  
-• Technical debt is a loan — pay it early
-• Documentation is a love letter to your future self
-```
+[![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Ai_deepfake)
 
 </td>
-<td width="30%" align="center">
+<td width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=FFD700&icon_color=FFA000&text_color=c9d1d9&include_all_commits=true&count_private=true" height="200"/>
+#### Autonomous Driving System 🚗
+**Real-Time Perception Pipeline**
 
-<br/>
+YOLOv8-based object detection with lane detection, depth estimation, and collision analysis. Built a React dashboard for live monitoring.
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=FFD700&fire=FFA000&currStreakLabel=FFD700&sideLabels=c9d1d9" height="150"/>
+**Tech:** `Python` `YOLOv8` `FastAPI` `React` `TypeScript`
+
+**What I learned:**
+- Computer vision and object tracking
+- WebSocket for real-time data streaming
+- System design for low-latency apps
+
+[![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/autonomous-driving-system)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### AI Customer Service 🤖
+**Intelligent Support Automation**
+
+Chatbot that handles customer queries using NLP. Features context-aware responses and sentiment analysis for priority routing.
+
+**Tech:** `Node.js` `Express` `MongoDB` `OpenAI`
+
+**What I learned:**
+- Natural language processing basics
+- Conversation state management
+- API design for AI services
+
+[![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Ai_Customer_Service)
+
+</td>
+<td width="50%" valign="top">
+
+#### Achievement Management System 🏆
+**Student Achievement Tracking**
+
+Web app for managing student and faculty achievements with approval workflows. Features role-based access and notification system.
+
+**Tech:** `Node.js` `Express` `MongoDB` `JWT`
+
+**What I learned:**
+- Authentication & authorization patterns
+- Workflow automation
+- Clean code architecture
+
+[![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Achievement-Management-System)
 
 </td>
 </tr>
@@ -80,217 +150,36 @@ My journey began with C and Assembly. Today, I architect **distributed microserv
 
 ---
 
-<div align="center">
-
-### `> cat /etc/engineering-stack`
-
-</div>
+### 🌐 Open Source Contributions
 
 <table>
 <tr>
-<td width="33%" align="center">
-
-**⚡ Languages & Runtimes**
-<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,py,java,go,rs&theme=dark" />
-
-</td>
-<td width="34%" align="center">
-
-**🏗️ Frameworks & Architecture**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,react,nextjs&theme=dark" />
-
-</td>
-<td width="33%" align="center">
-
-**🗄️ Data & Storage**
-<br/>
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,docker,kubernetes&theme=dark" />
-
-</td>
-</tr>
-<tr>
-<td width="33%" align="center">
-
-**🤖 AI & Machine Learning**
-<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,jupyter,huggingface&theme=dark" />
-
-</td>
-<td width="34%" align="center">
-
-**☁️ Cloud & DevOps**
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,vercel,githubactions,nginx,linux&theme=dark" />
-
-</td>
-<td width="33%" align="center">
-
-**🛠️ Tools & Workflow**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,vscode,postman,figma,notion&theme=dark" />
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-### `> ls -la /projects/featured/`
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🥇 DeepScan
-**AI-Powered Deepfake & Synthetic Media Detection Engine**
-
-> *"In an era of deepfakes, truth is the most valuable currency."*
-
-Enterprise-grade detection system employing a **three-layer forensic pipeline**:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Layer 1: Neural Forensics                                  │
-│  • PyTorch Xception backbone (pre-trained on FaceForensics) │
-│  • Real-time inference with batch processing                │
-│  • Confidence scoring with threshold calibration            │
-├─────────────────────────────────────────────────────────────┤
-│  Layer 2: Metadata Archaeology                              │
-│  • EXIF forensics with 50+ validation checks                │
-│  • Camera signature matching                                │
-│  • AI software fingerprint detection                        │
-├─────────────────────────────────────────────────────────────┤
-│  Layer 3: Statistical Fusion                                │
-│  • Bayesian probability aggregation                         │
-│  • Weighted ensemble decision engine                        │
-│  • Explainable AI verdicts                                  │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Impact:** Processes images in <200ms with 94.7% accuracy on curated test sets.
-
-[![GitHub](https://img.shields.io/badge/View_Architecture-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Ai_deepfake)
-
-`PyTorch` `FastAPI` `React` `MongoDB` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🥈 Autonomous Driving Perception System
-**Real-Time ADAS Pipeline with Multi-Sensor Fusion**
-
-> *"The future of mobility is written in code."*
-
-Production-grade perception stack handling **15+ concurrent vision tasks**:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Perception Stack                                           │
-│  • YOLOv8 Object Detection (COCO + Custom)                  │
-│  • ByteTrack Multi-Object Tracking (Kalman + Hungarian)     │
-│  • MiDaS Monocular Depth Estimation                         │
-│  • Hough + Polyfit Lane Detection                           │
-│  • Collision Risk Analysis (TTC + Distance)                 │
-├─────────────────────────────────────────────────────────────┤
-│  Real-Time Infrastructure                                   │
-│  • WebSocket video streaming @ 30fps                        │
-│  • React dashboard with live telemetry                      │
-│  • Event-driven architecture with Redis pub/sub             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Impact:** Sub-100ms end-to-end latency on consumer hardware.
-
-[![GitHub](https://img.shields.io/badge/View_System-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/autonomous-driving-system)
-
-`Python` `YOLOv8` `FastAPI` `React` `TypeScript` `OpenCV`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🥉 Ai_Customer_Service
-**Intelligent Support Automation Platform**
-
-> *"Augmenting human potential, not replacing it."*
-
-AI-driven customer service engine with **context-aware response generation**:
-
-- Multi-turn conversation handling with memory
-- Sentiment analysis for priority routing  
-- Knowledge graph integration for accurate responses
-- A/B testing framework for response optimization
-
-**Impact:** 60% reduction in average response time, 40% increase in CSAT scores.
-
-[![GitHub](https://img.shields.io/badge/View_Platform-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Ai_Customer_Service)
-
-`Node.js` `Express` `MongoDB` `OpenAI` `Redis`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🏆 Achievement-Management-System
-**Enterprise Achievement Tracking & Recognition Platform**
-
-> *"What gets measured gets managed. What gets recognized gets repeated."*
-
-Complete achievement lifecycle management with:
-
-- Role-based access control (Student, Faculty, Admin)
-- Multi-stage approval workflows with audit trails
-- Automated notification system (Email + In-app)
-- Analytics dashboard with exportable reports
-
-**Impact:** Streamlined achievement verification from 2 weeks to 24 hours.
-
-[![GitHub](https://img.shields.io/badge/View_System-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Achievement-Management-System)
-
-`Node.js` `Express` `MongoDB` `JWT` `Nodemailer`
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-### `> cat /var/log/open-source.log`
-
-</div>
-
-<table>
-<tr>
-<td width="15%" align="center">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/OSCG'26-FFD700?style=for-the-badge&logo=open-source-initiative&logoColor=black" />
 </td>
-<td width="85%">
+<td width="80%">
 
-**Core Contributor** — CSV Export Module with Authentication Middleware
+**CSV Export with Auth Middleware**
 - Implemented secure CSV generation with JWT validation
-- Added comprehensive test coverage (92% → 97%)
-- Reduced export time by 3x through streaming optimization
+- Added comprehensive test coverage
+- Reduced export time by 3x through streaming
+
+**Status:** ✅ Merged
 
 </td>
 </tr>
 <tr>
-<td width="15%" align="center">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/GSSoC'26-FFA000?style=for-the-badge&logo=open-source-initiative&logoColor=black" />
 </td>
-<td width="85%">
+<td width="80%">
 
-**Project Lead** — Agenda.js Persistent Job Queue
+**Agenda.js Persistent Job Queue**
 - Designed ABAC-compliant permission system
 - Implemented Redis-backed job persistence
-- Created migration guides and documentation
+- Creating documentation and migration guides
+
+**Status:** 🔄 In Progress
 
 </td>
 </tr>
@@ -298,39 +187,98 @@ Complete achievement lifecycle management with:
 
 ---
 
+### 📊 GitHub Analytics
+
 <div align="center">
 
-### `> htop` — Performance Metrics
+<img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=FFD700&icon_color=FFA000&text_color=c9d1d9&include_all_commits=true&count_private=true" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9" height="180"/>
 
 </div>
 
-<table>
-<tr>
-<td align="center" width="33%">
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=FFD700&fire=FFA000&currStreakLabel=FFD700&sideLabels=c9d1d9" height="180"/>
 
-</td>
-<td align="center" width="33%">
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=chartreuse&hide_border=true&bg_color=0d1117&color=FFD700&point=FFA000&line=FFD700" width="100%"/>
+
+</div>
+
+<div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=chartreuse&no-frame=true&no-bg=true&column=7&margin-w=10" />
 
-</td>
-<td align="center" width="33%">
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=chartreuse&hide_border=true&bg_color=0d1117&color=FFD700&point=FFA000&line=FFD700" height="165"/>
+---
+
+### 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-snake.svg" width="100%"/>
+
+</div>
+
+---
+
+### 🎯 Beyond Code
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**💻 Building**
+<br/>
+Personal projects & open source
+
+</td>
+<td align="center" width="25%">
+
+**📚 Learning**
+<br/>
+New technologies & patterns
+
+</td>
+<td align="center" width="25%">
+
+**🌐 Contributing**
+<br/>
+Open source community
+
+</td>
+<td align="center" width="25%">
+
+**🎮 Gaming**
+<br/>
+When I need a break
 
 </td>
 </tr>
 </table>
 
+> *"The only way to do great work is to love what you do."* — Steve Jobs
+
+---
+
+### 📬 Connect
+
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-yellow.svg" width="100%"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
+[![GitHub](https://img.shields.io/badge/GitHub-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+*Feel free to reach out! I'm always open to interesting conversations and collaborations.*
 
 </div>
 
@@ -338,104 +286,8 @@ Complete achievement lifecycle management with:
 
 <div align="center">
 
-### `> finger /lif/beyond-code`
+*Currently looking for **internship opportunities** in backend development and AI/ML.*
 
-</div>
-
-<table>
-<tr>
-<td align="center" width="20%">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/card_building.svg" width="100%"/>
-
-</td>
-<td align="center" width="20%">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/card_learning.svg" width="100%"/>
-
-</td>
-<td align="center" width="20%">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/card_exploring.svg" width="100%"/>
-
-</td>
-<td align="center" width="20%">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/card_designing.svg" width="100%"/>
-
-</td>
-<td align="center" width="20%">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/card_aesthetic.svg" width="100%"/>
-
-</td>
-</tr>
-</table>
-
-> *"The best way to predict the future is to invent it."* — Alan Kay
-
----
-
-<div align="center">
-
-### `> cat /etc/contact`
-
-</div>
-
-<table>
-<tr>
-<td align="center" width="20%">
-<a href="https://github.com/namann5">
-<img src="https://img.shields.io/badge/GitHub-FFD700?style=for-the-badge&logo=github&logoColor=black" />
-</a>
-</td>
-<td align="center" width="20%">
-<a href="https://linkedin.com/in/naman">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-</td>
-<td align="center" width="20%">
-<a href="https://leetcode.com/namann5">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-</a>
-</td>
-<td align="center" width="20%">
-<a href="https://dev.to/naman_singh_e807dfdf14b5c">
-<img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
-</a>
-</td>
-<td align="center" width="20%">
-<a href="mailto:naman.2002.as@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   "First, solve the problem. Then, write the code."                         │
-│                                                                             │
-│                                    — John Johnson                            │
-│                                                                             │
-│   ═══════════════════════════════════════════════════════════════════════   │
-│                                                                             │
-│   Available for:                                                             │
-│   • Technical Consulting & Architecture Review                              │
-│   • Open Source Collaboration                                                │
-│   • Speaking Engagements & Mentorship                                       │
-│   • Full-time Backend / AI Engineering Roles                                │
-│                                                                             │
-│   "Building systems that outlive the hype."                                 │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,30:FFA000,60:B8860B,100:1a1a2e&height=100&section=footer&stroke=FFD700" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FFA000,100:1a1a2e&height=100&section=footer" width="100%"/>
 
 </div>
