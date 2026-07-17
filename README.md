@@ -208,8 +208,6 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=E62429&text_color=c9d1d9" height="180"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=E62429&fire=1E90FF&currStreakLabel=E62429&sideLabels=c9d1d9" height="180"/>
-
 </div>
 
 <div align="center">
