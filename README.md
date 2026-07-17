@@ -196,33 +196,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9" height="180"/>
 
-</div>
-
-<div align="center">
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=FFD700&fire=FFA000&currStreakLabel=FFD700&sideLabels=c9d1d9" height="180"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=chartreuse&hide_border=true&bg_color=0d1117&color=FFD700&point=FFA000&line=FFD700" width="100%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=chartreuse&no-frame=true&no-bg=true&column=7&margin-w=10" />
-
-</div>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-snake.svg" width="100%"/>
 
 </div>
 
