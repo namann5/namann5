@@ -38,13 +38,14 @@
 
 Hey there! I'm **Naman**, a **3rd year BTech Computer Science student** at **GLA University** who's swinging through the world of code! 🕷️
 
-I'm the guy who debugs production at 3AM while eating maggi, mass closes 50 tabs thinking I'll never need them, and pushes to main because "it works on my machine." Currently fueled by caffeine and the fear of unhandled exceptions.
+I debug code and play Valorant to vent my frustration. The funny part? Both make me more frustrated — code won't run, teammates won't plant the spike. But I keep doing both anyway. That's basically my personality at this point.
 
 **What I do when I'm not breaking things:**
 - 💻 Build full-stack apps that actually solve problems (sometimes)
-- 🤖 Make AI do my homework — just kidding, I teach it to detect deepfakes
+- 🤖 Make AI detect deepfakes — because why not add more complexity to my life
 - 🌟 Contribute to open source so the world can judge my code publicly
-- ⚔️ Solve LeetCode problems that no one will ever use in real life (but hey, it keeps me sharp)
+- ⚔️ Solve LeetCode problems that no one will ever use in real life
+- 🎮 Play Valorant to escape bugs, only to find more bugs (in both the game and my code)
 
 **My Philosophy:**
 > *"With great code comes great responsibility. Also, always close your browser tabs."*
