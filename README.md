@@ -212,6 +212,8 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
 </a>
 
+<img src="https://leetcard.jacoblin.cool/namann5?theme=dark&font=raleway" width="500"/>
+
 </div>
 
 <div align="center">
