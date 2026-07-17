@@ -36,18 +36,20 @@
 
 <img align="right" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" width="250" alt="coding" />
 
-Hey there! I'm **Naman**, a **2nd year BTech student** who's swinging through the world of code! 🕷️
+Hey there! I'm **Naman**, a **3rd year BTech Computer Science student** at **GLA University** who's swinging through the world of code! 🕷️
 
-Currently diving deep into **backend development** and **AI/ML**, I love turning ideas into working products. When I'm not debugging at 3 AM, you'll find me contributing to open source or exploring new technologies.
+I love building things — whether it's **AI-powered applications**, **backend APIs**, or **contributing to open source**. Currently leveling up my skills in **Node.js, Python, and Machine Learning** while solving problems on **LeetCode** daily.
 
-**With great code comes great responsibility:**
-- 🎓 Pursuing BTech in Computer Science
-- 💻 Building backend systems with Node.js & Python
-- 🤖 Exploring AI/ML integration in real-world apps
-- 🌟 Contributing to open source (GSSoC'26, OSCG'26)
+**What drives me:**
+- 💻 Building full-stack apps & backend systems
+- 🤖 Exploring AI/ML integration in real-world products
+- 🌟 Active contributor in open source (GSSoC'26, OSCG'26)
+- ⚔️ Grinding LeetCode to sharpen problem-solving skills
 
 **My Philosophy:**
-> *"The best way to learn is by building. With great code comes great responsibility."*
+> *"With great code comes great responsibility. Keep building, keep learning."*
+
+**Looking for:** SDE Internship opportunities 🎯
 
 <br clear="right"/>
 
