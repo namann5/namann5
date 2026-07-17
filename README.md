@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/game-console-joystick-glowing-neon-buttons-signs-bright-signboard-light-banner-easy-to-edit-illustration-vector.jpg" width="100%" alt="banner"/>
-
-<br/>
-
 ```spider-man
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
