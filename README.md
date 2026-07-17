@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FFA000,100:1a1a2e&height=220&section=header&text=namann5&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=2nd%20Year%20BTech%20%7C%20Backend%20Developer%20%7C%20AI%20Enthusiast&descSize=18&descAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/game-console-joystick-glowing-neon-buttons-signs-bright-signboard-light-banner-easy-to-edit-illustration-vector.jpg" width="100%" alt="banner"/>
 
 <br/>
 
@@ -113,6 +113,24 @@ YOLOv8-based object detection with lane detection, depth estimation, and collisi
 <tr>
 <td width="50%" valign="top">
 
+#### AnimeVerse 🎌
+**Anime Streaming Platform**
+
+Full-stack anime streaming app with search, browse, and stream functionality. Uses Consumet API for anime data and video streaming.
+
+**Tech:** `JavaScript` `Node.js` `React` `Vite`
+
+**What I learned:**
+- API integration and data fetching
+- Real-time video streaming
+- Modern frontend architecture
+
+[![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Anime-muesuem)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00FF00?style=for-the-badge&logo=vercel&logoColor=black)](https://anime-muesuem.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
 #### AI Customer Service 🤖
 **Intelligent Support Automation**
 
@@ -126,23 +144,6 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 - API design for AI services
 
 [![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Ai_Customer_Service)
-
-</td>
-<td width="50%" valign="top">
-
-#### Achievement Management System 🏆
-**Student Achievement Tracking**
-
-Web app for managing student and faculty achievements with approval workflows. Features role-based access and notification system.
-
-**Tech:** `Node.js` `Express` `MongoDB` `JWT`
-
-**What I learned:**
-- Authentication & authorization patterns
-- Workflow automation
-- Clean code architecture
-
-[![GitHub](https://img.shields.io/badge/View_Project-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/namann5/Achievement-Management-System)
 
 </td>
 </tr>
