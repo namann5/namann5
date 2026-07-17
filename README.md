@@ -38,18 +38,18 @@
 
 Hey there! I'm **Naman**, a **3rd year BTech Computer Science student** at **GLA University** who's swinging through the world of code! 🕷️
 
-I love building things — whether it's **AI-powered applications**, **backend APIs**, or **contributing to open source**. Currently leveling up my skills in **Node.js, Python, and Machine Learning** while solving problems on **LeetCode** daily.
+I'm the guy who debugs production at 3AM while eating maggi, mass closes 50 tabs thinking I'll never need them, and pushes to main because "it works on my machine." Currently fueled by caffeine and the fear of unhandled exceptions.
 
-**What drives me:**
-- 💻 Building full-stack apps & backend systems
-- 🤖 Exploring AI/ML integration in real-world products
-- 🌟 Active contributor in open source (GSSoC'26, OSCG'26)
-- ⚔️ Grinding LeetCode to sharpen problem-solving skills
+**What I do when I'm not breaking things:**
+- 💻 Build full-stack apps that actually solve problems (sometimes)
+- 🤖 Make AI do my homework — just kidding, I teach it to detect deepfakes
+- 🌟 Contribute to open source so the world can judge my code publicly
+- ⚔️ Solve LeetCode problems that no one will ever use in real life (but hey, it keeps me sharp)
 
 **My Philosophy:**
-> *"With great code comes great responsibility. Keep building, keep learning."*
+> *"With great code comes great responsibility. Also, always close your browser tabs."*
 
-**Looking for:** SDE Internship opportunities 🎯
+**Looking for:** SDE Internship opportunities 🎯 (I promise I won't push to main on day 1)
 
 <br clear="right"/>
 
