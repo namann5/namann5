@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img src="banner.svg?v=1" alt="Naman Singh" width="100%"/>
-</picture>
+<img src="banner.svg?v=2" alt="Naman Singh" width="100%"/>
 
 <br/>
 
@@ -28,7 +24,7 @@
 
 <div align="center">
 
-<img src="lanyard.svg?v=1" width="300" alt="Naman Singh ID Badge"/>
+<img src="lanyard.svg?v=2" width="300" alt="Naman Singh ID Badge"/>
 
 </div>
 
@@ -207,9 +203,9 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="stats.svg?v=1" width="495" alt="GitHub Stats"/>
+<img src="stats.svg?v=2" width="495" alt="GitHub Stats"/>
 
-<img src="langs.svg?v=1" width="495" alt="Top Languages"/>
+<img src="langs.svg?v=2" width="495" alt="Top Languages"/>
 
 </div>
 
@@ -221,7 +217,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="trophies.svg?v=1" width="495" alt="Achievements"/>
+<img src="trophies.svg?v=2" width="495" alt="Achievements"/>
 
 </div>
 
