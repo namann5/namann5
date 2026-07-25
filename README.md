@@ -1,295 +1,88 @@
 <div align="center">
 
-<img src="banner.svg?v=2" alt="Naman Singh" width="100%"/>
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
-[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
-
-<br/>
-
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&lines=Backend+Developer+%7C+AI+Enthusiast;Building+Scalable+Systems+%26+Smart+AI;Open+Source+Contributor+%E2%80%94+GSSoC+2026;Swinging+through+code+since+2024)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=namann5&style=flat&color=8B5CF6&label=Profile%20Views&labelColor=0d1117)
+<!-- ✨ Animated Banner ✨ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
+  <img src="./banner.svg?v=3" alt="Naman Singh — Backend Developer" width="100%"/>
+</picture>
 
 </div>
 
----
-
-<div align="center">
-
-<img src="lanyard.svg?v=2" width="300" alt="Naman Singh ID Badge"/>
-
-</div>
-
----
-
-### 🕸️ About Me
-
-<img align="right" src="https://miro.medium.com/1*0N8CVKix7OGfBDsgh9DzrQ.gif" width="250" alt="coding" />
-
-Hey there! I'm **Naman**, a **3rd year BTech Computer Science student** at **GLA University** who's swinging through the world of code! 🕷️
-
-I debug code and play Valorant to vent my frustration. The funny part? Both make me more frustrated — code won't run, teammates won't plant the spike. But I keep doing both anyway. That's basically my personality at this point.
-
-**What I do when I'm not breaking things:**
-- 💻 Build full-stack apps that actually solve problems (sometimes)
-- 🤖 Make AI detect deepfakes — because why not add more complexity to my life
-- 🌟 Contribute to open source so the world can judge my code publicly
-- ⚔️ Solve LeetCode problems that no one will ever use in real life
-- 🎮 Play Valorant to escape bugs, only to find more bugs (in both the game and my code)
-
-**My Philosophy:**
-> *"With great code comes great responsibility. Also, always close your browser tabs."*
-
-**Looking for:** SDE Internship opportunities 🎯 (I promise I won't push to main on day 1)
-
-<br clear="right"/>
-
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
 <br/>
-<img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp&theme=dark" />
 
-**Frameworks**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,react,flask&theme=dark" />
-
-**Databases**
-<br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis&theme=dark" />
-
-**AI & ML**
-<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,jupyter&theme=dark" />
-
-**Tools**
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman&theme=dark" />
-
-</div>
-
----
-
-### 🚀 Featured Projects
-
-<table>
+<table align="center" border="0">
 <tr>
-<td width="50%" valign="top">
+<td width="38%" align="center" valign="middle">
 
-#### DeepScan 🔍
-**AI-Powered Deepfake Detection**
-
-Built a deep learning system that detects manipulated images and videos. Uses a PyTorch Xception model with EXIF forensics for accurate detection.
-
-**Impact:**
-- 94% accuracy on test dataset
-- Real-time inference in <200ms
-- 3-layer detection pipeline
-
-**Tech:** `Python` `PyTorch` `FastAPI` `React` `MongoDB`
-
-[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Ai_deepfake)
+<!-- 🪪 Swinging Lanyard ID Card -->
+<img src="./lanyard.svg?v=3" alt="Naman Singh ID badge" width="330"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="62%" valign="middle">
 
-#### Autonomous Driving System 🚗
-**Real-Time Perception Pipeline**
+### 🕸️ Featured Projects
 
-YOLOv8-based object detection with lane detection, depth estimation, and collision analysis. Built a React dashboard for live monitoring.
+| 🚀 Project | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [🔍 DeepScan — AI Deepfake Detection](https://github.com/namann5/Ai_deepfake) | `Python` `PyTorch` `FastAPI` | 94% accuracy |
+| [🚗 Autonomous Driving System](https://github.com/namann5/autonomous-driving-system) | `Python` `YOLOv8` `React` | Sub-100ms |
+| [🎌 AnimeVerse — Streaming Platform](https://github.com/namann5/Anime-muesuem) | `JS` `Node.js` `React` | [Live ↗](https://anime-muesuem.vercel.app) |
+| [🤖 AI Customer Service](https://github.com/namann5/Ai_Customer_Service) | `Node.js` `Express` `OpenAI` | NLP + Sentiment |
 
-**Impact:**
-- Sub-100ms end-to-end latency
-- 15+ concurrent vision tasks
-- Live WebSocket streaming
+<br/>
 
-**Tech:** `Python` `YOLOv8` `FastAPI` `React` `TypeScript`
-
-[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/autonomous-driving-system)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### AnimeVerse 🎌
-**Anime Streaming Platform**
-
-Full-stack anime streaming app with search, browse, and stream functionality. Uses Consumet API for anime data and video streaming.
-
-**Impact:**
-- Live on Vercel
-- Real-time video streaming
-- Modern React architecture
-
-**Tech:** `JavaScript` `Node.js` `React` `Vite`
-
-[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Anime-muesuem)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-1E90FF?style=for-the-badge&logo=vercel&logoColor=white)](https://anime-muesuem.vercel.app)
-
-</td>
-<td width="50%" valign="top">
-
-#### AI Customer Service 🤖
-**Intelligent Support Automation**
-
-Chatbot that handles customer queries using NLP. Features context-aware responses and sentiment analysis for priority routing.
-
-**Impact:**
-- Context-aware responses
-- Sentiment analysis
-- Priority routing system
-
-**Tech:** `Node.js` `Express` `MongoDB` `OpenAI`
-
-[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Ai_Customer_Service)
+> 🕷️ *"With great code comes great responsibility."*
 
 </td>
 </tr>
 </table>
 
----
-
-### 🌐 Open Source Contributions
-
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/OSCG'26-8B5CF6?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
-</td>
-<td width="80%">
-
-**CSV Export with Auth Middleware**
-- Implemented secure CSV generation with JWT validation
-- Added comprehensive test coverage
-- Reduced export time by 3x through streaming
-
-**Status:** ✅ Merged
-
-</td>
-</tr>
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/GSSoC'26-6D28D9?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
-</td>
-<td width="80%">
-
-**Agenda.js Persistent Job Queue**
-- Designed ABAC-compliant permission system
-- Implemented Redis-backed job persistence
-- Creating documentation and migration guides
-
-**Status:** 🔄 In Progress
-
-</td>
-</tr>
-</table>
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/stats.svg?v=3" width="495" alt="GitHub Stats"/>
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/langs.svg?v=3" width="495" alt="Top Languages"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=dark&background=0d1117&ring=8B5CF6&fire=6D28D9&currStreakLabel=C084FC&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" height="180" alt="GitHub Streak"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/trophies.svg?v=3" width="495" alt="Achievements"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=8B5CF6&line=6D28D9&point=C084FC&area=true&area_color=C084FC&hide_border=true" width="100%" alt="Activity Graph"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
-
-</div>
-
----
-
-### 🐍 Snake Animation
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-violet.svg" width="100%" alt="Snake Animation"/>
-
-</div>
-
----
-
-### 🎯 Currently Learning
-
-<div align="center">
-
-![System Design](https://img.shields.io/badge/System_Design-8B5CF6?style=for-the-badge&logo=github&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-6D28D9?style=for-the-badge&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-8B5CF6?style=for-the-badge&logo=redis&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-6D28D9?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-</div>
-
----
-
-### 📬 Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
-[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
-
 <br/>
 
-*Feel free to reach out! I'm always open to interesting conversations and collaborations.*
-
-</div>
-
----
-
 <div align="center">
 
-*Currently looking for **internship opportunities** in backend development and AI/ML.*
+### 📊 GitHub Stats & Graphs
 
-```spider-man
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║     🕸️  "Anyone can wear the mask. You can wear the mask."  🕸️              ║
-║                                                                              ║
-║     — Miles Morales                                                          ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+<img src="./stats.svg?v=3" alt="GitHub Stats" height="185"/>
+<img src="./langs.svg?v=3" alt="Top Languages" height="185"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6D28D9,100:0d1117&height=100&section=footer" width="100%"/>
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=namann5&theme=radical&hide_border=true&background=0d1117&ring=8B5CF6&fire=6D28D9&currStreakLabel=C084FC&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<!-- 📈 Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=8B5CF6&line=6D28D9&point=C084FC&area=true&area_color=C084FC&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution graph" width="95%"/>
+
+<br/><br/>
+
+<!-- 🏆 Trophies (local animated SVG) -->
+<img src="./trophies.svg?v=3" alt="Achievements" width="95%"/>
+
+<br/><br/>
+
+### 🐍 Watch the snake eat my contributions
+
+<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-violet.svg" alt="Contribution snake"/>
+
+<br/><br/>
+
+### 📬 Let's Connect
+
+<a href="https://linkedin.com/in/naman"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://github.com/namann5"><img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://leetcode.com/namann5"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+<a href="https://dev.to/naman_singh_e807dfdf14b5c"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/></a>
+<a href="mailto:naman.2002.as@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=namann5&color=8B5CF6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/><br/>
+
+*🕷️ Swinging through code since 2024. Always learning, always building.*
 
 </div>
