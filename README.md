@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/banner.svg?v=4" alt="Naman Singh — Backend Developer" width="100%"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/banner.svg?v=7" alt="Naman Singh — Backend Developer" width="100%"/>
 
 </div>
 
