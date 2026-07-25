@@ -130,59 +130,38 @@ svg text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace
   <rect x="-2" y="-10" width="2" height="12" fill="#C084FC" opacity="0" style="animation:cursorBlink .8s step-end infinite;animation-delay:2.2s"/>
 </g>
 
-<!-- Code block -->
-<g transform="translate(24,138)" opacity="0" style="animation:fadeIn .4s ease 3s forwards">
-  <rect x="0" y="0" width="350" height="108" rx="6" fill="#0d1117" stroke="#21262d" stroke-width=".8"/>
-  <rect x="0" y="0" width="350" height="18" rx="6" fill="#161b22"/>
-  <circle cx="10" cy="9" r="2.5" fill="#ff5f57"/><circle cx="18" cy="9" r="2.5" fill="#febc2e"/><circle cx="26" cy="9" r="2.5" fill="#28c840"/>
-  <text x="175" y="13" font-size="8" fill="#484f58" text-anchor="middle">naman.js</text>
-  <text x="10" y="34" font-size="9" fill="#8b949e">const </text>
-  <text x="42" y="34" font-size="9" fill="#C084FC">naman</text>
-  <text x="73" y="34" font-size="9" fill="#8b949e"> = {</text>
-  <text x="18" y="48" font-size="9" fill="#8b949e">  role: </text>
-  <text x="68" y="48" font-size="9" fill="#7ee787">"Full Stack Developer"</text>
-  <text x="222" y="48" font-size="9" fill="#8b949e">,</text>
-  <text x="18" y="62" font-size="9" fill="#8b949e">  skills: [</text>
-  <text x="78" y="62" font-size="9" fill="#7ee787">"JS", "TS", "React"</text>
-  <text x="210" y="62" font-size="9" fill="#8b949e">],</text>
-  <text x="18" y="76" font-size="9" fill="#8b949e">  passion: </text>
-  <text x="88" y="76" font-size="9" fill="#f97583">Infinity</text>
-  <text x="136" y="76" font-size="9" fill="#8b949e">,</text>
-  <text x="18" y="90" font-size="9" fill="#6e7681">  // TODO: change the world</text>
-  <text x="18" y="104" font-size="9" fill="#8b949e">};</text>
-  <rect x="18" y="94" width="5" height="10" fill="#C084FC" opacity="0" style="animation:cursorBlink 1s step-end infinite;animation-delay:3.5s"/>
+<!-- About Me -->
+<g transform="translate(24,140)" opacity="0" style="animation:fadeIn .4s ease 3s forwards">
+  <rect x="0" y="0" width="360" height="72" rx="8" fill="#161b22" stroke="#21262d" stroke-width=".8"/>
+  <text x="14" y="20" font-size="10" fill="#A855F7" font-weight="bold">About Me</text>
+  <text x="14" y="38" font-size="10" fill="#8b949e"><tspan fill="#4ade80">▸ </tspan>Open Source Contributor</text>
+  <text x="14" y="54" font-size="10" fill="#8b949e"><tspan fill="#4ade80">▸ </tspan>Full Stack Developer</text>
+  <text x="14" y="70" font-size="10" fill="#8b949e"><tspan fill="#4ade80">▸ </tspan>Building cool things with code</text>
 </g>
 
 <!-- Tech stack pills -->
-<g transform="translate(24,256)">
-  <text font-size="9" fill="#8b5cf6" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 3.8s forwards">Tech Stack</text>
+<g transform="translate(24,225)">
+  <text font-size="10" fill="#8b5cf6" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 3.5s forwards">Tech Stack</text>
 </g>
-<g transform="translate(24,265)">
-  <rect x="0" y="0" width="56" height="18" rx="9" fill="rgba(247,222,30,.10)" stroke="#f7df1e" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4s forwards"/>
-  <text x="28" y="12" font-size="8" fill="#fde047" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4s forwards">JavaScript</text>
-  <rect x="62" y="0" width="52" height="18" rx="9" fill="rgba(49,120,198,.12)" stroke="#3178c6" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.1s forwards"/>
-  <text x="88" y="12" font-size="8" fill="#79b8ff" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.1s forwards">TypeScript</text>
-  <rect x="120" y="0" width="46" height="18" rx="9" fill="rgba(53,114,165,.12)" stroke="#3572A5" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.2s forwards"/>
-  <text x="143" y="12" font-size="8" fill="#9ac2c9" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.2s forwards">Python</text>
-  <rect x="172" y="0" width="42" height="18" rx="9" fill="rgba(97,218,251,.10)" stroke="#61dafb" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.3s forwards"/>
-  <text x="193" y="12" font-size="8" fill="#67e8f9" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.3s forwards">React</text>
-  <rect x="220" y="0" width="48" height="18" rx="9" fill="rgba(104,159,56,.12)" stroke="#689f63" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.4s forwards"/>
-  <text x="244" y="12" font-size="8" fill="#7ee787" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.4s forwards">Node.js</text>
-  <rect x="274" y="0" width="42" height="18" rx="9" fill="rgba(255,255,255,.08)" stroke="#ffffff" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.5s forwards"/>
-  <text x="295" y="12" font-size="8" fill="#e6edf3" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.5s forwards">Next.js</text>
-  <rect x="322" y="0" width="36" height="18" rx="9" fill="rgba(176,114,25,.12)" stroke="#b07219" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.6s forwards"/>
-  <text x="340" y="12" font-size="8" fill="#f0c674" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.6s forwards">Java</text>
-  <rect x="364" y="0" width="56" height="18" rx="9" fill="rgba(77,174,74,.12)" stroke="#4db74a" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.7s forwards"/>
-  <text x="392" y="12" font-size="8" fill="#7ee787" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.7s forwards">MongoDB</text>
-  <rect x="426" y="0" width="50" height="18" rx="9" fill="rgba(255,152,0,.12)" stroke="#ff9800" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.8s forwards"/>
-  <text x="451" y="12" font-size="8" fill="#ffb74d" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.8s forwards">Firebase</text>
-</g>
-
-<!-- About Me -->
-<g transform="translate(24,195)">
-  <text font-size="9" fill="#A855F7" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 3.2s forwards">About Me</text>
-  <text y="16" font-size="9" fill="#8b949e" opacity="0" style="animation:fadeIn .3s ease 3.3s forwards"><tspan fill="#4ade80">▸ </tspan>Open Source Contributor</text>
-  <text y="30" font-size="9" fill="#8b949e" opacity="0" style="animation:fadeIn .3s ease 3.4s forwards"><tspan fill="#4ade80">▸ </tspan>Full Stack Developer</text>
+<g transform="translate(24,238)">
+  <rect x="0" y="0" width="56" height="20" rx="10" fill="rgba(247,222,30,.10)" stroke="#f7df1e" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 3.7s forwards"/>
+  <text x="28" y="13" font-size="9" fill="#fde047" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 3.7s forwards">JavaScript</text>
+  <rect x="62" y="0" width="52" height="20" rx="10" fill="rgba(49,120,198,.12)" stroke="#3178c6" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 3.8s forwards"/>
+  <text x="88" y="13" font-size="9" fill="#79b8ff" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 3.8s forwards">TypeScript</text>
+  <rect x="120" y="0" width="46" height="20" rx="10" fill="rgba(53,114,165,.12)" stroke="#3572A5" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 3.9s forwards"/>
+  <text x="143" y="13" font-size="9" fill="#9ac2c9" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 3.9s forwards">Python</text>
+  <rect x="172" y="0" width="42" height="20" rx="10" fill="rgba(97,218,251,.10)" stroke="#61dafb" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4s forwards"/>
+  <text x="193" y="13" font-size="9" fill="#67e8f9" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4s forwards">React</text>
+  <rect x="220" y="0" width="48" height="20" rx="10" fill="rgba(104,159,56,.12)" stroke="#689f63" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.1s forwards"/>
+  <text x="244" y="13" font-size="9" fill="#7ee787" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.1s forwards">Node.js</text>
+  <rect x="274" y="0" width="42" height="20" rx="10" fill="rgba(255,255,255,.08)" stroke="#ffffff" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.2s forwards"/>
+  <text x="295" y="13" font-size="9" fill="#e6edf3" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.2s forwards">Next.js</text>
+  <rect x="322" y="0" width="36" height="20" rx="10" fill="rgba(176,114,25,.12)" stroke="#b07219" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.3s forwards"/>
+  <text x="340" y="13" font-size="9" fill="#f0c674" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.3s forwards">Java</text>
+  <rect x="364" y="0" width="56" height="20" rx="10" fill="rgba(77,174,74,.12)" stroke="#4db74a" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.4s forwards"/>
+  <text x="392" y="13" font-size="9" fill="#7ee787" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.4s forwards">MongoDB</text>
+  <rect x="426" y="0" width="50" height="20" rx="10" fill="rgba(255,152,0,.12)" stroke="#ff9800" stroke-width=".7" opacity="0" class="pill" style="animation:fadeIn .3s ease 4.5s forwards"/>
+  <text x="451" y="13" font-size="9" fill="#ffb74d" text-anchor="middle" font-weight="bold" opacity="0" style="animation:fadeIn .3s ease 4.5s forwards">Firebase</text>
 </g>
 
 <!-- ===== RIGHT SIDE: AVATAR ILLUSTRATION ===== -->
@@ -206,21 +185,6 @@ svg text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace
 </g>
 
 <!-- ===== BOTTOM SECTION ===== -->
-<!-- Stats bar -->
-<g transform="translate(24,256)" opacity="0" style="animation:fadeIn .5s ease 5s forwards">
-  <rect x="0" y="24" width="520" height="34" rx="6" fill="#161b22" stroke="#21262d" stroke-width=".8"/>
-  <line x1="130" y1="30" x2="130" y2="52" class="sep"/>
-  <line x1="260" y1="30" x2="260" y2="52" class="sep"/>
-  <line x1="390" y1="30" x2="390" y2="52" class="sep"/>
-  <text x="65" y="40" text-anchor="middle" font-size="7.5" fill="#8b949e">📦 Repositories</text>
-  <text x="195" y="40" text-anchor="middle" font-size="7.5" fill="#8b949e">💻 Contributions</text>
-  <text x="325" y="40" text-anchor="middle" font-size="7.5" fill="#8b949e">👥 Followers</text>
-  <text x="455" y="40" text-anchor="middle" font-size="7.5" fill="#8b949e">⭐ Stars</text>
-</g>
-<text x="89" y="488" text-anchor="middle" font-size="12" font-weight="bold" fill="#A855F7" filter="url(#glow)" opacity="0" style="animation:statPop .4s ease 5.3s forwards">15+</text>
-<text x="219" y="488" text-anchor="middle" font-size="12" font-weight="bold" fill="#C084FC" filter="url(#glow)" opacity="0" style="animation:statPop .4s ease 5.45s forwards">350+</text>
-<text x="349" y="488" text-anchor="middle" font-size="12" font-weight="bold" fill="#8B5CF6" filter="url(#glow)" opacity="0" style="animation:statPop .4s ease 5.6s forwards">50+</text>
-<text x="479" y="488" text-anchor="middle" font-size="12" font-weight="bold" fill="#6D28D9" filter="url(#glow)" opacity="0" style="animation:statPop .4s ease 5.75s forwards">100+</text>
 
 <!-- Bottom neon bar -->
 <rect x="0" y="275" width="850" height="5" fill="url(#neonGrad)" rx="0" opacity=".5" style="animation:bottomBar 3s ease-in-out infinite"/>

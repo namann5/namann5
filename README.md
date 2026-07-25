@@ -57,7 +57,7 @@
 
 ### 🐍 Watch the snake eat my contributions
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-violet.svg" alt="Contribution snake"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-yellow.svg" alt="Contribution snake"/>
 
 <br/><br/>
 
