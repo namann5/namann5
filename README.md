@@ -203,9 +203,9 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="stats.svg?v=2" width="495" alt="GitHub Stats"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/stats.svg?v=3" width="495" alt="GitHub Stats"/>
 
-<img src="langs.svg?v=2" width="495" alt="Top Languages"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/langs.svg?v=3" width="495" alt="Top Languages"/>
 
 </div>
 
@@ -217,7 +217,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="trophies.svg?v=2" width="495" alt="Achievements"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/trophies.svg?v=3" width="495" alt="Achievements"/>
 
 </div>
 
