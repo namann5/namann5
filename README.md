@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/banner.svg?v=11" alt="Naman Singh â€” Backend Developer" width="100%"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/hero-banner.svg" alt="Naman Singh - Backend Developer" width="100%"/>
 
 </div>
 
@@ -15,18 +15,18 @@
 </td>
 <td width="62%" valign="middle">
 
-### ðŸ•¸ï¸ Featured Projects
+### 🖥️ Featured Projects
 
-| ðŸš€ Project | ðŸ’» Tech | â­ |
+| 🚀 Project | 💻 Tech | ⭐ |
 |:---|:---:|:---:|
-| [ðŸ” DeepScan â€” AI Deepfake Detection](https://github.com/namann5/Ai_deepfake) | `Python` `PyTorch` `FastAPI` | 94% accuracy |
-| [ðŸš— Autonomous Driving System](https://github.com/namann5/autonomous-driving-system) | `Python` `YOLOv8` `React` | Sub-100ms |
-| [ðŸŽŒ AnimeVerse â€” Streaming Platform](https://github.com/namann5/Anime-muesuem) | `JS` `Node.js` `React` | [Live â†—](https://anime-muesuem.vercel.app) |
-| [ðŸ¤– AI Customer Service](https://github.com/namann5/Ai_Customer_Service) | `Node.js` `Express` `OpenAI` | NLP + Sentiment |
+| [🔍 DeepScan — AI Deepfake Detection](https://github.com/namann5/Ai_deepfake) | `Python` `PyTorch` `FastAPI` | 94% accuracy |
+| [🚗 Autonomous Driving System](https://github.com/namann5/autonomous-driving-system) | `Python` `YOLOv8` `React` | Sub-100ms |
+| [🎌 AnimeVerse — Streaming Platform](https://github.com/namann5/Anime-muesuem) | `JS` `Node.js` `React` | [Live ↗](https://anime-muesuem.vercel.app) |
+| [🤖 AI Customer Service](https://github.com/namann5/Ai_Customer_Service) | `Node.js` `Express` `OpenAI` | NLP + Sentiment |
 
 <br/>
 
-> ðŸ•·ï¸ *"With great code comes great responsibility."*
+> 🕷️ *"With great code comes great responsibility."*
 
 </td>
 </tr>
@@ -36,7 +36,7 @@
 
 <div align="center">
 
-### ðŸ“Š GitHub Stats & Graphs
+### 📊 GitHub Stats & Graphs
 
 <img src="https://raw.githubusercontent.com/namann5/namann5/main/stats.svg?v=4" alt="GitHub Stats" height="185"/>
 <img src="https://raw.githubusercontent.com/namann5/namann5/main/langs.svg?v=4" alt="Top Languages" height="185"/>
@@ -55,13 +55,13 @@
 
 <br/><br/>
 
-### ðŸ Watch the snake eat my contributions
+### 🐍 Watch the snake eat my contributions
 
 <img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-yellow.svg" alt="Contribution snake"/>
 
 <br/><br/>
 
-### ðŸ“¬ Let's Connect
+### 📬 Let's Connect
 
 <a href="https://linkedin.com/in/naman"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://github.com/namann5"><img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -75,6 +75,6 @@
 
 <br/><br/>
 
-*ðŸ•·ï¸ Swinging through code since 2024. Always learning, always building.*
+*🕷️ Swinging through code since 2024. Always learning, always building.*
 
 </div>
