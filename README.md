@@ -211,7 +211,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="github-readme-streak-stats.herokuapp.com/?user=namann5&theme=dark&background=0d1117&ring=8B5CF6&fire=6D28D9&currStreakLabel=C084FC&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" height="180" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=dark&background=0d1117&ring=8B5CF6&fire=6D28D9&currStreakLabel=C084FC&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" height="180" alt="GitHub Streak"/>
 
 </div>
 
