@@ -29,6 +29,18 @@ svg text{font-family:'Segoe UI','Inter',sans-serif}
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="scannerFilter">
+      <feOffset dx="0" dy="0"/>
+      <feFlood flood-color="#baa1f8" flood-opacity="0.25"/>
+      <feComposite in2="SourceGraphic" operator="in" result="scan"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="scan"/>
+      </feMerge>
+    </filter>
+    <mask id="avatarMask">
+      <circle cx="1050" cy="250" r="90" fill="white"/>
+    </mask>
   </defs>
 
   <rect width="1280" height="740" fill="#ffffff" rx="16" ry="16"/>
@@ -165,6 +177,12 @@ svg text{font-family:'Segoe UI','Inter',sans-serif}
 
   <circle cx="1050" cy="250" r="120" fill="#9370db" opacity="0.08"/>
   <circle cx="1050" cy="250" r="100" fill="#c3a8ff" opacity="0.06"/>
+  <circle cx="1050" cy="250" r="90" fill="#f0e5fc"/>
+  <!-- AVATAR_IMAGE_PLACEHOLDER -->
+  <circle cx="1050" cy="250" r="90" fill="none" stroke="#9370db" stroke-width="3" style="animation:borderGlow 3s ease-in-out infinite"/>
+  <g filter="url(#scannerFilter)" opacity="0.5">
+    <rect x="960" y="160" width="180" height="6" fill="#baa1f8" opacity="0.35" style="animation:scanLine 3s linear infinite"/>
+  </g>
 
   <rect x="770" y="380" width="340" height="200" rx="10" fill="#1a1a2e" stroke="#e6d5f7" stroke-width="1"/>
   <rect x="770" y="380" width="340" height="28" rx="10" fill="#f0e5fc"/>
