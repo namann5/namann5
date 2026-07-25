@@ -1,26 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
   <style type="text/css"><![CDATA[
-    @keyframes ringDraw {
-      from { stroke-dashoffset: 238.76; }
-      to { stroke-dashoffset: 11.94; }
-    }
-    @keyframes fadeSlideIn {
-      from { opacity: 0; transform: translateX(-30px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
+    @keyframes ringDraw { from { stroke-dashoffset: 238.76; } to { stroke-dashoffset: 11.94; } }
+    @keyframes fadeSlideIn { from { opacity: 0; transform: translateX(-30px); } to { opacity: 1; transform: translateX(0); } }
     @keyframes barGrow1 { from { width: 0; } to { width: 315px; } }
     @keyframes barGrow2 { from { width: 0; } to { width: 280px; } }
     @keyframes barGrow3 { from { width: 0; } to { width: 175px; } }
     @keyframes barGrow4 { from { width: 0; } to { width: 210px; } }
     @keyframes barGrow5 { from { width: 0; } to { width: 350px; } }
     @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
     .ring { animation: ringDraw 1.5s ease-out 0.3s forwards; }
     .row { opacity: 0; animation: fadeSlideIn 0.4s ease-out forwards; }
-    .r1 { animation-delay: 0.5s; }
-    .r2 { animation-delay: 0.7s; }
-    .r3 { animation-delay: 0.9s; }
-    .r4 { animation-delay: 1.1s; }
+    .r1 { animation-delay: 0.5s; } .r2 { animation-delay: 0.7s; }
+    .r3 { animation-delay: 0.9s; } .r4 { animation-delay: 1.1s; }
     .r5 { animation-delay: 1.3s; }
     .bar1 { animation: barGrow1 0.8s ease-out 0.9s forwards; }
     .bar2 { animation: barGrow2 0.8s ease-out 1.1s forwards; }
@@ -30,74 +21,56 @@
     .rank { opacity: 0; animation: fadeIn 0.5s ease-out 1.2s forwards; }
   ]]></style>
   <defs>
-    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#6D28D9"/>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
     </linearGradient>
     <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#6D28D9"/>
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
     </linearGradient>
   </defs>
-
-  <!-- Background -->
   <rect width="495" height="195" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-
-  <!-- Title bar -->
-  <text x="16" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9">GitHub Stats — namann5</text>
-  <line x1="16" y1="36" x2="479" y2="36" stroke="#30363d" stroke-width="1"/>
-
-  <!-- Rank Ring -->
+  <text x="16" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#E63946">&#x1F4CA; GitHub Stats</text>
+  <line x1="16" y1="36" x2="479" y2="36" stroke="#E63946" stroke-width="0.5" opacity="0.3"/>
   <g transform="translate(60, 100)">
     <circle cx="0" cy="0" r="38" fill="none" stroke="#30363d" stroke-width="6"/>
-    <circle cx="0" cy="0" r="38" fill="none" stroke="url(#ringGrad)" stroke-width="6"
-            stroke-dasharray="238.76" stroke-dashoffset="238.76" stroke-linecap="round"
-            transform="rotate(-90)" class="ring"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="url(#ringGrad)" stroke-width="6" stroke-dasharray="238.76" stroke-dashoffset="238.76" stroke-linecap="round" transform="rotate(-90)" class="ring"/>
     <text x="0" y="-4" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#c9d1d9" class="rank">Top 5%</text>
     <text x="0" y="12" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#8b949e" class="rank">RANK</text>
   </g>
-
-  <!-- Row 1: Total Stars -->
   <g class="row r1">
     <rect x="120" y="50" width="350" height="6" rx="3" fill="#30363d" opacity="0.5"/>
-    <rect x="120" y="50" height="6" rx="3" fill="url(#purpleGrad)" class="bar1" style="width:0"/>
-    <text x="120" y="68" font-family="system-ui, sans-serif" font-size="12" fill="#8B5CF6">&#9733;</text>
+    <rect x="120" y="50" height="6" rx="3" fill="url(#redGrad)" class="bar1" style="width:0"/>
+    <text x="120" y="68" font-family="system-ui, sans-serif" font-size="12" fill="#E63946">&#9733;</text>
     <text x="140" y="69" font-family="system-ui, sans-serif" font-size="12" fill="#8b949e">Total Stars</text>
     <text x="460" y="69" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c9d1d9">25+</text>
   </g>
-
-  <!-- Row 2: Total Commits -->
   <g class="row r2">
     <rect x="120" y="76" width="350" height="6" rx="3" fill="#30363d" opacity="0.5"/>
-    <rect x="120" y="76" height="6" rx="3" fill="url(#purpleGrad)" class="bar2" style="width:0"/>
-    <text x="120" y="94" font-family="system-ui, sans-serif" font-size="12" fill="#8B5CF6">&#9679;</text>
+    <rect x="120" y="76" height="6" rx="3" fill="url(#redGrad)" class="bar2" style="width:0"/>
+    <text x="120" y="94" font-family="system-ui, sans-serif" font-size="12" fill="#E63946">&#9679;</text>
     <text x="140" y="95" font-family="system-ui, sans-serif" font-size="12" fill="#8b949e">Total Commits</text>
     <text x="460" y="95" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c9d1d9">500+</text>
   </g>
-
-  <!-- Row 3: PRs Merged -->
   <g class="row r3">
     <rect x="120" y="102" width="350" height="6" rx="3" fill="#30363d" opacity="0.5"/>
-    <rect x="120" y="102" height="6" rx="3" fill="url(#purpleGrad)" class="bar3" style="width:0"/>
-    <text x="120" y="120" font-family="system-ui, sans-serif" font-size="12" fill="#8B5CF6">&#10003;</text>
+    <rect x="120" y="102" height="6" rx="3" fill="url(#redGrad)" class="bar3" style="width:0"/>
+    <text x="120" y="120" font-family="system-ui, sans-serif" font-size="12" fill="#E63946">&#10003;</text>
     <text x="140" y="121" font-family="system-ui, sans-serif" font-size="12" fill="#8b949e">PRs Merged</text>
     <text x="460" y="121" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c9d1d9">10+</text>
   </g>
-
-  <!-- Row 4: Issues Opened -->
   <g class="row r4">
     <rect x="120" y="128" width="350" height="6" rx="3" fill="#30363d" opacity="0.5"/>
-    <rect x="120" y="128" height="6" rx="3" fill="url(#purpleGrad)" class="bar4" style="width:0"/>
-    <text x="120" y="146" font-family="system-ui, sans-serif" font-size="12" fill="#8B5CF6">&#9675;</text>
+    <rect x="120" y="128" height="6" rx="3" fill="url(#redGrad)" class="bar4" style="width:0"/>
+    <text x="120" y="146" font-family="system-ui, sans-serif" font-size="12" fill="#E63946">&#9675;</text>
     <text x="140" y="147" font-family="system-ui, sans-serif" font-size="12" fill="#8b949e">Issues Opened</text>
     <text x="460" y="147" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c9d1d9">15+</text>
   </g>
-
-  <!-- Row 5: Contributions -->
   <g class="row r5">
     <rect x="120" y="154" width="350" height="6" rx="3" fill="#30363d" opacity="0.5"/>
-    <rect x="120" y="154" height="6" rx="3" fill="url(#purpleGrad)" class="bar5" style="width:0"/>
-    <text x="120" y="172" font-family="system-ui, sans-serif" font-size="12" fill="#8B5CF6">&#9612;</text>
+    <rect x="120" y="154" height="6" rx="3" fill="url(#redGrad)" class="bar5" style="width:0"/>
+    <text x="120" y="172" font-family="system-ui, sans-serif" font-size="12" fill="#E63946">&#9612;</text>
     <text x="140" y="173" font-family="system-ui, sans-serif" font-size="12" fill="#8b949e">Contributions</text>
     <text x="460" y="173" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c9d1d9">500+</text>
   </g>

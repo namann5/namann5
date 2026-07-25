@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="1200" height="100">
+  <defs>
+    <style type="text/css"><![CDATA[
+@keyframes rain{0%{transform:translateY(-10px);opacity:0}10%{opacity:.3}90%{opacity:.3}100%{transform:translateY(110px);opacity:0}}
+]]></style>
+  </defs>
+  <g stroke="#457B9D" stroke-width="0.5" opacity="0.2">
+    <line x1="50" y1="0" x2="48" y2="15" style="animation:rain 1.2s linear infinite 0s"/>
+    <line x1="120" y1="0" x2="118" y2="15" style="animation:rain 1s linear infinite .3s"/>
+    <line x1="200" y1="0" x2="198" y2="15" style="animation:rain 1.4s linear infinite .1s"/>
+    <line x1="310" y1="0" x2="308" y2="15" style="animation:rain 1.1s linear infinite .5s"/>
+    <line x1="420" y1="0" x2="418" y2="15" style="animation:rain 1.3s linear infinite .2s"/>
+    <line x1="530" y1="0" x2="528" y2="15" style="animation:rain 1.0s linear infinite .7s"/>
+    <line x1="640" y1="0" x2="638" y2="15" style="animation:rain 1.2s linear infinite .4s"/>
+    <line x1="750" y1="0" x2="748" y2="15" style="animation:rain 1.5s linear infinite .6s"/>
+    <line x1="860" y1="0" x2="858" y2="15" style="animation:rain 1.1s linear infinite .8s"/>
+    <line x1="950" y1="0" x2="948" y2="15" style="animation:rain 1.3s linear infinite .15s"/>
+    <line x1="1050" y1="0" x2="1048" y2="15" style="animation:rain 1.0s linear infinite .45s"/>
+    <line x1="1150" y1="0" x2="1148" y2="15" style="animation:rain 1.2s linear infinite .75s"/>
+  </g>
+</svg>
