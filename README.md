@@ -1,11 +1,6 @@
 <div align="center">
 
-<!-- ✨ Animated Banner ✨ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
-  <img src="./banner.svg?v=3" alt="Naman Singh — Backend Developer" width="100%"/>
-</picture>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/banner.svg?v=4" alt="Naman Singh — Backend Developer" width="100%"/>
 
 </div>
 
@@ -15,8 +10,7 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./lanyard.svg?v=3" alt="Naman Singh ID badge" width="330"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/lanyard.svg?v=4" alt="Naman Singh ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
@@ -44,8 +38,8 @@
 
 ### 📊 GitHub Stats & Graphs
 
-<img src="./stats.svg?v=3" alt="GitHub Stats" height="185"/>
-<img src="./langs.svg?v=3" alt="Top Languages" height="185"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/stats.svg?v=4" alt="GitHub Stats" height="185"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/langs.svg?v=4" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -53,13 +47,11 @@
 
 <br/><br/>
 
-<!-- 📈 Contribution Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=8B5CF6&line=6D28D9&point=C084FC&area=true&area_color=C084FC&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution graph" width="95%"/>
 
 <br/><br/>
 
-<!-- 🏆 Trophies (local animated SVG) -->
-<img src="./trophies.svg?v=3" alt="Achievements" width="95%"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/trophies.svg?v=4" alt="Achievements" width="95%"/>
 
 <br/><br/>
 
