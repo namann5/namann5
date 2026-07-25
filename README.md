@@ -51,7 +51,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/trophies.svg?v=5" alt="Achievements" width="95%"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/trophies.svg?v=6" alt="Achievements" width="95%"/>
 
 <br/><br/>
 
