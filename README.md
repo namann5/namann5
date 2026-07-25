@@ -1,22 +1,34 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:7C3AED,100:0d1117&height=220&section=header&text=NAMAN%20SINGH&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Backend%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Open%20Source&descSize=16&descAlignY=55&animation=fadeIn" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img src="banner.svg?v=1" alt="Naman Singh" width="100%"/>
+</picture>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
-[![GitHub](https://img.shields.io/badge/GitHub-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5)
+[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
 
 <br/>
 
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Backend+Developer+%7C+AI+Enthusiast;Building+Scalable+Systems+%26+Smart+AI;Open+Source+Contributor+%E2%80%94+GSSoC+2026;Swinging+through+code+since+2024)
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&lines=Backend+Developer+%7C+AI+Enthusiast;Building+Scalable+Systems+%26+Smart+AI;Open+Source+Contributor+%E2%80%94+GSSoC+2026;Swinging+through+code+since+2024)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=namann5&style=flat&color=A855F7&label=Profile%20Views&labelColor=0d1117)
+![Profile Views](https://komarev.com/ghpvc/?username=namann5&style=flat&color=8B5CF6&label=Profile%20Views&labelColor=0d1117)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="lanyard.svg?v=1" width="300" alt="Naman Singh ID Badge"/>
 
 </div>
 
@@ -92,7 +104,7 @@ Built a deep learning system that detects manipulated images and videos. Uses a 
 
 **Tech:** `Python` `PyTorch` `FastAPI` `React` `MongoDB`
 
-[![GitHub](https://img.shields.io/badge/View_Project-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Ai_deepfake)
+[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Ai_deepfake)
 
 </td>
 <td width="50%" valign="top">
@@ -109,7 +121,7 @@ YOLOv8-based object detection with lane detection, depth estimation, and collisi
 
 **Tech:** `Python` `YOLOv8` `FastAPI` `React` `TypeScript`
 
-[![GitHub](https://img.shields.io/badge/View_Project-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/autonomous-driving-system)
+[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/autonomous-driving-system)
 
 </td>
 </tr>
@@ -128,7 +140,7 @@ Full-stack anime streaming app with search, browse, and stream functionality. Us
 
 **Tech:** `JavaScript` `Node.js` `React` `Vite`
 
-[![GitHub](https://img.shields.io/badge/View_Project-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Anime-muesuem)
+[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Anime-muesuem)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-1E90FF?style=for-the-badge&logo=vercel&logoColor=white)](https://anime-muesuem.vercel.app)
 
 </td>
@@ -146,7 +158,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 **Tech:** `Node.js` `Express` `MongoDB` `OpenAI`
 
-[![GitHub](https://img.shields.io/badge/View_Project-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Ai_Customer_Service)
+[![GitHub](https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5/Ai_Customer_Service)
 
 </td>
 </tr>
@@ -159,7 +171,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 <table>
 <tr>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/OSCG'26-A855F7?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
+<img src="https://img.shields.io/badge/OSCG'26-8B5CF6?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
 </td>
 <td width="80%">
 
@@ -174,7 +186,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 </tr>
 <tr>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/GSSoC'26-7C3AED?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
+<img src="https://img.shields.io/badge/GSSoC'26-6D28D9?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
 </td>
 <td width="80%">
 
@@ -195,33 +207,33 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=namann5&show_icons=true&hide_border=true&bg_color=0d1117&title_color=A855F7&icon_color=7C3AED&text_color=c9d1d9&include_all_commits=true&count_private=true" height="180"/>
+<img src="stats.svg?v=1" width="495" alt="GitHub Stats"/>
 
-<img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=namann5&layout=compact&hide_border=true&bg_color=0d1117&title_color=A855F7&text_color=c9d1d9" height="180"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=dark&background=0d1117&ring=A855F7&fire=7C3AED&currStreakLabel=C084FC&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" height="180"/>
+<img src="langs.svg?v=1" width="495" alt="Top Languages"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=dark&no-frame=true&no-bg=false&column=7&margin-w=10" width="100%"/>
+<img src="github-readme-streak-stats.herokuapp.com/?user=namann5&theme=dark&background=0d1117&ring=8B5CF6&fire=6D28D9&currStreakLabel=C084FC&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" height="180" alt="GitHub Streak"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=A855F7&line=7C3AED&point=C084FC&area=true&area_color=C084FC&hide_border=true" width="100%"/>
+<img src="trophies.svg?v=1" width="495" alt="Achievements"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&bg_color=0d1117&color=8B5CF6&line=6D28D9&point=C084FC&area=true&area_color=C084FC&hide_border=true" width="100%" alt="Activity Graph"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/namann5/namann5/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
 
 </div>
 
@@ -231,7 +243,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-violet.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-violet.svg" width="100%" alt="Snake Animation"/>
 
 </div>
 
@@ -241,10 +253,10 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 
 <div align="center">
 
-![System Design](https://img.shields.io/badge/System_Design-A855F7?style=for-the-badge&logo=github&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-7C3AED?style=for-the-badge&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-A855F7?style=for-the-badge&logo=redis&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-7C3AED?style=for-the-badge&logo=kubernetes&logoColor=white)
+![System Design](https://img.shields.io/badge/System_Design-8B5CF6?style=for-the-badge&logo=github&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-6D28D9?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-8B5CF6?style=for-the-badge&logo=redis&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-6D28D9?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 </div>
 
@@ -255,7 +267,7 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman)
-[![GitHub](https://img.shields.io/badge/GitHub-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5)
+[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/namann5)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
@@ -282,6 +294,6 @@ Chatbot that handles customer queries using NLP. Features context-aware response
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:7C3AED,100:0d1117&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6D28D9,100:0d1117&height=100&section=footer" width="100%"/>
 
 </div>

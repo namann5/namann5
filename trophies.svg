@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <clipPath id="rounded-bg">
+      <rect x="0" y="0" width="495" height="195" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded-bg)">
+    <rect x="0" y="0" width="495" height="195" fill="url(#bg-grad)"/>
+    <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="none" stroke="#30363d" stroke-width="1"/>
+  </g>
+
+  <text x="247.5" y="24" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Achievements</text>
+
+  <!-- Trophy 1: Pull Shark (Gold) -->
+  <g transform="translate(15, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="0.3s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#FFD700"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#FFD700"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#FFD700"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#b8860b"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="0.9s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="0.9s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#FFD700">Gold</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="7">Pull Shark</text>
+    </g>
+  </g>
+
+  <!-- Trophy 2: YOLO (Silver) -->
+  <g transform="translate(82, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="0.6s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#C0C0C0"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#C0C0C0"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#C0C0C0"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#a9a9a9"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="1.2s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="1.2s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#C0C0C0">Silver</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="7">YOLO</text>
+    </g>
+  </g>
+
+  <!-- Trophy 3: Arctic Code Vault (Platinum) -->
+  <g transform="translate(149, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="0.9s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#E5E4E2"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#E5E4E2"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#E5E4E2"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#bfbfbf"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="1.5s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="1.5s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#E5E4E2">Platinum</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="6">Arctic Vault</text>
+    </g>
+  </g>
+
+  <!-- Trophy 4: Quickdraw (Bronze) -->
+  <g transform="translate(216, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="1.2s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#CD7F32"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#CD7F32"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#CD7F32"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#a0522d"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="1.8s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="1.8s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#CD7F32">Bronze</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="7">Quickdraw</text>
+    </g>
+  </g>
+
+  <!-- Trophy 5: Starstruck (Gold) -->
+  <g transform="translate(283, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="1.5s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#FFD700"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#FFD700"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#FFD700"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#b8860b"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="2.1s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="2.1s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#FFD700">Gold</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="7">Starstruck</text>
+    </g>
+  </g>
+
+  <!-- Trophy 6: Galaxy Brain (Silver) -->
+  <g transform="translate(350, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="1.8s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#C0C0C0"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#C0C0C0"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#C0C0C0"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#a9a9a9"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="2.4s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="2.4s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#C0C0C0">Silver</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="7">Galaxy Brain</text>
+    </g>
+  </g>
+
+  <!-- Trophy 7: Pair Extraordinaire (Bronze) -->
+  <g transform="translate(417, 45)">
+    <animateTransform attributeName="transform" type="scale" values="0;1.15;0.95;1" dur="0.5s" begin="2.1s" fill="freeze" additive="sum"/>
+    <g transform="translate(0, 0)">
+      <g>
+        <circle cx="30" cy="18" r="10" fill="#CD7F32"/>
+        <rect x="20" y="24" width="20" height="16" rx="2" fill="#CD7F32"/>
+        <polygon points="14,42 46,42 42,38 18,38" fill="#CD7F32"/>
+        <rect x="10" y="38" width="40" height="6" rx="2" fill="#a0522d"/>
+      </g>
+      <rect x="-5" y="0" width="10" height="55" fill="white" opacity="0">
+        <animate attributeName="x" from="-5" to="65" dur="0.4s" begin="2.7s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;0.4;0" dur="0.4s" begin="2.7s" fill="freeze"/>
+      </rect>
+      <text x="30" y="58" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8" fill="#CD7F32">Bronze</text>
+      <text x="30" y="68" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="6">Pair Extra.</text>
+    </g>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="10" y="180" width="475" height="1" fill="#30363d" opacity="0.5"/>
+
+  <text x="247.5" y="192" text-anchor="middle" fill="#484f58" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9">namann5</text>
+</svg>
