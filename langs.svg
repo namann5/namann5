@@ -1,9 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
-  <style>
+  <style type="text/css"><![CDATA[
+    @keyframes barGrow { from { width: 0; } }
+    @keyframes accentGrow { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+
+    .bar1 { animation: barGrow 0.6s ease-out 0.2s forwards; width: 140px; }
+    .bar2 { animation: barGrow 0.6s ease-out 0.7s forwards; width: 100px; }
+    .bar3 { animation: barGrow 0.6s ease-out 1.2s forwards; width: 60px; }
+    .bar4 { animation: barGrow 0.6s ease-out 1.7s forwards; width: 48px; }
+    .bar5 { animation: barGrow 0.6s ease-out 2.2s forwards; width: 32px; }
+    .accent { animation: accentGrow 1.2s ease-out 0.2s forwards; }
+
     .label { font: 600 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
     .pct { font: 400 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e; }
     .title { font: 700 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
-  </style>
+  ]]></style>
 
   <!-- Outer card -->
   <rect width="495" height="195" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
@@ -14,72 +24,49 @@
   <!-- Title -->
   <text x="30" y="38" class="title">Top Languages</text>
 
-  <!-- ==================== ROW 1: Python ==================== -->
-  <!-- Colored dot -->
+  <!-- Python -->
   <circle cx="30" cy="64" r="4" fill="#8B5CF6"/>
-  <!-- Label -->
   <text x="42" y="68" class="label">Python</text>
-  <!-- Bar background -->
   <rect x="120" y="56" width="250" height="12" rx="3" fill="#21262d"/>
-  <!-- Bar fill (animated) -->
-  <rect x="120" y="56" width="0" height="12" rx="3" fill="#8B5CF6">
-    <animate attributeName="width" from="0" to="140" dur="0.6s" begin="0.2s" fill="freeze"/>
-  </rect>
-  <!-- Percentage -->
+  <rect x="120" y="56" height="12" rx="3" fill="#8B5CF6" class="bar1" style="width:0"/>
   <text x="380" y="68" class="pct">35%</text>
 
-  <!-- ==================== ROW 2: JavaScript ==================== -->
+  <!-- JavaScript -->
   <circle cx="30" cy="90" r="4" fill="#6D28D9"/>
   <text x="42" y="94" class="label">JavaScript</text>
   <rect x="120" y="82" width="250" height="12" rx="3" fill="#21262d"/>
-  <rect x="120" y="82" width="0" height="12" rx="3" fill="#6D28D9">
-    <animate attributeName="width" from="0" to="100" dur="0.6s" begin="0.7s" fill="freeze"/>
-  </rect>
+  <rect x="120" y="82" height="12" rx="3" fill="#6D28D9" class="bar2" style="width:0"/>
   <text x="380" y="94" class="pct">25%</text>
 
-  <!-- ==================== ROW 3: TypeScript ==================== -->
+  <!-- TypeScript -->
   <circle cx="30" cy="116" r="4" fill="#A78BFA"/>
   <text x="42" y="120" class="label">TypeScript</text>
   <rect x="120" y="108" width="250" height="12" rx="3" fill="#21262d"/>
-  <rect x="120" y="108" width="0" height="12" rx="3" fill="#A78BFA">
-    <animate attributeName="width" from="0" to="60" dur="0.6s" begin="1.2s" fill="freeze"/>
-  </rect>
+  <rect x="120" y="108" height="12" rx="3" fill="#A78BFA" class="bar3" style="width:0"/>
   <text x="380" y="120" class="pct">15%</text>
 
-  <!-- ==================== ROW 4: Java ==================== -->
+  <!-- Java -->
   <circle cx="30" cy="142" r="4" fill="#C4B5FD"/>
   <text x="42" y="146" class="label">Java</text>
   <rect x="120" y="134" width="250" height="12" rx="3" fill="#21262d"/>
-  <rect x="120" y="134" width="0" height="12" rx="3" fill="#C4B5FD">
-    <animate attributeName="width" from="0" to="48" dur="0.6s" begin="1.7s" fill="freeze"/>
-  </rect>
+  <rect x="120" y="134" height="12" rx="3" fill="#C4B5FD" class="bar4" style="width:0"/>
   <text x="380" y="146" class="pct">12%</text>
 
-  <!-- ==================== ROW 5: C++ ==================== -->
+  <!-- C++ -->
   <circle cx="30" cy="168" r="4" fill="#7C3AED"/>
   <text x="42" y="172" class="label">C++</text>
   <rect x="120" y="160" width="250" height="12" rx="3" fill="#21262d"/>
-  <rect x="120" y="160" width="0" height="12" rx="3" fill="#7C3AED">
-    <animate attributeName="width" from="0" to="32" dur="0.6s" begin="2.2s" fill="freeze"/>
-  </rect>
+  <rect x="120" y="160" height="12" rx="3" fill="#7C3AED" class="bar5" style="width:0"/>
   <text x="380" y="172" class="pct">8%</text>
 
-  <!-- ==================== ROW 6: Other (not drawn, bar area maxed) ==================== -->
-  <!-- Omitting 6th row to keep within 195px height with proper spacing -->
-
-  <!-- Bottom accent bar showing the language distribution -->
+  <!-- Bottom accent bar -->
   <rect x="15" y="182" width="465" height="4" rx="2" fill="#21262d"/>
-  <clipPath id="accentClip">
-    <rect x="15" y="182" width="0" height="4" rx="2">
-      <animate attributeName="width" from="0" to="465" dur="1.2s" begin="0.2s" fill="freeze"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#accentClip)">
-    <rect x="15"  y="182" width="162.75" height="4" rx="2" fill="#8B5CF6"/>
+  <g class="accent">
+    <rect x="15" y="182" width="162.75" height="4" rx="2" fill="#8B5CF6"/>
     <rect x="177.75" y="182" width="116.25" height="4" fill="#6D28D9"/>
-    <rect x="294"  y="182" width="69.75" height="4" fill="#A78BFA"/>
-    <rect x="363.75" y="182" width="55.8"  height="4" fill="#C4B5FD"/>
-    <rect x="419.55" y="182" width="37.2"  height="4" fill="#7C3AED"/>
+    <rect x="294" y="182" width="69.75" height="4" fill="#A78BFA"/>
+    <rect x="363.75" y="182" width="55.8" height="4" fill="#C4B5FD"/>
+    <rect x="419.55" y="182" width="37.2" height="4" fill="#7C3AED"/>
     <rect x="456.75" y="182" width="23.25" height="4" rx="2" fill="#5B21B6"/>
   </g>
 </svg>
