@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 780" width="1100" height="780">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#F5F7FA; } .r { fill:#FF304F; } .b { fill:#2388FF; } .c { fill:#6DE7FF; } .g { fill:#39FF88; } .m { fill:#8B949E; } .d { fill:#3D4654; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/><line x1="0" y1="3" x2="6" y2="3" stroke="#6DE7FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="780" fill="#05060A"/>
+  <rect width="1100" height="780" fill="url(#scan)"/>
+  <rect x="10" y="10" width="1080" height="760" fill="none" stroke="#141923" stroke-width="1.2"/>
+  <path d="M24 28 V18 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 28 V18 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M24 752 V762 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 752 V762 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[SYS/06]</text>
+  <text x="112" y="46" class="w" font-size="13" letter-spacing="4">PROJECT_MATRIX</text>
+  <text x="392" y="46" class="g" font-size="11" letter-spacing="2">// ACTIVE_OPERATIONS</text>
+  <text x="1040" y="46" text-anchor="end" class="m" font-size="11">~/namann5/deployments</text>
+  <circle cx="1054" cy="42" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <g>
+    <rect x="36" y="90" width="336" height="300" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="36" y="90" width="4" height="300" rx="2" fill="#FF304F"/>
+    <text x="56" y="124" class="d" font-size="9" letter-spacing="2">PRJ_01</text>
+    <circle cx="340" cy="120" r="3" fill="#39FF88"/>
+    <text x="352" y="124" class="g" font-size="9" letter-spacing="2">OPERATIONAL</text>
+    <text x="56" y="170" class="w" font-size="24" font-weight="800" letter-spacing="1">DEEPSCAN</text>
+    <text x="56" y="196" class="m" font-size="10">AI deepfake &amp; synthetic image</text>
+    <text x="56" y="212" class="m" font-size="10">detection system</text>
+    <g font-size="9">
+      <rect x="56" y="228" width="96" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="104" y="242" text-anchor="middle" class="c">AI</text>
+      <rect x="160" y="228" width="104" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="212" y="242" text-anchor="middle" class="c">COMPUTER VISION</text>
+      <rect x="272" y="228" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="314" y="242" text-anchor="middle" class="c">BACKEND</text>
+    </g>
+    <line x1="56" y1="262" x2="352" y2="262" stroke="#141923" stroke-width="1"/>
+    <text x="56" y="290" class="m" font-size="10" letter-spacing="1">STATUS</text>
+    <text x="152" y="290" class="g" font-size="11" font-weight="700">OPERATIONAL</text>
+    <text x="352" y="290" text-anchor="end" class="w" font-size="11">★3</text>
+    <line x1="56" y1="306" x2="352" y2="306" stroke="#141923" stroke-width="1"/>
+    <rect x="56" y="322" width="140" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="126" y="340" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+    <rect x="208" y="322" width="140" height="28" rx="4" fill="#0D111A" stroke="#2388FF"/><text x="278" y="340" text-anchor="middle" class="b" font-size="10" letter-spacing="1">[ LIVE ]</text>
+    <text x="56" y="376" class="d" font-size="8">id: Ai_deepfake</text>
+    <text x="352" y="376" text-anchor="end" class="d" font-size="8">JS // NODE</text>
+
+    <rect x="382" y="90" width="336" height="300" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="382" y="90" width="4" height="300" rx="2" fill="#2388FF"/>
+    <text x="402" y="124" class="d" font-size="9" letter-spacing="2">PRJ_02</text>
+    <circle cx="686" cy="120" r="3" fill="#39FF88"/>
+    <text x="698" y="124" class="g" font-size="9" letter-spacing="2">OSS</text>
+    <text x="402" y="170" class="w" font-size="24" font-weight="800" letter-spacing="1">HELPDESK.AI</text>
+    <text x="402" y="196" class="m" font-size="10">AI helpdesk — ML, NLP &amp; OCR</text>
+    <text x="402" y="212" class="m" font-size="10">support triage platform</text>
+    <g font-size="9">
+      <rect x="402" y="228" width="64" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="434" y="242" text-anchor="middle" class="c">ML</text>
+      <rect x="474" y="228" width="64" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="506" y="242" text-anchor="middle" class="c">NLP</text>
+      <rect x="546" y="228" width="64" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="578" y="242" text-anchor="middle" class="c">OCR</text>
+      <rect x="618" y="228" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="660" y="242" text-anchor="middle" class="c">FULLSTACK</text>
+    </g>
+    <line x1="402" y1="262" x2="698" y2="262" stroke="#141923" stroke-width="1"/>
+    <text x="402" y="290" class="m" font-size="10" letter-spacing="1">STATUS</text>
+    <text x="498" y="290" class="g" font-size="11" font-weight="700">CONTRIBUTED</text>
+    <line x1="402" y1="306" x2="698" y2="306" stroke="#141923" stroke-width="1"/>
+    <rect x="402" y="322" width="140" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="472" y="340" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+    <rect x="554" y="322" width="140" height="28" rx="4" fill="#0D111A" stroke="#2388FF"/><text x="624" y="340" text-anchor="middle" class="b" font-size="10" letter-spacing="1">[ LIVE ]</text>
+    <text x="402" y="376" class="d" font-size="8">id: HELPDESK.AI</text>
+    <text x="698" y="376" text-anchor="end" class="d" font-size="8">JS // OSS</text>
+
+    <rect x="728" y="90" width="336" height="300" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="728" y="90" width="4" height="300" rx="2" fill="#6DE7FF"/>
+    <text x="748" y="124" class="d" font-size="9" letter-spacing="2">PRJ_03</text>
+    <circle cx="1032" cy="120" r="3" fill="#39FF88"/>
+    <text x="1044" y="124" class="g" font-size="9" letter-spacing="2">OSS</text>
+    <text x="748" y="170" class="w" font-size="24" font-weight="800" letter-spacing="1">SECUSCAN</text>
+    <text x="748" y="196" class="m" font-size="10">Local-first security scanning</text>
+    <text x="748" y="212" class="m" font-size="10">workspace · 60 integrations</text>
+    <g font-size="9">
+      <rect x="748" y="228" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="790" y="242" text-anchor="middle" class="c">FASTAPI</text>
+      <rect x="840" y="228" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="882" y="242" text-anchor="middle" class="c">REACT</text>
+      <rect x="932" y="228" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="974" y="242" text-anchor="middle" class="c">SECURITY</text>
+    </g>
+    <line x1="748" y1="262" x2="1044" y2="262" stroke="#141923" stroke-width="1"/>
+    <text x="748" y="290" class="m" font-size="10" letter-spacing="1">STATUS</text>
+    <text x="844" y="290" class="g" font-size="11" font-weight="700">CONTRIBUTED</text>
+    <line x1="748" y1="306" x2="1044" y2="306" stroke="#141923" stroke-width="1"/>
+    <rect x="748" y="322" width="140" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="818" y="340" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+    <rect x="900" y="322" width="140" height="28" rx="4" fill="#0D111A" stroke="#2388FF"/><text x="970" y="340" text-anchor="middle" class="b" font-size="10" letter-spacing="1">[ LIVE ]</text>
+    <text x="748" y="376" class="d" font-size="8">id: SecuScan</text>
+    <text x="1044" y="376" text-anchor="end" class="d" font-size="8">PY // OSS</text>
+  </g>
+
+  <g>
+    <rect x="36" y="410" width="336" height="300" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="36" y="410" width="4" height="300" rx="2" fill="#39FF88"/>
+    <text x="56" y="444" class="d" font-size="9" letter-spacing="2">PRJ_04</text>
+    <circle cx="340" cy="440" r="3" fill="#39FF88"/>
+    <text x="352" y="444" class="g" font-size="9" letter-spacing="2">OSS</text>
+    <text x="56" y="490" class="w" font-size="24" font-weight="800" letter-spacing="1">MERGESHIP</text>
+    <text x="56" y="516" class="m" font-size="10">Gamified OSS bridge — XP badges,</text>
+    <text x="56" y="532" class="m" font-size="10">AI triage &amp; duplicate detection</text>
+    <g font-size="9">
+      <rect x="56" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="98" y="562" text-anchor="middle" class="c">AI TRIAGE</text>
+      <rect x="148" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="190" y="562" text-anchor="middle" class="c">GAMING</text>
+      <rect x="240" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="282" y="562" text-anchor="middle" class="c">FULLSTACK</text>
+    </g>
+    <line x1="56" y1="582" x2="352" y2="582" stroke="#141923" stroke-width="1"/>
+    <text x="56" y="610" class="m" font-size="10" letter-spacing="1">STATUS</text>
+    <text x="152" y="610" class="g" font-size="11" font-weight="700">CONTRIBUTED</text>
+    <line x1="56" y1="626" x2="352" y2="626" stroke="#141923" stroke-width="1"/>
+    <rect x="56" y="642" width="140" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="126" y="660" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+    <rect x="208" y="642" width="140" height="28" rx="4" fill="#0D111A" stroke="#2388FF"/><text x="278" y="660" text-anchor="middle" class="b" font-size="10" letter-spacing="1">[ LIVE ]</text>
+    <text x="56" y="696" class="d" font-size="8">id: MergeShip</text>
+    <text x="352" y="696" text-anchor="end" class="d" font-size="8">TS // OSS</text>
+
+    <rect x="382" y="410" width="336" height="300" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="382" y="410" width="4" height="300" rx="2" fill="#FF304F"/>
+    <text x="402" y="444" class="d" font-size="9" letter-spacing="2">PRJ_05</text>
+    <circle cx="686" cy="440" r="3" fill="#39FF88"/>
+    <text x="698" y="444" class="g" font-size="9" letter-spacing="2">LIVE</text>
+    <text x="402" y="490" class="w" font-size="24" font-weight="800" letter-spacing="1">ANIMEVERSE</text>
+    <text x="402" y="516" class="m" font-size="10">Anime museum — curated web</text>
+    <text x="402" y="532" class="m" font-size="10">experience, shipped to Vercel</text>
+    <g font-size="9">
+      <rect x="402" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="444" y="562" text-anchor="middle" class="c">JS</text>
+      <rect x="494" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="536" y="562" text-anchor="middle" class="c">WEB</text>
+      <rect x="586" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="628" y="562" text-anchor="middle" class="c">VERCEL</text>
+    </g>
+    <line x1="402" y1="582" x2="698" y2="582" stroke="#141923" stroke-width="1"/>
+    <text x="402" y="610" class="m" font-size="10" letter-spacing="1">STATUS</text>
+    <text x="498" y="610" class="g" font-size="11" font-weight="700">DEPLOYED</text>
+    <line x1="402" y1="626" x2="698" y2="626" stroke="#141923" stroke-width="1"/>
+    <rect x="402" y="642" width="140" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="472" y="660" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+    <rect x="554" y="642" width="140" height="28" rx="4" fill="#0D111A" stroke="#2388FF"/><text x="624" y="660" text-anchor="middle" class="b" font-size="10" letter-spacing="1">[ LIVE ]</text>
+    <text x="402" y="696" class="d" font-size="8">id: Anime-muesuem</text>
+    <text x="698" y="696" text-anchor="end" class="d" font-size="8">JS // WEB</text>
+
+    <rect x="728" y="410" width="336" height="300" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="728" y="410" width="4" height="300" rx="2" fill="#2388FF"/>
+    <text x="748" y="444" class="d" font-size="9" letter-spacing="2">PRJ_06</text>
+    <circle cx="1032" cy="440" r="3" fill="#2388FF"/>
+    <text x="1044" y="444" class="b" font-size="9" letter-spacing="2">STAGING</text>
+    <text x="748" y="490" class="w" font-size="24" font-weight="800" letter-spacing="1">AUTOPILOT</text>
+    <text x="748" y="516" class="m" font-size="10">Autonomous driving simulation</text>
+    <text x="748" y="532" class="m" font-size="10">system pipeline</text>
+    <g font-size="9">
+      <rect x="748" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="790" y="562" text-anchor="middle" class="c">PYTHON</text>
+      <rect x="840" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="882" y="562" text-anchor="middle" class="c">SIMULATION</text>
+      <rect x="932" y="548" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="974" y="562" text-anchor="middle" class="c">ML</text>
+    </g>
+    <line x1="748" y1="582" x2="1044" y2="582" stroke="#141923" stroke-width="1"/>
+    <text x="748" y="610" class="m" font-size="10" letter-spacing="1">STATUS</text>
+    <text x="844" y="610" class="b" font-size="11" font-weight="700">IN PROGRESS</text>
+    <line x1="748" y1="626" x2="1044" y2="626" stroke="#141923" stroke-width="1"/>
+    <rect x="748" y="642" width="290" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="893" y="660" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+    <text x="748" y="696" class="d" font-size="8">id: autonomous-driving-system-clean</text>
+    <text x="1044" y="696" text-anchor="end" class="d" font-size="8">PY // SIM</text>
+  </g>
+
+  <text x="36" y="748" class="d" font-size="8" letter-spacing="2">MATRIX_06_UNITS // SOURCE: GITHUB_REPOS</text>
+  <text x="1064" y="748" text-anchor="end" class="d" font-size="8" letter-spacing="2">ALL LINKS // REAL REPOS</text>
+</svg>

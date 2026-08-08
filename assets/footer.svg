@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 400" width="1100" height="400">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#F5F7FA; } .r { fill:#FF304F; } .b { fill:#2388FF; } .c { fill:#6DE7FF; } .g { fill:#39FF88; } .m { fill:#8B949E; } .d { fill:#3D4654; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fhG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#F5F7FA"/><stop offset="100%" stop-color="#FF304F"/>
+    </linearGradient>
+    <radialGradient id="footGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FF304F" stop-opacity="0.18"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/><line x1="0" y1="3" x2="6" y2="3" stroke="#6DE7FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="400" fill="#05060A"/>
+  <rect width="1100" height="400" fill="url(#scan)"/>
+  <rect x="10" y="10" width="1080" height="380" fill="none" stroke="#141923" stroke-width="1.2"/>
+  <path d="M24 28 V18 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 28 V18 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M24 372 V382 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 372 V382 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[SYS/10]</text>
+  <text x="112" y="46" class="w" font-size="13" letter-spacing="4">SYSTEM_STATUS</text>
+  <text x="360" y="46" class="g" font-size="11" letter-spacing="2">// ALL SYSTEMS OPERATIONAL</text>
+  <text x="1040" y="46" text-anchor="end" class="m" font-size="11">~/namann5/shutdown</text>
+  <circle cx="1054" cy="42" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <g>
+    <rect x="36" y="90" width="332" height="110" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <circle cx="64" cy="120" r="5" fill="#39FF88"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="84" y="125" class="w" font-size="15" font-weight="700" letter-spacing="2">BUILDING</text>
+    <text x="56" y="158" class="m" font-size="10">always coding something</text>
+    <text x="56" y="176" class="d" font-size="9">>> write · test · ship</text>
+
+    <rect x="384" y="90" width="332" height="110" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <circle cx="412" cy="120" r="5" fill="#39FF88"><animate attributeName="opacity" values="1;0.2;1" dur="1.9s" repeatCount="indefinite"/></circle>
+    <text x="432" y="125" class="w" font-size="15" font-weight="700" letter-spacing="2">SHIPPING</text>
+    <text x="404" y="158" class="m" font-size="10">ships to production</text>
+    <text x="404" y="176" class="d" font-size="9">>> deploy · monitor · iterate</text>
+
+    <rect x="732" y="90" width="332" height="110" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <circle cx="760" cy="120" r="5" fill="#39FF88"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <text x="780" y="125" class="w" font-size="15" font-weight="700" letter-spacing="2">LEARNING</text>
+    <text x="752" y="158" class="m" font-size="10">never stops improving</text>
+    <text x="752" y="176" class="d" font-size="9">>> study · practice · level</text>
+  </g>
+
+  <circle cx="550" cy="248" r="150" fill="url(#footGlow)"/>
+  <text x="550" y="252" text-anchor="middle" class="w" font-size="24" font-weight="800" letter-spacing="4" fill="url(#fhG)">FRIENDLY NEIGHBORHOOD DEVELOPER</text>
+  <text x="550" y="278" text-anchor="middle" class="m" font-size="10" letter-spacing="3">AGRAA-BORN // BUILDS WITH RED &amp; BLUE ENERGY</text>
+
+  <line x1="36" y1="296" x2="1064" y2="296" stroke="#1C2433" stroke-width="0.8"/>
+  <g font-size="10">
+    <text x="136" y="318" text-anchor="middle" class="r" font-weight="700" letter-spacing="2">GITHUB</text>
+    <text x="136" y="336" text-anchor="middle" class="d" font-size="8">github.com/namann5</text>
+    <text x="356" y="318" text-anchor="middle" class="b" font-weight="700" letter-spacing="2">LINKEDIN</text>
+    <text x="356" y="336" text-anchor="middle" class="d" font-size="8">in/naman-singh</text>
+    <text x="576" y="318" text-anchor="middle" class="c" font-weight="700" letter-spacing="2">LEETCODE</text>
+    <text x="576" y="336" text-anchor="middle" class="d" font-size="8">leetcode.com/namann5</text>
+    <text x="796" y="318" text-anchor="middle" class="r" font-weight="700" letter-spacing="2">DEV.TO</text>
+    <text x="796" y="336" text-anchor="middle" class="d" font-size="8">dev.to/naman_singh</text>
+    <text x="1016" y="318" text-anchor="middle" class="g" font-weight="700" letter-spacing="2">EMAIL</text>
+    <text x="1016" y="336" text-anchor="middle" class="d" font-size="8">naman.2002.as@gmail.com</text>
+  </g>
+
+  <text x="550" y="366" text-anchor="middle" class="w" font-size="15" font-weight="700" letter-spacing="6">N5 // CONTINUUM</text>
+  <text x="550" y="388" text-anchor="middle" class="m" font-size="10" letter-spacing="2">
+    "Still building."
+    <animate attributeName="opacity" values="1;0.5;1" dur="2.6s" repeatCount="indefinite"/>
+  </text>
+</svg>

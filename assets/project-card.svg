@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 340" width="1100" height="340">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#F5F7FA; } .r { fill:#FF304F; } .b { fill:#2388FF; } .c { fill:#6DE7FF; } .g { fill:#39FF88; } .m { fill:#8B949E; } .d { fill:#3D4654; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fgGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FF304F" stop-opacity="0.22"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/><line x1="0" y1="3" x2="6" y2="3" stroke="#6DE7FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="340" fill="#05060A"/>
+  <rect width="1100" height="340" fill="url(#scan)"/>
+  <rect x="10" y="10" width="1080" height="320" fill="none" stroke="#141923" stroke-width="1.2"/>
+  <path d="M24 28 V18 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 28 V18 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M24 312 V322 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 312 V322 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[★]</text>
+  <text x="74" y="46" class="w" font-size="13" letter-spacing="4">FLAGSHIP_UNIT</text>
+  <text x="280" y="46" class="c" font-size="11" letter-spacing="2">// DEEPSCAN</text>
+  <text x="1040" y="46" text-anchor="end" class="m" font-size="11">~/namann5/Ai_deepfake</text>
+  <circle cx="1054" cy="42" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <rect x="36" y="90" width="1028" height="220" rx="8" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+  <rect x="36" y="90" width="4" height="220" rx="2" fill="#FF304F"/>
+  <circle cx="1020" cy="90" r="48" fill="url(#fgGlow)"/>
+
+  <text x="56" y="136" class="r" font-size="34" font-weight="800" letter-spacing="2">DEEPSCAN</text>
+  <text x="56" y="164" class="w" font-size="13" letter-spacing="2">AI DEEPFAKE &amp; SYNTHETIC IMAGE DETECTION</text>
+  <text x="56" y="188" class="m" font-size="10">Node.js backend with EXIF forensics, visual artifact</text>
+  <text x="56" y="202" class="m" font-size="10">analysis, and weighted score aggregation.</text>
+  <g font-size="9">
+    <rect x="56" y="216" width="112" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="112" y="230" text-anchor="middle" class="c">EXIF FORENSICS</text>
+    <rect x="176" y="216" width="112" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="232" y="230" text-anchor="middle" class="c">ARTIFACT ANALYSIS</text>
+    <rect x="296" y="216" width="112" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="352" y="230" text-anchor="middle" class="c">WEIGHTED SCORE</text>
+    <rect x="416" y="216" width="84" height="20" rx="3" fill="#0D111A" stroke="#1C2433"/><text x="458" y="230" text-anchor="middle" class="c">NODE.JS</text>
+  </g>
+
+  <g>
+    <rect x="716" y="106" width="150" height="56" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="732" y="128" class="d" font-size="8">STARS</text><text x="732" y="152" class="w" font-size="18" font-weight="700">3</text>
+    <rect x="880" y="106" width="150" height="56" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="896" y="128" class="d" font-size="8">FORKS</text><text x="896" y="152" class="w" font-size="18" font-weight="700">3</text>
+    <rect x="716" y="178" width="150" height="56" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="732" y="200" class="d" font-size="8">TOPICS</text><text x="732" y="224" class="w" font-size="18" font-weight="700">7</text>
+    <rect x="880" y="178" width="150" height="56" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="896" y="200" class="d" font-size="8">STATUS</text><text x="896" y="224" class="g" font-size="14" font-weight="700">LIVE</text>
+  </g>
+
+  <rect x="964" y="106" width="100" height="128" rx="4" fill="#0A0E16" stroke="#1C2433" stroke-width="1.2"/>
+  <g stroke="#141923" stroke-width="0.8">
+    <line x1="1014" y1="112" x2="1014" y2="228"/><line x1="970" y1="170" x2="1058" y2="170"/>
+  </g>
+  <line x1="970" y1="170" x2="1058" y2="170" stroke="#FF304F" stroke-width="1" opacity="0.7">
+    <animate attributeName="y1" values="116;224;116" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="116;224;116" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <path d="M978 120 V112 H986" stroke="#FF304F" stroke-width="1.4" fill="none"/>
+  <path d="M1050 120 V112 H1042" stroke="#FF304F" stroke-width="1.4" fill="none"/>
+  <path d="M978 222 V230 H986" stroke="#FF304F" stroke-width="1.4" fill="none"/>
+  <path d="M1050 222 V230 H1042" stroke="#FF304F" stroke-width="1.4" fill="none"/>
+  <circle cx="1014" cy="170" r="4" fill="#FF304F"/>
+  <circle cx="1014" cy="170" r="4" fill="none" stroke="#FF304F"><animate attributeName="r" values="4;22" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2.6s" repeatCount="indefinite"/></circle>
+  <text x="1014" y="176" text-anchor="middle" class="c" font-size="7" letter-spacing="2">SCAN</text>
+
+  <rect x="56" y="262" width="120" height="28" rx="4" fill="#0D111A" stroke="#FF304F"/><text x="116" y="280" text-anchor="middle" class="r" font-size="10" letter-spacing="1">[ SOURCE ]</text>
+  <rect x="186" y="262" width="120" height="28" rx="4" fill="#0D111A" stroke="#2388FF"/><text x="246" y="280" text-anchor="middle" class="b" font-size="10" letter-spacing="1">[ LIVE ]</text>
+  <circle cx="356" cy="276" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="368" y="280" class="g" font-size="11" font-weight="700" letter-spacing="1">STATUS: OPERATIONAL</text>
+  <text x="1040" y="280" text-anchor="end" class="d" font-size="8">rev 2.4.6 // last_push 07-20</text>
+
+  <text x="36" y="330" class="d" font-size="8" letter-spacing="2">FLAGSHIP // HIGHEST_STAR RATING</text>
+  <text x="1064" y="330" text-anchor="end" class="d" font-size="8" letter-spacing="2">vercel // MONGO // EXPRESS</text>
+</svg>

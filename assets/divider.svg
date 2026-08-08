@@ -40,5 +40,5 @@
   <circle cx="550" cy="55" r="3" fill="#63E6FF">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="550" y="96" text-anchor="middle" fill="#484f58" font-size="8" letter-spacing="2" opacity="0.9">NAM5 // CONTINUUM</text>
+  <text x="550" y="96" text-anchor="middle" fill="#484f58" font-size="8" letter-spacing="2" opacity="0.9">N5 // CONTINUUM</text>
 </svg>

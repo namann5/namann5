@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 430" width="1100" height="430">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#F5F7FA; } .r { fill:#FF304F; } .b { fill:#2388FF; } .c { fill:#6DE7FF; } .g { fill:#39FF88; } .m { fill:#8B949E; } .d { fill:#3D4654; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/><line x1="0" y1="3" x2="6" y2="3" stroke="#6DE7FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="430" fill="#05060A"/>
+  <rect width="1100" height="430" fill="url(#scan)"/>
+  <rect x="10" y="10" width="1080" height="410" fill="none" stroke="#141923" stroke-width="1.2"/>
+  <path d="M24 28 V18 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 28 V18 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M24 402 V412 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 402 V412 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[SYS/01]</text>
+  <text x="112" y="46" class="w" font-size="13" letter-spacing="4">WHOAMI // TERMINAL</text>
+  <text x="1040" y="46" text-anchor="end" class="m" font-size="11">~/namann5/whoami</text>
+  <circle cx="1054" cy="42" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <rect x="36" y="90" width="620" height="300" rx="8" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+  <rect x="36" y="90" width="620" height="30" rx="8" fill="#0D111A"/>
+  <circle cx="56" cy="105" r="4" fill="#FF304F"/>
+  <circle cx="72" cy="105" r="4" fill="#2388FF"/>
+  <circle cx="88" cy="105" r="4" fill="#39FF88"/>
+  <text x="104" y="110" class="m" font-size="10">n5-terminal — bash</text>
+  <text x="640" y="110" text-anchor="end" class="d" font-size="9">MEM 64%</text>
+
+  <g font-size="14">
+    <text x="56" y="140" class="w">
+      root@naman:~$
+      <tspan fill="#FF304F"> █<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
+    </text>
+    <text x="56" y="172" class="g">$ whoami</text>
+    <text x="56" y="200" class="w" font-weight="700" letter-spacing="2">NAMAN SINGH</text>
+    <text x="56" y="232" class="g">$ role</text>
+    <text x="56" y="260" class="w" letter-spacing="2">FULL STACK DEVELOPER</text>
+    <text x="56" y="292" class="g">$ focus</text>
+    <text x="56" y="320" class="w" letter-spacing="2">BACKEND // SYSTEMS // OSS</text>
+    <text x="56" y="352" class="g">$ status</text>
+    <text x="56" y="380" class="g" font-weight="700">
+      BUILDING...
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g>
+    <rect x="690" y="90" width="374" height="142" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <text x="708" y="116" class="d" font-size="9" letter-spacing="3">PROCESS_METADATA</text>
+    <text x="708" y="148" class="m" font-size="11" letter-spacing="1">PID</text>
+    <text x="798" y="148" class="w" font-size="13" font-weight="700">N5-01</text>
+    <line x1="708" y1="160" x2="1046" y2="160" stroke="#141923" stroke-width="1"/>
+    <text x="708" y="184" class="m" font-size="11" letter-spacing="1">MEM</text>
+    <text x="798" y="184" class="w" font-size="13" font-weight="700">64%</text>
+    <line x1="708" y1="196" x2="1046" y2="196" stroke="#141923" stroke-width="1"/>
+    <text x="708" y="220" class="m" font-size="11" letter-spacing="1">CPU</text>
+    <text x="798" y="220" class="g" font-size="13" font-weight="700">ACTIVE</text>
+
+    <rect x="690" y="248" width="374" height="142" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <text x="708" y="274" class="d" font-size="9" letter-spacing="3">HOST_SIGNATURE</text>
+    <text x="708" y="304" class="m" font-size="11" letter-spacing="1">NET</text>
+    <text x="798" y="304" class="g" font-size="13" font-weight="700">CONNECTED</text>
+    <line x1="708" y1="316" x2="1046" y2="316" stroke="#141923" stroke-width="1"/>
+    <text x="708" y="340" class="m" font-size="11" letter-spacing="1">TZ</text>
+    <text x="798" y="340" class="w" font-size="13" font-weight="700">UTC+05:30</text>
+    <line x1="708" y1="352" x2="1046" y2="352" stroke="#141923" stroke-width="1"/>
+    <text x="708" y="376" class="m" font-size="11" letter-spacing="1">SINCE</text>
+    <text x="798" y="376" class="w" font-size="13" font-weight="700">05.2025</text>
+  </g>
+
+  <text x="36" y="420" class="d" font-size="8" letter-spacing="2">N5-OS // WHOAMI_QUERY</text>
+  <text x="1064" y="420" text-anchor="end" class="d" font-size="8" letter-spacing="2">PID N5-01 // RESPONSE_OK</text>
+</svg>

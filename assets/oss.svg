@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 430" width="1100" height="430">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#F5F7FA; } .r { fill:#FF304F; } .b { fill:#2388FF; } .c { fill:#6DE7FF; } .g { fill:#39FF88; } .m { fill:#8B949E; } .d { fill:#3D4654; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/><line x1="0" y1="3" x2="6" y2="3" stroke="#6DE7FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="430" fill="#05060A"/>
+  <rect width="1100" height="430" fill="url(#scan)"/>
+  <rect x="10" y="10" width="1080" height="410" fill="none" stroke="#141923" stroke-width="1.2"/>
+  <path d="M24 28 V18 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 28 V18 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M24 402 V412 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 402 V412 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[SYS/07]</text>
+  <text x="112" y="46" class="w" font-size="13" letter-spacing="4">OPEN_SOURCE</text>
+  <text x="330" y="46" class="m" font-size="11" letter-spacing="2">// MISSION_LOG</text>
+  <text x="1040" y="46" text-anchor="end" class="m" font-size="11">~/namann5/oss</text>
+  <circle cx="1054" cy="42" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <g>
+    <rect x="36" y="90" width="624" height="44" rx="5" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="52" y="106" width="16" height="12" rx="2" fill="none" stroke="#39FF88" stroke-width="1.6"/><path d="M55 112 L59 116 L65 108" stroke="#39FF88" stroke-width="1.6" fill="none"/>
+    <text x="82" y="117" class="w" font-size="12" letter-spacing="1">CONTRIBUTION // ROCKET.CHAT</text>
+    <text x="380" y="117" class="m" font-size="10">secure comms platform</text>
+    <text x="644" y="117" text-anchor="end" class="d" font-size="9">2026</text>
+
+    <rect x="36" y="142" width="624" height="44" rx="5" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="52" y="158" width="16" height="12" rx="2" fill="none" stroke="#39FF88" stroke-width="1.6"/><path d="M55 164 L59 168 L65 160" stroke="#39FF88" stroke-width="1.6" fill="none"/>
+    <text x="82" y="169" class="w" font-size="12" letter-spacing="1">PR MERGED // PULL SHARK ×3</text>
+    <text x="380" y="169" class="m" font-size="10">github achievement</text>
+    <text x="644" y="169" text-anchor="end" class="g" font-size="9">EARNED</text>
+
+    <rect x="36" y="194" width="624" height="44" rx="5" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="52" y="210" width="16" height="12" rx="2" fill="none" stroke="#39FF88" stroke-width="1.6"/><path d="M55 216 L59 220 L65 212" stroke="#39FF88" stroke-width="1.6" fill="none"/>
+    <text x="82" y="221" class="w" font-size="12" letter-spacing="1">QUICKDRAW // PR MERGED &lt; 5 MIN</text>
+    <text x="380" y="221" class="m" font-size="10">fast merge badge</text>
+    <text x="644" y="221" text-anchor="end" class="g" font-size="9">EARNED</text>
+
+    <rect x="36" y="246" width="624" height="44" rx="5" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="52" y="262" width="16" height="12" rx="2" fill="none" stroke="#39FF88" stroke-width="1.6"/><path d="M55 268 L59 272 L65 264" stroke="#39FF88" stroke-width="1.6" fill="none"/>
+    <text x="82" y="273" class="w" font-size="12" letter-spacing="1">YOLO // MERGED WITHOUT REVIEW</text>
+    <text x="380" y="273" class="m" font-size="10">send-it energy</text>
+    <text x="644" y="273" text-anchor="end" class="g" font-size="9">EARNED</text>
+
+    <rect x="36" y="298" width="624" height="44" rx="5" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+    <rect x="52" y="314" width="16" height="12" rx="2" fill="none" stroke="#39FF88" stroke-width="1.6"/><path d="M55 320 L59 324 L65 316" stroke="#39FF88" stroke-width="1.6" fill="none"/>
+    <text x="82" y="325" class="w" font-size="12" letter-spacing="1">OSS BRANCH // 16 FORKS ACTIVE</text>
+    <text x="380" y="325" class="m" font-size="10">open source exposure</text>
+    <text x="644" y="325" text-anchor="end" class="d" font-size="9">ONGOING</text>
+
+    <rect x="36" y="350" width="624" height="44" rx="5" fill="#0A0E16" stroke="#1C2433" stroke-width="1.2"/>
+    <path d="M55 366 L62 373 L55 380 L57 377 L62 373 L57 369 Z" fill="#6DE7FF"/>
+    <text x="82" y="377" class="c" font-size="12" letter-spacing="1">NEXT // BUILD MORE IN PUBLIC</text>
+    <text x="380" y="377" class="m" font-size="10">
+      mission queued
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </text>
+    <text x="644" y="377" text-anchor="end" class="c" font-size="9">IN PROGRESS</text>
+  </g>
+
+  <rect x="676" y="90" width="388" height="304" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+  <text x="696" y="116" class="d" font-size="9" letter-spacing="3">OSS_STATS // SYNCED</text>
+  <g>
+    <text x="696" y="152" class="m" font-size="11" letter-spacing="1">FORKS</text>
+    <text x="804" y="156" class="c" font-size="22" font-weight="700">16</text>
+    <line x1="696" y1="166" x2="1044" y2="166" stroke="#141923" stroke-width="1"/>
+    <text x="696" y="194" class="m" font-size="11" letter-spacing="1">PRs MERGED</text>
+    <text x="804" y="198" class="g" font-size="22" font-weight="700">3+</text>
+    <line x1="696" y1="208" x2="1044" y2="208" stroke="#141923" stroke-width="1"/>
+    <text x="696" y="236" class="m" font-size="11" letter-spacing="1">STACKS CONTRIBUTED</text>
+    <text x="804" y="240" class="b" font-size="22" font-weight="700">5</text>
+    <line x1="696" y1="252" x2="1044" y2="252" stroke="#141923" stroke-width="1"/>
+    <text x="696" y="280" class="m" font-size="11" letter-spacing="1">CONTRIBUTION BAND</text>
+    <text x="1044" y="280" text-anchor="end" class="g" font-size="11" font-weight="700">LIVE</text>
+    <rect x="696" y="292" width="348" height="12" rx="3" fill="#0D111A" stroke="#1C2433"/>
+    <rect x="698" y="294" width="330" height="8" rx="2" fill="#39FF88" opacity="0.85"/>
+    <text x="696" y="332" class="m" font-size="10" letter-spacing="1">TOP BRANCHES</text>
+    <text x="696" y="354" class="w" font-size="10">Rocket.Chat</text>
+    <text x="1044" y="354" text-anchor="end" class="w" font-size="10">MergeShip</text>
+    <text x="696" y="374" class="w" font-size="10">SecuScan</text>
+    <text x="1044" y="374" text-anchor="end" class="w" font-size="10">HELPDESK.AI</text>
+  </g>
+
+  <text x="36" y="420" class="d" font-size="8" letter-spacing="2">MISSION_LOG // REAL ACHIEVEMENTS ONLY</text>
+  <text x="1064" y="420" text-anchor="end" class="d" font-size="8" letter-spacing="2">PULL_SHARK // QUICKDRAW // YOLO</text>
+</svg>

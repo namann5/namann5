@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 460" width="1100" height="460">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#F5F7FA; } .r { fill:#FF304F; } .b { fill:#2388FF; } .c { fill:#6DE7FF; } .g { fill:#39FF88; } .m { fill:#8B949E; } .d { fill:#3D4654; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/><stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/><stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/><line x1="0" y1="3" x2="6" y2="3" stroke="#6DE7FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="460" fill="#05060A"/>
+  <rect width="1100" height="460" fill="url(#scan)"/>
+  <rect x="10" y="10" width="1080" height="440" fill="none" stroke="#141923" stroke-width="1.2"/>
+  <path d="M24 28 V18 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 28 V18 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M24 432 V442 H34" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1076 432 V442 H1066" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[SYS/08]</text>
+  <text x="112" y="46" class="w" font-size="13" letter-spacing="4">GITHUB // ACTIVITY_STREAM</text>
+  <text x="1040" y="46" text-anchor="end" class="m" font-size="11">~/namann5/logs</text>
+  <circle cx="1054" cy="42" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <rect x="36" y="90" width="644" height="310" rx="8" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+  <rect x="36" y="90" width="644" height="30" rx="8" fill="#0D111A"/>
+  <circle cx="56" cy="105" r="4" fill="#FF304F"/><circle cx="72" cy="105" r="4" fill="#2388FF"/><circle cx="88" cy="105" r="4" fill="#39FF88"/>
+  <text x="104" y="110" class="m" font-size="10">activity-stream — tail -f /dev/github</text>
+  <text x="664" y="110" text-anchor="end" class="d" font-size="9">UTC+05:30</text>
+
+  <g font-size="12">
+    <text x="56" y="146" class="c">[08-08 16:48]</text><text x="196" y="146" class="g">PUSH</text><text x="250" y="146" class="w">→ namann5</text><text x="380" y="146" class="m">profile repo</text>
+    <text x="56" y="180" class="c">[08-08 15:09]</text><text x="196" y="180" class="g">PUSH</text><text x="250" y="180" class="w">→ LeetCode</text><text x="380" y="180" class="m">DSA // Java</text>
+    <text x="56" y="214" class="c">[07-28 11:08]</text><text x="196" y="214" class="g">PUSH</text><text x="250" y="214" class="w">→ UpiWithoutInternet</text><text x="470" y="214" class="m">Java</text>
+    <text x="56" y="248" class="c">[07-20 23:13]</text><text x="196" y="248" class="g">PUSH</text><text x="250" y="248" class="w">→ Ai_deepfake</text><text x="380" y="248" class="m">Node.js</text><text x="520" y="248" class="w">★</text>
+    <text x="56" y="282" class="c">[07-08 00:00]</text><text x="196" y="282" class="g">PUSH</text><text x="250" y="282" class="w">→ autonomous-driving</text><text x="470" y="282" class="m">Python</text>
+    <text x="56" y="316" class="c">[04-15 20:50]</text><text x="196" y="316" class="g">PUSH</text><text x="250" y="316" class="w">→ Anime-muesuem</text><text x="430" y="316" class="m">JS // web</text>
+    <text x="56" y="350" class="c">[03-15 19:47]</text><text x="196" y="350" class="g">PUSH</text><text x="250" y="350" class="w">→ Ai_Customer_Service</text><text x="470" y="350" class="m">AI</text>
+    <text x="56" y="384" class="d">root@namann5:~$</text><text x="160" y="384" class="r">█<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></text>
+  </g>
+
+  <rect x="700" y="90" width="364" height="310" rx="6" fill="#080B12" stroke="#1C2433" stroke-width="1.2"/>
+  <text x="720" y="116" class="d" font-size="9" letter-spacing="3">STREAM_STATS</text>
+  <g>
+    <rect x="720" y="134" width="160" height="70" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="736" y="158" class="d" font-size="8">REPOS</text><text x="736" y="190" class="r" font-size="24" font-weight="700">28</text>
+    <rect x="892" y="134" width="160" height="70" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="908" y="158" class="d" font-size="8">OWN</text><text x="908" y="190" class="c" font-size="24" font-weight="700">12</text>
+    <rect x="720" y="216" width="160" height="70" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="736" y="240" class="d" font-size="8">TOP RATING</text><text x="736" y="272" class="b" font-size="24" font-weight="700">3★</text>
+    <rect x="892" y="216" width="160" height="70" rx="5" fill="#0D111A" stroke="#1C2433"/><text x="908" y="240" class="d" font-size="8">LAST SYNC</text><text x="908" y="272" class="g" font-size="18" font-weight="700">08-08</text>
+  </g>
+  <line x1="720" y1="308" x2="1044" y2="308" stroke="#141923" stroke-width="1"/>
+  <text x="720" y="334" class="m" font-size="10" letter-spacing="1">STREAM STATUS</text>
+  <circle cx="820" cy="330" r="3" fill="#39FF88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <text x="832" y="334" class="g" font-size="11" font-weight="700">LIVE</text>
+  <text x="720" y="360" class="d" font-size="9">SOURCE: REAL PUSH EVENTS // GITHUB API</text>
+  <text x="720" y="382" class="d" font-size="9">NO FABRICATED ACTIVITY</text>
+
+  <text x="36" y="444" class="d" font-size="8" letter-spacing="2">LOG_TAIL // LAST 7 EVENTS</text>
+  <text x="1064" y="444" text-anchor="end" class="d" font-size="8" letter-spacing="2">TZ: UTC+05:30</text>
+</svg>
