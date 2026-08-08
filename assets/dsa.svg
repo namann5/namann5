@@ -1,0 +1,202 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" width="1100" height="680">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @keyframes pu { 0%,100% { opacity:.3; } 50% { opacity:1; } }
+      @keyframes bl { 0%,55% { opacity:1; } 56%,100% { opacity:0; } }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      text { font-family:'Segoe UI',system-ui,-apple-system,sans-serif; }
+      .m { font-family:'Cascadia Code','SF Mono',Consolas,'Courier New',monospace; }
+      .fade { opacity:0; animation:fadeIn .4s ease-out both; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="60%" stop-color="#E63946" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#E63946" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="redG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A8DADC"/>
+    </linearGradient>
+    <linearGradient id="cardHi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A8DADC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A8DADC" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#A8DADC" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#A8DADC" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+    <clipPath id="panelClip">
+      <rect x="16" y="16" width="1068" height="648"/>
+    </clipPath>
+  </defs>
+  <rect width="1100" height="680" fill="#070910"/>
+
+  <g>
+    <rect x="15" y="15" width="1070" height="650" fill="none" stroke="#E63946" stroke-width="2" opacity="0.05"/>
+    <rect x="16" y="16" width="1068" height="648" fill="none" stroke="#1c2233" stroke-width="1.2"/>
+    <path d="M30 38 H46 M30 38 V22" stroke="#E63946" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M1070 38 H1054 M1070 38 V22" stroke="#E63946" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M30 662 H46 M30 662 V678" stroke="#E63946" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M1070 662 H1054 M1070 662 V678" stroke="#E63946" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+
+  <g clip-path="url(#panelClip)">
+    <rect width="1100" height="680" fill="url(#scan)" opacity="0.5"/>
+    <rect width="1100" height="3" fill="url(#beamG)" opacity="0.3">
+      <animate attributeName="y" values="30;640;30" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="982" y="620" class="m" font-size="150" font-weight="700" fill="#E63946" opacity="0.045">04</text>
+
+  <g class="m">
+    <text x="38" y="52" font-size="13" fill="#E63946">[##]</text>
+    <text x="70" y="52" font-size="15" letter-spacing="4" fill="#E6EDF3">TRAINING ARC</text>
+    <text x="1040" y="52" text-anchor="end" font-size="10" fill="#8B949E">~/namann5/dsa</text>
+    <circle cx="1058" cy="48" r="3" fill="#3FB950" style="animation:pu 1.6s ease-in-out infinite"/>
+    <text x="1070" y="52" text-anchor="end" font-size="8" fill="#3FB950" letter-spacing="1">OP::ONLINE</text>
+  </g>
+  <line x1="36" y1="66" x2="1064" y2="66" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <g class="m">
+    <rect x="40" y="84" width="420" height="220" rx="6" fill="#000" opacity="0.35" transform="translate(6,7)"/>
+    <rect x="40" y="84" width="420" height="220" rx="6" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="40" y="84" width="420" height="4" rx="2" fill="url(#redG)"/>
+    <rect x="40" y="84" width="420" height="220" rx="6" fill="url(#cardHi)"/>
+    <path d="M52 96 H64 M52 96 V84" stroke="#E63946" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <circle cx="200" cy="170" r="80" fill="none" stroke="#1c2233" stroke-width="11"/>
+    <circle cx="200" cy="170" r="80" fill="none" stroke="#0e1322" stroke-width="11" stroke-dasharray="502" stroke-dashoffset="165" transform="rotate(-90 200 170)"/>
+    <circle cx="200" cy="170" r="80" fill="none" stroke="url(#redG)" stroke-width="11" stroke-dasharray="502" stroke-dashoffset="502" transform="rotate(-90 200 170)">
+      <animate attributeName="stroke-dashoffset" from="502" to="165" dur="1.4s" fill="freeze" begin="0.3s"/>
+    </circle>
+    <text x="200" y="165" text-anchor="middle" font-size="26" font-weight="700" fill="#FF6B6B">450+</text>
+    <text x="200" y="190" text-anchor="middle" font-size="9" fill="#8B949E" letter-spacing="2">SOLVED</text>
+    <text x="330" y="150" font-size="10" fill="#8B949E">LEETCODE + GFG</text>
+    <text x="330" y="176" font-size="9" fill="#484f58">grind daily_</text>
+    <rect x="260" y="216" width="140" height="22" rx="4" fill="#1a0f14" stroke="#E63946" stroke-width="0.8"/>
+    <text x="330" y="231" font-size="9" fill="#FF6B6B" text-anchor="middle">ARC 82% COMPLETE</text>
+    <circle cx="330" cy="264" r="3" fill="#E63946" style="animation:pu 1.8s ease-in-out infinite"/>
+  </g>
+
+  <g class="m">
+    <rect x="480" y="84" width="144" height="100" rx="4" fill="#000" opacity="0.35" transform="translate(4,5)"/>
+    <rect x="480" y="84" width="144" height="100" rx="4" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="480" y="84" width="144" height="3" rx="1.5" fill="#3FB950"/>
+    <text x="552" y="130" text-anchor="middle" font-size="22" font-weight="700" fill="#3FB950">42d</text>
+    <text x="552" y="154" text-anchor="middle" font-size="9" fill="#8B949E" letter-spacing="1">STREAK</text>
+  </g>
+  <g class="m">
+    <rect x="640" y="84" width="144" height="100" rx="4" fill="#000" opacity="0.35" transform="translate(4,5)"/>
+    <rect x="640" y="84" width="144" height="100" rx="4" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="640" y="84" width="144" height="3" rx="1.5" fill="#E63946"/>
+    <text x="712" y="130" text-anchor="middle" font-size="22" font-weight="700" fill="#FF6B6B">1700</text>
+    <text x="712" y="154" text-anchor="middle" font-size="9" fill="#8B949E" letter-spacing="1">RATING</text>
+  </g>
+  <g class="m">
+    <rect x="800" y="84" width="144" height="100" rx="4" fill="#000" opacity="0.35" transform="translate(4,5)"/>
+    <rect x="800" y="84" width="144" height="100" rx="4" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="800" y="84" width="144" height="3" rx="1.5" fill="#3B82F6"/>
+    <text x="872" y="130" text-anchor="middle" font-size="22" font-weight="700" fill="#3B82F6">Go/TS</text>
+    <text x="872" y="154" text-anchor="middle" font-size="9" fill="#8B949E" letter-spacing="1">PRIMARY LANG</text>
+  </g>
+  <g class="m">
+    <rect x="960" y="84" width="100" height="100" rx="4" fill="#000" opacity="0.35" transform="translate(4,5)"/>
+    <rect x="960" y="84" width="100" height="100" rx="4" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="960" y="84" width="100" height="3" rx="1.5" fill="#A8DADC"/>
+    <text x="1010" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#A8DADC">68%</text>
+    <text x="1010" y="154" text-anchor="middle" font-size="9" fill="#8B949E" letter-spacing="1">GFG GRADE</text>
+  </g>
+
+  <g class="m">
+    <rect x="480" y="200" width="580" height="104" rx="6" fill="#000" opacity="0.35" transform="translate(6,7)"/>
+    <rect x="480" y="200" width="580" height="104" rx="6" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="480" y="200" width="580" height="4" rx="2" fill="url(#blueG)"/>
+    <rect x="480" y="200" width="580" height="104" rx="6" fill="url(#cardHi)"/>
+    <text x="504" y="232" font-size="11" letter-spacing="2" fill="#8B949E">FOCUS NOW // <tspan fill="#3B82F6">GRAPHS + DP</tspan></text>
+    <text x="504" y="262" font-size="10" fill="#A8DADC">graph traversals, DP state machines, segment trees,</text>
+    <text x="504" y="282" font-size="10" fill="#A8DADC">and real system-design tradeoffs.</text>
+    <text x="504" y="296" font-size="9" fill="#484f58">&gt; next: leetcode 743 <tspan fill="#E63946">_</tspan></text>
+  </g>
+
+  <path id="arcPath" d="M100 440 L1010 440" fill="none" stroke="url(#blueG)" stroke-width="2" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" values="0;112;0" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <circle r="4" fill="#FF6B6B">
+    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#arcPath"/>
+    </animateMotion>
+  </circle>
+
+  <g class="m" font-size="9">
+    <g>
+      <circle cx="100" cy="440" r="6" fill="#0e1322" stroke="#3FB950" stroke-width="1.6"/>
+      <text x="100" y="420" text-anchor="middle" fill="#3FB950">DONE âœ“</text>
+      <text x="100" y="476" text-anchor="middle" fill="#E6EDF3">ARRAYS</text>
+      <text x="100" y="492" text-anchor="middle" fill="#484f58">two-pointer</text>
+    </g>
+    <g>
+      <circle cx="251" cy="440" r="6" fill="#0e1322" stroke="#3FB950" stroke-width="1.6"/>
+      <text x="251" y="420" text-anchor="middle" fill="#3FB950">DONE âœ“</text>
+      <text x="251" y="476" text-anchor="middle" fill="#E6EDF3">HASHMAPS</text>
+      <text x="251" y="492" text-anchor="middle" fill="#484f58">frequency</text>
+    </g>
+    <g>
+      <circle cx="402" cy="440" r="6" fill="#0e1322" stroke="#3FB950" stroke-width="1.6"/>
+      <text x="402" y="420" text-anchor="middle" fill="#3FB950">DONE âœ“</text>
+      <text x="402" y="476" text-anchor="middle" fill="#E6EDF3">STACK/QUEUE</text>
+      <text x="402" y="492" text-anchor="middle" fill="#484f58">monotonic</text>
+    </g>
+    <g>
+      <circle cx="553" cy="440" r="6" fill="#0e1322" stroke="#3FB950" stroke-width="1.6"/>
+      <text x="553" y="420" text-anchor="middle" fill="#3FB950">DONE âœ“</text>
+      <text x="553" y="476" text-anchor="middle" fill="#E6EDF3">TREES</text>
+      <text x="553" y="492" text-anchor="middle" fill="#484f58">BST + trie</text>
+    </g>
+    <g>
+      <circle cx="704" cy="440" r="6" fill="#0e1322" stroke="#3FB950" stroke-width="1.6"/>
+      <text x="704" y="420" text-anchor="middle" fill="#3FB950">DONE âœ“</text>
+      <text x="704" y="476" text-anchor="middle" fill="#E6EDF3">GRAPHS</text>
+      <text x="704" y="492" text-anchor="middle" fill="#484f58">bfs / dij</text>
+    </g>
+    <g>
+      <circle cx="855" cy="440" r="7" fill="#1a0f14" stroke="#E63946" stroke-width="2" style="animation:pu 2s ease-in-out infinite"/>
+      <text x="855" y="416" text-anchor="middle" fill="#FF6B6B">ACTIVE</text>
+      <text x="855" y="476" text-anchor="middle" fill="#E6EDF3">DYNAMIC PROG</text>
+      <text x="855" y="492" text-anchor="middle" fill="#484f58">DP states</text>
+    </g>
+    <g>
+      <circle cx="1006" cy="440" r="6" fill="#0e1422" stroke="#3B82F6" stroke-width="1.6"/>
+      <text x="1006" y="420" text-anchor="middle" fill="#3B82F6">NEXT</text>
+      <text x="1006" y="476" text-anchor="middle" fill="#E6EDF3">SYS DESIGN</text>
+      <text x="1006" y="492" text-anchor="middle" fill="#484f58">scale patterns</text>
+    </g>
+  </g>
+
+  <g class="m">
+    <rect x="40" y="540" width="1020" height="86" rx="6" fill="#000" opacity="0.35" transform="translate(5,6)"/>
+    <rect x="40" y="540" width="1020" height="86" rx="6" fill="#0b0e17" stroke="#1c2233"/>
+    <rect x="40" y="540" width="1020" height="4" rx="2" fill="url(#redG)"/>
+    <rect x="40" y="540" width="1020" height="86" rx="6" fill="url(#cardHi)"/>
+    <text x="64" y="576" font-size="11" letter-spacing="2" fill="#8B949E">ARC COMPLETION // <tspan fill="#FF6B6B">82%</tspan></text>
+    <rect x="200" y="566" width="740" height="9" rx="4.5" fill="#0e1322" stroke="#1c2233"/>
+    <rect x="200" y="566" width="0" height="9" rx="4.5" fill="url(#redG)">
+      <animate attributeName="width" from="0" to="607" dur="1.4s" fill="freeze" begin="0.4s"/>
+    </rect>
+    <circle cx="807" cy="570" r="5" fill="#FF8A8A">
+      <animate attributeName="cx" values="200;807;200" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="64" y="610" font-size="9" fill="#484f58">TRACKING 6/7 MAJOR TOPICS &#183; RECHECKING DASHBOARD DAILY</text>
+  </g>
+
+  <text x="40" y="672" class="m" font-size="8" fill="#484f58">NAM5//DSA</text>
+  <text x="1060" y="672" class="m" font-size="8" fill="#484f58" text-anchor="end">LEVELING UP</text>
+</svg>
