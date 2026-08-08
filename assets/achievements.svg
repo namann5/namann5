@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 440" width="1100" height="440">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#E6EDF3; }
+      .r { fill:#FF304F; }
+      .b { fill:#2196FF; }
+      .c { fill:#63E6FF; }
+      .g { fill:#8B949E; }
+      .d { fill:#3D4654; }
+      .gr { fill:#3FB950; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/>
+      <stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2196FF"/>
+      <stop offset="100%" stop-color="#2196FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#63E6FF" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    <clipPath id="panelClip"><rect x="16" y="16" width="1068" height="408"/></clipPath>
+  </defs>
+
+  <rect width="1100" height="440" fill="#05060A"/>
+  <g clip-path="url(#panelClip)">
+    <rect width="1100" height="440" fill="url(#scan)"/>
+    <rect width="1100" height="3" fill="url(#blueG)" opacity="0.3">
+      <animate attributeName="y" values="20;420;20" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="15" y="15" width="1070" height="410" fill="none" stroke="#1C2433" stroke-width="1.2"/>
+  <path d="M30 38 H46 M30 38 V22" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1070 38 H1054 M1070 38 V22" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M30 422 H46 M30 422 V438" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1070 422 H1054 M1070 422 V438" stroke="#FF304F" stroke-width="2" fill="none"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[S6]</text>
+  <text x="82" y="46" class="w" font-size="13" letter-spacing="4">ACHIEVEMENT_UNLOCKED</text>
+  <text x="1040" y="46" text-anchor="end" class="g" font-size="11">~/namann5/achievements --real</text>
+  <circle cx="1054" cy="42" r="3" fill="#3FB950">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <text x="982" y="382" class="r" font-size="150" font-weight="700" opacity="0.04">06</text>
+
+  <g class="ach" font-size="9">
+    <g>
+      <rect x="40" y="84" width="326" height="150" rx="6" fill="#080B12" stroke="#1C2433"/>
+      <rect x="40" y="84" width="326" height="4" rx="2" fill="#FF304F"/>
+      <path d="M68 128 L84 112 L100 128 L84 144 Z" fill="#0a0d14" stroke="#FF304F" stroke-width="1.2"/>
+      <path d="M84 118 L92 128 L84 138 L76 128 Z" fill="#FF304F"/>
+      <text x="118" y="124" class="w" font-size="13" font-weight="700">FIRST_DEPLOY</text>
+      <text x="118" y="142" class="gr" font-size="8" letter-spacing="1">UNLOCKED</text>
+      <text x="56" y="176" class="g" font-size="9">9 projects pushed live &#8212; vercel took the</text>
+      <text x="56" y="190" class="g" font-size="9">hits, the semicolons took the blame.</text>
+      <text x="56" y="214" class="d" font-size="8">// secuscan.in &#8226; mergeship.vercel.app &#8230;</text>
+    </g>
+    <g>
+      <rect x="387" y="84" width="326" height="150" rx="6" fill="#080B12" stroke="#1C2433"/>
+      <rect x="387" y="84" width="326" height="4" rx="2" fill="#3FB950"/>
+      <path d="M415 128 L431 112 L447 128 L431 144 Z" fill="#0a0d14" stroke="#3FB950" stroke-width="1.2"/>
+      <path d="M431 118 L439 128 L431 138 L423 128 Z" fill="#3FB950"/>
+      <text x="465" y="124" class="w" font-size="13" font-weight="700">CONTRIBUTOR_STREAM</text>
+      <text x="465" y="142" class="gr" font-size="8" letter-spacing="1">UNLOCKED</text>
+      <text x="403" y="176" class="g" font-size="9">1,317 contributions in the last year.</text>
+      <text x="403" y="190" class="g" font-size="9">the grid stays lit. no cap.</text>
+      <text x="403" y="214" class="d" font-size="8">// measured 2026-08-08 &#8226; streak sustained</text>
+    </g>
+    <g>
+      <rect x="734" y="84" width="326" height="150" rx="6" fill="#080B12" stroke="#1C2433"/>
+      <rect x="734" y="84" width="326" height="4" rx="2" fill="#2196FF"/>
+      <path d="M762 128 L778 112 L794 128 L778 144 Z" fill="#0a0d14" stroke="#2196FF" stroke-width="1.2"/>
+      <path d="M778 118 L786 128 L778 138 L770 128 Z" fill="#2196FF"/>
+      <text x="812" y="124" class="w" font-size="13" font-weight="700">MODULE_ARCHITECT</text>
+      <text x="812" y="142" class="gr" font-size="8" letter-spacing="1">UNLOCKED</text>
+      <text x="750" y="176" class="g" font-size="9">28 public repositories, each one a</text>
+      <text x="750" y="190" class="g" font-size="9">little panic attack in production.</text>
+      <text x="750" y="214" class="d" font-size="8">// all of them from 2025-05-14 onward</text>
+    </g>
+    <g>
+      <rect x="40" y="254" width="326" height="150" rx="6" fill="#080B12" stroke="#1C2433"/>
+      <rect x="40" y="254" width="326" height="4" rx="2" fill="#63E6FF"/>
+      <path d="M68 298 L84 282 L100 298 L84 314 Z" fill="#0a0d14" stroke="#63E6FF" stroke-width="1.2"/>
+      <path d="M84 288 L92 298 L84 308 L76 298 Z" fill="#63E6FF"/>
+      <text x="118" y="294" class="w" font-size="13" font-weight="700">SIGNAL_BOOST</text>
+      <text x="118" y="312" class="gr" font-size="8" letter-spacing="1">UNLOCKED</text>
+      <text x="56" y="346" class="g" font-size="9">80 followers on the grid &#8212; the feed</text>
+      <text x="56" y="360" class="g" font-size="9">reads me more than my tests do.</text>
+      <text x="56" y="384" class="d" font-size="8">// thanks for tuning in</text>
+    </g>
+    <g>
+      <rect x="387" y="254" width="326" height="150" rx="6" fill="#080B12" stroke="#1C2433"/>
+      <rect x="387" y="254" width="326" height="4" rx="2" fill="#FF6B6B"/>
+      <path d="M415 298 L431 282 L447 298 L431 314 Z" fill="#0a0d14" stroke="#FF6B6B" stroke-width="1.2"/>
+      <path d="M431 288 L439 298 L431 308 L423 298 Z" fill="#FF6B6B"/>
+      <text x="465" y="294" class="w" font-size="13" font-weight="700">FORK_WARRIOR</text>
+      <text x="465" y="312" class="gr" font-size="8" letter-spacing="1">UNLOCKED</text>
+      <text x="403" y="346" class="g" font-size="9">forked Rocket.Chat &#8212; went swimming</text>
+      <text x="403" y="360" class="g" font-size="9">in 22M lines of TypeScript. still alive.</text>
+      <text x="403" y="384" class="d" font-size="8">// plus noctratech-web, technoctra</text>
+    </g>
+    <g>
+      <rect x="734" y="254" width="326" height="150" rx="6" fill="#080B12" stroke="#2a3345"/>
+      <rect x="734" y="254" width="326" height="4" rx="2" fill="#3D4654"/>
+      <path d="M762 298 L778 282 L794 298 L778 314 Z" fill="#0a0d14" stroke="#3D4654" stroke-width="1.2"/>
+      <path d="M778 288 L786 298 L778 308 L770 298 Z" fill="#3D4654"/>
+      <text x="812" y="294" class="d" font-size="13" font-weight="700">ACHIEVEMENT_LOCKED</text>
+      <text x="812" y="312" class="d" font-size="8" letter-spacing="1">???</text>
+      <text x="750" y="346" class="g" font-size="9">encrypted. still deploying.</text>
+      <text x="750" y="360" class="g" font-size="9">next unlock in progress&#8230;</text>
+      <circle cx="840" cy="384" r="8" fill="none" stroke="#3D4654" stroke-width="1">
+        <animateTransform attributeName="transform" type="rotate" from="0 840 384" to="360 840 384" dur="2s" repeatCount="indefinite"/>
+        <path d="M848 384 A8 8 0 0 1 836 390" stroke="#FF304F" stroke-width="1.4" fill="none"/>
+      </circle>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 440" width="1100" height="440">
+  <defs>
+    <style type="text/css"><![CDATA[
+      text { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .w { fill:#E6EDF3; }
+      .r { fill:#FF304F; }
+      .b { fill:#2196FF; }
+      .c { fill:#63E6FF; }
+      .g { fill:#8B949E; }
+      .d { fill:#3D4654; }
+      .gr { fill:#3FB950; }
+    ]]></style>
+    <linearGradient id="topG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF304F"/>
+      <stop offset="55%" stop-color="#FF304F" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2196FF"/>
+      <stop offset="100%" stop-color="#2196FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cardHi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hexGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FF304F" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FF304F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="none"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#63E6FF" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    <clipPath id="panelClip"><rect x="16" y="16" width="1068" height="408"/></clipPath>
+  </defs>
+
+  <rect width="1100" height="440" fill="#05060A"/>
+  <g clip-path="url(#panelClip)">
+    <rect width="1100" height="440" fill="url(#scan)"/>
+    <rect width="1100" height="3" fill="url(#blueG)" opacity="0.3">
+      <animate attributeName="y" values="20;420;20" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="15" y="15" width="1070" height="410" fill="none" stroke="#1C2433" stroke-width="1.2"/>
+  <path d="M30 38 H46 M30 38 V22" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1070 38 H1054 M1070 38 V22" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M30 422 H46 M30 422 V438" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M1070 422 H1054 M1070 422 V438" stroke="#FF304F" stroke-width="2" fill="none"/>
+  <path d="M38 30 H24 M38 30 V44" stroke="#2196FF" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M1062 30 H1076 M1062 30 V44" stroke="#2196FF" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <text x="38" y="46" class="r" font-size="13" font-weight="700">[S1]</text>
+  <text x="82" y="46" class="w" font-size="13" letter-spacing="4">SYSTEM_STATUS</text>
+  <text x="1040" y="46" text-anchor="end" class="g" font-size="11">~/namann5/whoami</text>
+  <circle cx="1054" cy="42" r="3" fill="#3FB950">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="36" y1="60" x2="1064" y2="60" stroke="url(#topG)" stroke-width="1.4"/>
+
+  <text x="982" y="382" class="r" font-size="150" font-weight="700" opacity="0.04">01</text>
+
+  <g clip-path="url(#panelClip)">
+    <g>
+      <circle cx="150" cy="180" r="86" fill="url(#hexGlow)"/>
+      <path d="M150 96 L200 132 L200 228 L150 264 L100 228 L100 132 Z" fill="#080B12" stroke="#FF304F" stroke-width="1.6"/>
+      <path d="M150 96 L200 132 L200 228 L150 264 L100 228 L100 132 Z" fill="none" stroke="#2196FF" stroke-width="0.8" opacity="0.5" transform="translate(0,0)">
+        <animateTransform attributeName="transform" type="rotate" from="0 150 180" to="360 150 180" dur="24s" repeatCount="indefinite"/>
+      </path>
+      <text x="150" y="182" class="r" font-size="40" font-weight="700" text-anchor="middle">N5</text>
+      <text x="150" y="202" class="d" font-size="8" text-anchor="middle" letter-spacing="2">NODES:01</text>
+    </g>
+    <circle cx="60" cy="96" r="3" fill="#FF304F"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="100" r="3" fill="#63E6FF"><animate attributeName="opacity" values="0;1;0" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="286" r="3" fill="#2196FF"><animate attributeName="opacity" values="0;1;0" dur="3.3s" repeatCount="indefinite"/></circle>
+
+    <text x="260" y="120" class="w" font-size="30" font-weight="700">NAMAN SINGH</text>
+    <text x="260" y="144" class="c" font-size="12" letter-spacing="1">naman. fullstack. unhinged.</text>
+    <text x="260" y="170" class="g" font-size="11">&#9670; AGRA, UTTAR PRADESH &#8212; INDIA</text>
+    <text x="260" y="190" class="g" font-size="11">&#9670; bio: <tspan class="c">"craxyy stuff"</tspan> &#8212; my words, not mine.</text>
+    <text x="260" y="214" class="d" font-size="10">&#9670; node online since <tspan class="w">2025-05-14</tspan></text>
+
+    <g>
+      <rect x="260" y="232" width="128" height="26" rx="4" fill="#150a10" stroke="#FF304F" stroke-width="0.8"/>
+      <text x="272" y="249" class="r" font-size="9">FULLSTACK</text>
+      <rect x="396" y="232" width="96" height="26" rx="4" fill="#0a1420" stroke="#2196FF" stroke-width="0.8"/>
+      <text x="408" y="249" class="b" font-size="9">OPEN SOURCE</text>
+      <rect x="500" y="232" width="110" height="26" rx="4" fill="#0a1418" stroke="#63E6FF" stroke-width="0.8"/>
+      <text x="512" y="249" class="c" font-size="9">SYSTEM DESIGN</text>
+      <rect x="618" y="232" width="60" height="26" rx="4" fill="#150a10" stroke="#FF304F" stroke-width="0.8"/>
+      <text x="630" y="249" class="r" font-size="9">DSA</text>
+      <rect x="686" y="232" width="70" height="26" rx="4" fill="#0a1420" stroke="#2196FF" stroke-width="0.8"/>
+      <text x="698" y="249" class="b" font-size="9">BACKEND</text>
+    </g>
+
+    <line x1="260" y1="278" x2="1030" y2="278" stroke="#1C2433" stroke-width="1"/>
+    <text x="260" y="300" class="d" font-size="10">// uptime: building since 2025 &#8226; boot log below</text>
+
+    <rect x="260" y="318" width="770" height="90" rx="6" fill="#07090F" stroke="#1C2433"/>
+    <rect x="260" y="318" width="770" height="18" rx="6" fill="#0B0E16"/>
+    <circle cx="276" cy="327" r="3.5" fill="#FF304F"/>
+    <circle cx="290" cy="327" r="3.5" fill="#2196FF"/>
+    <circle cx="304" cy="327" r="3.5" fill="#63E6FF"/>
+    <text x="560" y="332" class="d" font-size="8" text-anchor="middle">naman@github: ~</text>
+    <text x="276" y="352" class="g" font-size="10">$ <tspan class="w">sudo systemctl status naman</tspan></text>
+    <text x="276" y="370" class="c" font-size="10">&#9679; naman.service</text>
+    <text x="276" y="388" class="gr" font-size="10">&#10003; ACTIVE (RUNNING) &#8226; cpu: building &#8226; mem: shipped</text>
+    <text x="276" y="404" class="w" font-size="10">$ </text>
+    <rect x="292" y="397" width="8" height="12" fill="#63E6FF">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
