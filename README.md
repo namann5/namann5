@@ -40,17 +40,17 @@ Exploring: compiler internals, database storage engines, Rust
 
 ## Things I've Built
 
-**[PROJECT_NAME]** — *One-line description.*  
-`Go` `PostgreSQL` `Redis` `Docker` • [GitHub](https://github.com/namann5/PROJECT_NAME)
+**[Ai_deepfake](https://github.com/namann5/Ai_deepfake)** — AI-powered deepfake & synthetic image detection via EXIF forensics and visual artifact analysis.  
+`JavaScript` `Node.js` `EXIF` · Why: detection tooling for synthetic media, not just generation.
 
-**[PROJECT_NAME]** — *One-line description.*  
-`Python` `FastAPI` `React` `PostgreSQL` • [GitHub](https://github.com/namann5/PROJECT_NAME)
+**[UpiWithoutInternet](https://github.com/namann5/UpiWithoutInternet)** — UPI-style payment flow built to work without a live internet connection.  
+`Java` · Why: understanding offline transaction relay and fallback paths.
 
-**[PROJECT_NAME]** — *One-line description.*  
-`TypeScript` `Next.js` `Tailwind` • [GitHub](https://github.com/namann5/PROJECT_NAME)
+**[namancraft](https://github.com/namann5/namancraft)** — Minecraft-style voxel world rendered in the browser.  
+`JavaScript` · Why: a small exercise in real-time rendering and chunk logic.
 
-**[PROJECT_NAME]** — *One-line description.*  
-`Rust` `SQLite` • [GitHub](https://github.com/namann5/PROJECT_NAME)
+**[autonomous-driving-system-clean](https://github.com/namann5/autonomous-driving-system-clean)** — Autonomous driving system implementation.  
+`Python` · Why: translating control and perception concepts into working code.
 
 ---
 
