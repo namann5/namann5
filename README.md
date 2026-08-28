@@ -1,159 +1,231 @@
-┌───────────────────────────────────────────┐
-│ NAMAN.SINGH                               │
-│ B.Tech · Computer Science · Year 03 / 04  │
-│                                           │
-│ building systems. breaking assumptions.   │
-│ occasionally shipping something useful.   │
-│ STATUS: ONLINE   MODE: BUILD   LOC: INDIA │
-└───────────────────────────────────────────┘
+> initializing profile...
+> loading identity............... OK
+> loading projects............... OK
+> loading skill matrix........... OK
+> loading experiments............ OK
+> loading github telemetry...... OK
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-2ea043?style=flat-square"/>
-  <img src="https://img.shields.io/badge/ROLE-SWE__IN__PROGRESS-1f6feb?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LOCATION-INDIA-2ea043?style=flat-square"/>
-  <img src="https://img.shields.io/badge/YEAR-03__OF__04-8957e5?style=flat-square"/>
-  <img src="https://img.shields.io/badge/MODE-BUILD-1f6feb?style=flat-square"/>
-</p>
-
-> still a student. already thinking in systems.
-
----
-
-## ◢ PROFILE SNAPSHOT
-
-| KEY | VALUE |
-|-----|-------|
-| EDUCATION | B.Tech — Computer Science |
-| YEAR | 03 / 04 |
-| CURRENT MODE | building |
-| INTERESTS | Backend · Systems · AI · Security |
-| OS | Linux / Windows |
-| EDITOR | VS Code |
-| FOCUS | Ai_deepfake · autonomous-driving · backend systems |
-
----
-
-## ◢ CURRENTLY
+SYSTEM READY.
 
 ```text
-> currently/
+┌──────────────────────────────────────────┐
+│ NAMAN.SINGH                              │
+│ B.Tech · Computer Science · Year 03 / 04 │
+│                                          │
+│ SOFTWARE / SYSTEMS / EXPERIMENTS         │
+│                                          │
+│ ● STATUS     ONLINE                      │
+│ ● YEAR       03 / 04                     │
+│ ● MODE       BUILD                       │
+│ ● CURRENT   ████████████████░░░░         │
+│ ● BASE       Agra, India                 │
+│ ● FOCUS      Software / Systems / AI     │
+└──────────────────────────────────────────┘
+```
 
-  ├── learning/
-  │   ├── system-design
-  │   ├── distributed-systems
-  │   └── cloud-infra
-  │
-  ├── building/
-  │   ├── Ai_deepfake
-  │   └── autonomous-driving-system
-  │
-  └── exploring/
-      ├── ai-systems
-      └── developer-tooling
+> mostly building things I do not fully understand yet. on purpose.
+
+---
+
+## ◢ 01 / IDENTITY
+
+```text
+> query: whois naman
+
+Naman is currently somewhere between
+student and engineer.
+
+Interested in what happens after the
+button gets clicked, and before the
+error message finally makes sense.
+```
+
+| IDENTITY | VALUE |
+|----------|-------|
+| NAME | Naman Singh |
+| CLASS | B.Tech / Computer Science |
+| YEAR | 03 |
+| STATUS | Student → Engineer |
+| BASE | Agra, India |
+| FOCUS | Software / Systems / AI |
+
+---
+
+## ◢ 02 / NAMAN.OS
+
+```text
+NAMAN.OS
+
+CORE
+├── backend systems
+├── software engineering
+├── APIs
+├── databases
+└── infrastructure
+
+EXPERIMENTAL
+├── AI
+├── security
+├── automation
+└── developer tooling
+
+LEARNING
+├── system design
+├── distributed systems
+└── cloud
 ```
 
 ---
 
-## ◢ STACK MAP
+## ◢ 03 / STACK — SKILL MATRIX
 
-**LANGUAGES**
-`Java` `Python` `JavaScript` `TypeScript` `HTML` `CSS`
+```text
+SKILL MATRIX  // self-rated
 
-**BACKEND**
-`Node.js` `Express` `REST` `MongoDB` `Java`
-
-**FRONTEND**
-`HTML` `CSS` `JavaScript`
-
-**SYSTEMS / ML**
-`Python` `Computer Vision` `Image Forensics` `LLM tooling`
-
-**DEVOPS**
-`Git` `GitHub` `Docker` `Linux`
-
-**CURRENTLY LEARNING**
-`System Design` `Distributed Systems` `Cloud`
+                    
+EXPOSURE     CONFIDENCE
+Java                ██████████   ████████░░
+Python              █████████░   ███████░░░
+JavaScript          █████████░   ███████░░░
+TypeScript          ████████░░   ██████░░░░
+Backend / APIs      ██████████   ████████░░
+Databases           ████████░░   ███████░░░
+Docker              ███████░░░   █████░░░░░
+Linux               ████████░░   ███████░░░
+AI / ML             ███████░░░   █████░░░░░
+```
 
 ---
 
-## ◢ PROJECT SHOWCASE
+## ◢ 04 / PROJECTS — MISSION CONTROL
 
-┌────────────────────────────────────────────────────┐
-│ PROJECT  Ai_deepfake                               │
-│                                                    │
-│ AI deepfake and synthetic image detection.         │
-│ EXIF forensics, visual artifact analysis, scoring. │
-│                                                    │
-│ STACK    JavaScript · Node.js · Express · MongoDB  │
-│ STATUS   ACTIVE                                    │
-│ TYPE     AI / Computer Vision                      │
-│ WHY      detection tooling, not just generation    │
-│ github   github.com/namann5/Ai_deepfake            │
-└────────────────────────────────────────────────────┘
+`	ext
+┌────────────────────────────────────────────────────────────┐
+│ MISSION 001                                                │
+│ PROJECT  DeepScan // Ai_deepfake                           │
+│ STATUS   ● DEPLOYED   3★                                   │
+│ TYPE     AI / Computer Vision                              │
+│ STACK    JavaScript · Python · Node.js · Express · MongoDB │
+│ OBJECTIVE                                                  │
+│   detect synthetic media before it spreads.                │
+│ ENGINEERING NOTE                                           │
+│   EXIF forensics + artifact analysis + weighted scoring.   │
+│ ARCH                                                       │
+│   REQ → API ─┬─► EXIF Forensics                            │
+│              ├─► Artifact Analysis                         │
+│              └─► Scoring ─► Verdict ─► MongoDB             │
+└────────────────────────────────────────────────────────────┘
+``n
+> [ SOURCE ](https://github.com/namann5/Ai_deepfake) · [ LIVE ](https://ai-deepfake-rouge.vercel.app)
 
+`	ext
 ┌─────────────────────────────────────────────────────────────┐
-│ PROJECT  autonomous-driving-system                          │
-│                                                             │
-│ Autonomous driving: perception plus control.                │
-│ Translating the concepts into runnable code.                │
-│                                                             │
-│ STACK    Python · TypeScript                                │
-│ STATUS   EXPERIMENTAL                                       │
-│ TYPE     AI / Systems                                       │
-│ WHY      understand how self-driving logic works            │
-│ github   github.com/namann5/autonomous-driving-system-clean │
+│ MISSION 002                                                 │
+│ PROJECT  HELPDESK.AI                                        │
+│ STATUS   ● DEPLOYED                                         │
+│ TYPE     AI / Full-stack                                    │
+│ STACK    Python · TypeScript · NLP · OCR · PostgreSQL       │
+│ OBJECTIVE                                                   │
+│   turn support requests into resolved incidents faster.     │
+│ ENGINEERING NOTE                                            │
+│   ML + NLP to detect similar incidents and surface context. │
 └─────────────────────────────────────────────────────────────┘
+``n
+> [ SOURCE ](https://github.com/namann5/HELPDESK.AI) · [ LIVE ](https://helpdeskai1918.vercel.app)
 
+`	ext
+┌──────────────────────────────────────────────────────┐
+│ MISSION 003                                          │
+│ PROJECT  SecuScan                                    │
+│ STATUS   ● DEPLOYED                                  │
+│ TYPE     Security / Tooling                          │
+│ STACK    Python · FastAPI · React · TypeScript       │
+│ OBJECTIVE                                            │
+│   local-first security scanning workspace.           │
+│ ENGINEERING NOTE                                     │
+│   60 catalogued integrations, normalized findings.   │
+│ ARCH                                                 │
+│   UI (React/TS) → FastAPI → Engine (60 integrations) │
+│                    │                                 │
+│                    └─► Findings Store                │
+└──────────────────────────────────────────────────────┘
+``n
+> [ SOURCE ](https://github.com/namann5/SecuScan) · [ LIVE ](https://secuscan.in)
+
+`	ext
+┌───────────────────────────────────────────────────┐
+│ MISSION 004                                       │
+│ PROJECT  MergeShip                                │
+│ STATUS   ◐ BUILDING                               │
+│ TYPE     Developer Tooling / OSS                  │
+│ STACK    TypeScript · PostgreSQL · Make           │
+│ OBJECTIVE                                         │
+│   make open-source contribution actually fun.     │
+│ ENGINEERING NOTE                                  │
+│   swipe-based issue discovery + AI triage center. │
+└───────────────────────────────────────────────────┘
+``n
+> [ SOURCE ](https://github.com/namann5/MergeShip) · [ LIVE ](https://mergeship.vercel.app)
+
+`	ext
 ┌────────────────────────────────────────────────────┐
-│ PROJECT  UpiWithoutInternet                        │
-│                                                    │
-│ UPI-style payment flow without live connectivity.  │
-│ Exploring offline transaction relay and fallbacks. │
-│                                                    │
-│ STACK    Java · HTML                               │
-│ STATUS   PROTOTYPE                                 │
-│ TYPE     Backend / Systems                         │
-│ WHY      what happens when the network is gone     │
-│ github   github.com/namann5/UpiWithoutInternet     │
+│ MISSION 005                                        │
+│ PROJECT  AnimeVerse // Anime-muesuem               │
+│ STATUS   ● LIVE                                    │
+│ TYPE     Frontend / Web                            │
+│ STACK    JavaScript · CSS · HTML                   │
+│ OBJECTIVE                                          │
+│   browse and discover anime without the noise.     │
+│ ENGINEERING NOTE                                   │
+│   frontend depth outside the backend comfort zone. │
 └────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────┐
-│ PROJECT  namancraft                             │
-│                                                 │
-│ Minecraft-style voxel world in the browser.     │
-│ Real-time rendering and chunk logic, for depth. │
-│                                                 │
-│ STACK    JavaScript · HTML · CSS                │
-│ STATUS   PLAYGROUND                             │
-│ TYPE     Graphics / Frontend                    │
-│ WHY      graphics shows what abstractions hide  │
-│ github   github.com/namann5/namancraft          │
-└─────────────────────────────────────────────────┘
+``n
+> [ SOURCE ](https://github.com/namann5/Anime-muesuem) · [ LIVE ](https://anime-muesuem.vercel.app)
 
 ---
 
-## ◢ ENGINEERING LOG
+## ◢ 05 / EXPERIMENTS
 
 ```text
-engineering.log
-
-[2026.08]  building  →  Ai_deepfake detection pipeline
-[2026.07]  exploring →  autonomous-driving-system (python / ts)
-[2026.06]  shipped   →  namancraft voxel engine
-[2026.05]  learning  →  system design fundamentals
+┌─────────────────────────────────────────────────┐
+│ EXPERIMENT LAB                                  │
+│                                                 │
+│ [01] AI tooling                                 │
+│ [02] automation                                 │
+│ [03] security experiments                       │
+│ [04] backend architecture                       │
+│ [05] random ideas that probably should not work │
+│                                                 │
+│ STATUS: █████████████████░░░                    │
+└─────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ◢ OPEN SOURCE
+## ◢ 06 / OPEN SOURCE
 
-maintaining: `Ai_deepfake` · `autonomous-driving-system` · `UpiWithoutInternet`
+```text
+OPEN SOURCE CONTROL PANEL
 
-external contributions: `[ADD YOUR PRs / ISSUES HERE]`
+maintaining:
+  DeepScan · HELPDESK.AI · SecuScan
+  MergeShip · AnimeVerse · Autopilot
+
+external contributions:  [ ADD YOUR PRs / ISSUES HERE ]
+```
 
 ---
 
-## ◢ GITHUB ANALYTICS
+## ◢ 07 / GITHUB TELEMETRY
+
+```text
+GITHUB TELEMETRY
+
+repositories      30
+followers        78
+featured         06
+maintaining      06
+```
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="160"/>
@@ -172,58 +244,112 @@ external contributions: `[ADD YOUR PRs / ISSUES HERE]`
   <img src="https://komarev.com/ghpvc/?username=namann5&label=PROFILE+VIEWS&color=2ea043&style=flat-square"/>
 </p>
 
+ACTIVITY / 365 DAYS — apparently I use GitHub a lot.
+
+---
+
+## ◢ 08 / TRANSMISSION
+
+| CHANNEL | ADDRESS |
+|---------|---------|
+| github | [namann5](https://github.com/namann5) |
+| linkedin | [naman-singh-513260299](https://linkedin.com/in/naman-singh-513260299) |
+| mail | [naman.2002.as@gmail.com](mailto:naman.2002.as@gmail.com) |
+| web | [namann5.github.io](https://namann5.github.io) |
+| leetcode | [namann5](https://leetcode.com/namann5) |
+| dev.to | [naman_singh](https://dev.to/naman_singh_e807dfdf14b5c) |
+
+---
+
+## ◢ CURRENT STATE
+
+```text
+CURRENT STATE
+
+BUILDING       ████████████████░░░░
+LEARNING       █████████████████░░░
+EXPERIMENTING  ███████████░░░░░░░░░
+
+CURRENT TARGET
+
+Become better at building systems
+I do not fully understand yet.
+```
+
+---
+
+## ◢ ENGINEERING LOG
+
+```text
+2026
+│
+├── AUG ── building DeepScan detection pipeline
+├── JUL ── shipped HELPDESK.AI (live)
+├── JUN ── built SecuScan (secuscan.in)
+├── MAY ── exploring MergeShip · AnimeVerse · Autopilot
+└── ...
+```
+
+---
+
+## ◢ KNOWN ISSUES
+
+```text
+KNOWN ISSUES
+
+[001] starts side projects at inconvenient times
+[002] occasionally optimizes things that did not need optimization
+[003] README is probably overengineered
+[004] reads documentation only after the bug wins
+```
+
+---
+
+## ◢ ENGINEERING NOTES
+
+```text
+01  Read the error before blaming the framework.
+02  Simple code is harder than clever code.
+03  If the architecture is not yours to explain, you do not own it.
+04  Ship first. Optimize when reality complains.
+```
+
+---
+
+## ◢ ARCHIVE
+
+```text
+ARCHIVE // nothing official logged yet.
+building the receipts.
+```
+
 ---
 
 ## ◢ TERMINAL
 
 ```bash
-$ whoami
-naman
+$ ./naman --help
 
-$ cat /etc/currently
-building · learning · breaking · rebuilding
+Usage:
+  naman [command]
 
-$ uptime
-3rd year, still compiling
-
-$ cat ./principles
-see below
+Commands:
+  build       build something
+  learn       learn something
+  break       probably inevitable
+  fix         eventually
+  sleep       TODO
 ```
 
 ---
 
-## ◢ PRINCIPLES
+────────────────────────────────────────────
 
 ```text
-01  Understand before abstracting.
-02  Simple systems survive longer than clever ones.
-03  If it breaks, understand why — not just how to fix it.
-04  Ship > speculate.
-05  Read the code before trusting the docs.
+system status: operational
+last updated: 2026
+still building.
 ```
-
----
-
-## ◢ CURRENT MISSION
-
-```text
-Become the kind of engineer who can open an unfamiliar
-codebase and understand what is happening underneath it —
-without asking where to start.
-```
-
----
-
-## ◢ CONTACT
-
-| | |
-|---|---|
-| github | [namann5](https://github.com/namann5) |
-| linkedin | [namann5](https://linkedin.com/in/namann5) |
-| email | [naman@example.com](mailto:naman@example.com) |
-| portfolio | [namann5.github.io](https://namann5.github.io) |
-
----
 
 <details>
   <summary>⚡ run diagnostics</summary>
@@ -239,12 +365,5 @@ without asking where to start.
 
   diagnostic complete. nothing to fix.
 ```
-
-</details>
-
-<details>
-  <summary>who is this?</summary>
-
-You scrolled this far. That is the real signal.
 
 </details>
