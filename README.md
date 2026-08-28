@@ -99,7 +99,7 @@ AI / ML             ███████░░░   █████░░░░
 
 ## ◢ 04 / PROJECTS — MISSION CONTROL
 
-`	ext
+```text
 ┌────────────────────────────────────────────────────────────┐
 │ MISSION 001                                                │
 │ PROJECT  DeepScan // Ai_deepfake                           │
@@ -115,10 +115,11 @@ AI / ML             ███████░░░   █████░░░░
 │              ├─► Artifact Analysis                         │
 │              └─► Scoring ─► Verdict ─► MongoDB             │
 └────────────────────────────────────────────────────────────┘
-``n
+```
+
 > [ SOURCE ](https://github.com/namann5/Ai_deepfake) · [ LIVE ](https://ai-deepfake-rouge.vercel.app)
 
-`	ext
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │ MISSION 002                                                 │
 │ PROJECT  HELPDESK.AI                                        │
@@ -130,10 +131,11 @@ AI / ML             ███████░░░   █████░░░░
 │ ENGINEERING NOTE                                            │
 │   ML + NLP to detect similar incidents and surface context. │
 └─────────────────────────────────────────────────────────────┘
-``n
+```
+
 > [ SOURCE ](https://github.com/namann5/HELPDESK.AI) · [ LIVE ](https://helpdeskai1918.vercel.app)
 
-`	ext
+```text
 ┌──────────────────────────────────────────────────────┐
 │ MISSION 003                                          │
 │ PROJECT  SecuScan                                    │
@@ -149,10 +151,11 @@ AI / ML             ███████░░░   █████░░░░
 │                    │                                 │
 │                    └─► Findings Store                │
 └──────────────────────────────────────────────────────┘
-``n
+```
+
 > [ SOURCE ](https://github.com/namann5/SecuScan) · [ LIVE ](https://secuscan.in)
 
-`	ext
+```text
 ┌───────────────────────────────────────────────────┐
 │ MISSION 004                                       │
 │ PROJECT  MergeShip                                │
@@ -164,10 +167,11 @@ AI / ML             ███████░░░   █████░░░░
 │ ENGINEERING NOTE                                  │
 │   swipe-based issue discovery + AI triage center. │
 └───────────────────────────────────────────────────┘
-``n
+```
+
 > [ SOURCE ](https://github.com/namann5/MergeShip) · [ LIVE ](https://mergeship.vercel.app)
 
-`	ext
+```text
 ┌────────────────────────────────────────────────────┐
 │ MISSION 005                                        │
 │ PROJECT  AnimeVerse // Anime-muesuem               │
@@ -179,7 +183,8 @@ AI / ML             ███████░░░   █████░░░░
 │ ENGINEERING NOTE                                   │
 │   frontend depth outside the backend comfort zone. │
 └────────────────────────────────────────────────────┘
-``n
+```
+
 > [ SOURCE ](https://github.com/namann5/Anime-muesuem) · [ LIVE ](https://anime-muesuem.vercel.app)
 
 ---
@@ -218,30 +223,20 @@ external contributions:  [ ADD YOUR PRs / ISSUES HERE ]
 
 ## ◢ 07 / GITHUB TELEMETRY
 
-```text
-GITHUB TELEMETRY
-
-repositories      30
-followers        78
-featured         06
-maintaining      06
-```
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=github_dark&hide_border=true" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.deno.dev/?user=namann5&theme=dark&hide_border=true" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=namann5&theme=github-dark&hide_border=true&bg_color=0d1117&color=2ea043"/>
-</p>
-
-<p align="center">
+  <img src="https://img.shields.io/github/followers/namann5?style=flat-square&color=1f6feb"/>
+  <img src="https://img.shields.io/github/stars/namann5?style=flat-square&color=2ea043"/>
   <img src="https://komarev.com/ghpvc/?username=namann5&label=PROFILE+VIEWS&color=2ea043&style=flat-square"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=namann5&theme=github_dark" width="410"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=namann5&theme=dark&hide_border=true" width="410"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=namann5&theme=github_dark" width="330"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=namann5&theme=github_dark" width="330"/>
 </p>
 
 ACTIVITY / 365 DAYS — apparently I use GitHub a lot.
