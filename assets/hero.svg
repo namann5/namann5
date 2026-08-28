@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="100%" role="img" aria-label="Naman Singh — Identity HUD">
+  <defs>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#101820" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2ea043" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2ea043" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#2ea043" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .t{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#e6edf3}
+      .m{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#7d8590}
+      .g{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#3fb950}
+      .b{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#58a6ff}
+    </style>
+  </defs>
+
+  <rect width="920" height="340" fill="#0a0e14"/>
+  <rect width="920" height="340" fill="url(#grid)"/>
+
+  <rect x="8" y="8" width="904" height="324" fill="none" stroke="#1c2530" stroke-width="1"/>
+  <rect x="14" y="14" width="892" height="312" fill="none" stroke="#222c38" stroke-width="1"/>
+
+  <path d="M8 44H26 M8 44V26" stroke="#3fb950" stroke-width="2" fill="none"/>
+  <path d="M912 44H894 M912 44V26" stroke="#3fb950" stroke-width="2" fill="none"/>
+  <path d="M8 296H26 M8 296V314" stroke="#3fb950" stroke-width="2" fill="none"/>
+  <path d="M912 296H894 M912 296V314" stroke="#3fb950" stroke-width="2" fill="none"/>
+
+  <text x="900" y="36" text-anchor="end" class="m" font-size="11" letter-spacing="2">IDENTITY // HUD v1.0</text>
+
+  <text x="44" y="96" class="t" font-size="48" letter-spacing="5">NAMAN SINGH</text>
+  <text x="46" y="128" class="m" font-size="15" letter-spacing="3">B.TECH / COMPUTER SCIENCE</text>
+  <text x="46" y="154" class="m" font-size="15" letter-spacing="3">SOFTWARE / SYSTEMS / AI</text>
+
+  <g transform="translate(46,176)">
+    <g>
+      <polyline points="0,18 24,18 34,4 44,34 54,18 96,18 106,8 116,30 126,18 210,18 220,12 230,26 240,18 340,18 350,6 360,30 370,18 470,18" fill="none" stroke="#1f6feb" stroke-width="1.5" opacity="0.75"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-20 0;0 0" dur="9s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <text x="46" y="214" class="m" font-size="10" letter-spacing="2">SIGNAL // nominal</text>
+
+  <line x1="540" y1="44" x2="540" y2="296" stroke="#222c38" stroke-width="1"/>
+
+  <text x="572" y="70" class="m" font-size="11" letter-spacing="2">STATUS</text>
+  <circle cx="582" cy="86" r="5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="596" y="91" class="g" font-size="15" letter-spacing="2">ONLINE</text>
+
+  <text x="572" y="128" class="m" font-size="11" letter-spacing="2">CURRENT MODE</text>
+  <text x="572" y="148" class="t" font-size="15" letter-spacing="2">BUILD</text>
+
+  <text x="572" y="184" class="m" font-size="11" letter-spacing="2">YEAR</text>
+  <text x="572" y="204" class="t" font-size="15" letter-spacing="2">03 / 04</text>
+
+  <text x="572" y="240" class="m" font-size="11" letter-spacing="2">COORD</text>
+  <text x="572" y="260" class="b" font-size="13" letter-spacing="1">27.18N / 78.04E</text>
+
+  <text x="572" y="296" class="m" font-size="10" letter-spacing="1">SYS.ID 0x4E53 · BUILD 2025.05</text>
+
+  <rect x="14" y="14" width="892" height="40" fill="url(#scan)">
+    <animate attributeName="y" values="14;286;14" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

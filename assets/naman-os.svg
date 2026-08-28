@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" width="100%" role="img" aria-label="NAMAN.OS architecture">
+  <defs>
+    <pattern id="g2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0f161d" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t{font-family:'SFMono-Regular',Consolas,monospace;fill:#e6edf3}
+      .m{font-family:'SFMono-Regular',Consolas,monospace;fill:#7d8590}
+      .g{font-family:'SFMono-Regular',Consolas,monospace;fill:#3fb950}
+      .b{font-family:'SFMono-Regular',Consolas,monospace;fill:#58a6ff}
+      .p{font-family:'SFMono-Regular',Consolas,monospace;fill:#a371f7}
+    </style>
+  </defs>
+  <rect width="920" height="430" fill="#0a0e14"/>
+  <rect width="920" height="430" fill="url(#g2)"/>
+  <rect x="8" y="8" width="904" height="414" fill="none" stroke="#1c2530" stroke-width="1"/>
+
+  <text x="40" y="44" class="m" font-size="12" letter-spacing="3">NAMAN.OS // SYSTEM ARCHITECTURE</text>
+
+  <g stroke="#2a3543" stroke-width="1.2" fill="none">
+    <path d="M250 149 H414"/>
+    <path d="M250 199 H414"/>
+    <path d="M250 249 H414"/>
+    <path d="M250 299 H414"/>
+    <path d="M676 149 H506"/>
+    <path d="M676 199 H506"/>
+    <path d="M676 249 H506"/>
+    <path d="M460 246 V330"/>
+    <path d="M460 330 H385"/>
+    <path d="M460 330 H580"/>
+    <path d="M220 392 H300"/>
+  </g>
+
+  <text x="64" y="120" class="g" font-size="13" letter-spacing="3">CORE</text>
+  <g>
+    <rect x="64" y="132" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="80" y="154" class="t" font-size="13">SOFTWARE</text>
+    <rect x="64" y="182" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="80" y="204" class="t" font-size="13">BACKEND</text>
+    <rect x="64" y="232" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="80" y="254" class="t" font-size="13">SYSTEMS</text>
+    <rect x="64" y="282" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="80" y="304" class="t" font-size="13">DATABASES</text>
+  </g>
+
+  <text x="676" y="120" class="p" font-size="13" letter-spacing="3">EXPERIMENTAL</text>
+  <g>
+    <rect x="676" y="132" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="692" y="154" class="t" font-size="13">AI</text>
+    <rect x="676" y="182" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="692" y="204" class="t" font-size="13">SECURITY</text>
+    <rect x="676" y="232" width="186" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="692" y="254" class="t" font-size="13">AUTOMATION</text>
+  </g>
+
+  <text x="360" y="346" class="b" font-size="13" letter-spacing="3">LEARNING</text>
+  <g>
+    <rect x="300" y="358" width="170" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="312" y="380" class="t" font-size="12">SYSTEM DESIGN</text>
+    <rect x="480" y="358" width="200" height="34" rx="4" fill="#0d1117" stroke="#2a3543"/>
+    <text x="492" y="380" class="t" font-size="12">DISTRIBUTED SYSTEMS</text>
+  </g>
+  <rect x="40" y="392" width="180" height="30" rx="4" fill="#0d1117" stroke="#2a3543"/>
+  <text x="56" y="412" class="t" font-size="12">CLOUD</text>
+
+  <circle cx="460" cy="200" r="46" fill="#0d1117" stroke="#3fb950" stroke-width="1.5"/>
+  <circle cx="460" cy="200" r="46" fill="none" stroke="#3fb950" stroke-width="6" opacity="0.12">
+    <animate attributeName="r" values="46;54;46" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.18;0;0.18" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="460" y="196" text-anchor="middle" class="g" font-size="15" letter-spacing="2">NAMAN</text>
+  <text x="460" y="214" text-anchor="middle" class="g" font-size="15" letter-spacing="2">.OS</text>
+
+  <text x="880" y="420" text-anchor="end" class="m" font-size="10" letter-spacing="1">nodes: 11 · links: 10</text>
+</svg>

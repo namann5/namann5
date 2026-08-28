@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 580" width="100%" role="img" aria-label="Project radar">
+  <defs>
+    <pattern id="g4" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0f161d" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t{font-family:'SFMono-Regular',Consolas,monospace;fill:#e6edf3}
+      .m{font-family:'SFMono-Regular',Consolas,monospace;fill:#7d8590}
+      .g{font-family:'SFMono-Regular',Consolas,monospace;fill:#3fb950}
+      .b{font-family:'SFMono-Regular',Consolas,monospace;fill:#58a6ff}
+      .p{font-family:'SFMono-Regular',Consolas,monospace;fill:#a371f7}
+    </style>
+  </defs>
+  <rect width="640" height="580" fill="#0a0e14"/>
+  <rect width="640" height="580" fill="url(#g4)"/>
+  <rect x="8" y="8" width="624" height="564" fill="none" stroke="#1c2530" stroke-width="1"/>
+
+  <text x="320" y="40" text-anchor="middle" class="m" font-size="12" letter-spacing="3">PROJECT RADAR // MISSION MAP</text>
+
+  <g fill="none" stroke="#1c2530" stroke-width="1">
+    <circle cx="320" cy="300" r="80"/>
+    <circle cx="320" cy="300" r="150"/>
+    <circle cx="320" cy="300" r="220"/>
+  </g>
+
+  <g stroke="#2a3543" stroke-width="1" opacity="0.6">
+    <path d="M320 300 L179 239"/>
+    <path d="M320 300 L269 149"/>
+    <path d="M320 300 L179 341"/>
+    <path d="M320 300 L461 341"/>
+    <path d="M320 300 L461 239"/>
+  </g>
+
+  <g font-family="'SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="2">
+    <text x="320" y="74" text-anchor="middle" class="b">BACKEND</text>
+    <text x="560" y="200" text-anchor="middle" class="p">AI</text>
+    <text x="560" y="430" text-anchor="middle" class="g">WEB</text>
+    <text x="80" y="430" text-anchor="middle" class="b">SYSTEMS</text>
+    <text x="80" y="200" text-anchor="middle" class="g">OPEN SOURCE</text>
+  </g>
+
+  <g>
+    <line x1="320" y1="300" x2="320" y2="80" stroke="#3fb950" stroke-width="1.5" opacity="0.55"/>
+    <path d="M320 300 L320 80 A220 220 0 0 1 390 92 Z" fill="#3fb950" opacity="0.07"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 320 300" to="360 320 300" dur="14s" repeatCount="indefinite"/>
+  </g>
+
+  <circle cx="320" cy="300" r="44" fill="#0d1117" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="320" y="296" text-anchor="middle" class="g" font-size="12" letter-spacing="1">NAMAN</text>
+  <text x="320" y="314" text-anchor="middle" class="g" font-size="12" letter-spacing="1">// BUILD</text>
+
+  <g font-family="'SFMono-Regular',Consolas,monospace" text-anchor="middle">
+    <circle cx="179" cy="239" r="9" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+    <text x="179" y="222" class="t" font-size="12">DeepScan</text>
+    <text x="179" y="262" class="m" font-size="9">AI · JS/Py</text>
+
+    <circle cx="269" cy="149" r="9" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+    <text x="269" y="132" class="t" font-size="12">HELPDESK.AI</text>
+    <text x="269" y="172" class="m" font-size="9">AI · Py/TS</text>
+
+    <circle cx="179" cy="341" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <text x="179" y="368" class="t" font-size="12">SecuScan</text>
+    <text x="179" y="382" class="m" font-size="9">SEC · Py</text>
+
+    <circle cx="461" cy="341" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+    <text x="461" y="368" class="t" font-size="12">MergeShip</text>
+    <text x="461" y="382" class="m" font-size="9">OSS · TS</text>
+
+    <circle cx="461" cy="239" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+    <text x="461" y="222" class="t" font-size="12">AnimeVerse</text>
+    <text x="461" y="262" class="m" font-size="9">WEB · JS</text>
+  </g>
+
+  <text x="320" y="560" text-anchor="middle" class="m" font-size="10" letter-spacing="1">05 active missions · sweep: live</text>
+</svg>
