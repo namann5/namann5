@@ -1,8 +1,12 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+%26+AI%2FML+Engineer;Building+DeepScan%2C+NEXUS+%26+more;Open+to+internships+and+freelance+work)](https://git.io/typing-svg)
+
 ### Hey, I'm Naman 👋
 
 I'm a Computer Science student who builds things that actually ship — AI detection systems, multilingual chatbots, and full-stack tools — not just tutorials. Based in Agra, India. Open to internships, remote roles, and freelance work.
 
 I like the layer of software right after the "cool demo" stage — the part where you have to make it reliable, explainable, and usable by someone who isn't you.
+
+[![My Skills](https://skillicons.dev/icons?i=py,js,ts,java,nodejs,express,fastapi,react,nextjs,pytorch,postgres,mongodb,neo4j,docker,linux)](https://skillicons.dev)
 
 ---
 
@@ -42,12 +46,27 @@ I'm also contributing open source through GSSoC 2026 — PRs and issue links bel
 
 ---
 
+### GitHub Stats
+
+<table>
+<tr>
+<td><img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true" /></td>
+<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true" /></td>
+</tr>
+</table>
+
+![GitHub Streak](https://streak-stats.demolab.com?user=namann5&theme=tokyonight&hide_border=true)
+
+![Snake animation](https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-dark.svg)
+
+---
+
 ### Let's talk
 
-- 📧 naman.2002.as@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/naman-singh-513260299)
-- 🌐 [Portfolio](https://namann5.github.io)
-- 💻 [LeetCode](https://leetcode.com/namann5)
-- ✍️ [dev.to](https://dev.to/naman_singh_e807dfdf14b5c)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman-singh-513260299)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://namann5.github.io)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
+[![dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
 
 If you're hiring for a backend/AI-ML role or need something built — deepfake detection, a chatbot, an internal tool — my inbox is open.
