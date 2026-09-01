@@ -50,8 +50,8 @@ I'm also contributing open source through GSSoC 2026 — PRs and issue links bel
 
 <table>
 <tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true" /></td>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true" /></td>
+<td><img src="https://gh-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true" /></td>
+<td><img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true" /></td>
 </tr>
 </table>
 
