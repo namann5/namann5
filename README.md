@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+%26+AI%2FML+Engineer;Building+DeepScan%2C+NEXUS+%26+more;Open+to+internships+and+freelance+work)](https://git.io/typing-svg)
+
 > initializing profile...
 > loading identity · systems · projects · telemetry ......... **OK**
 > SYSTEM READY.
@@ -5,6 +7,8 @@
 ![Identity HUD](assets/hero.svg)
 
 > mostly building things I do not fully understand yet. on purpose.
+
+[![My Skills](https://skillicons.dev/icons?i=py,js,ts,java,nodejs,express,fastapi,react,nextjs,pytorch,postgres,mongodb,neo4j,docker,linux)](https://skillicons.dev)
 
 ---
 
@@ -59,6 +63,21 @@ happens after the button gets clicked.
 
 ---
 
+## ◢ 05 / GITHUB STATS
+
+<table>
+<tr>
+<td><img src="https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&theme=tokyonight&hide_border=true" /></td>
+<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true" /></td>
+</tr>
+</table>
+
+![GitHub Streak](https://streak-stats.demolab.com?user=namann5&theme=tokyonight&hide_border=true)
+
+![Snake animation](https://raw.githubusercontent.com/namann5/namann5/output/github-contribution-grid-snake-dark.svg)
+
+---
+
 ## ◢ ENGINEERING NOTES
 
 ```text
@@ -104,14 +123,11 @@ external contributions: `[ ADD YOUR PRs / ISSUES HERE ]`
 
 ## ◢ 08 / TRANSMISSION
 
-| CHANNEL | ADDRESS |
-|---------|---------|
-| github | [namann5](https://github.com/namann5) |
-| linkedin | [naman-singh-513260299](https://linkedin.com/in/naman-singh-513260299) |
-| mail | [naman.2002.as@gmail.com](mailto:naman.2002.as@gmail.com) |
-| web | [namann5.github.io](https://namann5.github.io) |
-| leetcode | [namann5](https://leetcode.com/namann5) |
-| dev.to | [naman_singh](https://dev.to/naman_singh_e807dfdf14b5c) |
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naman-singh-513260299)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naman.2002.as@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://namann5.github.io)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/namann5)
+[![dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/naman_singh_e807dfdf14b5c)
 
 ---
 
