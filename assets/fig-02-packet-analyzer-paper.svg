@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" width="720" height="460" role="img" aria-label="Exploded technical drawing of the Packet analyzer deep packet inspection engine: ethernet frame, IP and TCP, HTTP headers, SNI extraction, block or allow decision, drawn before tuning.">
+  <rect x="0" y="0" width="720" height="460" fill="#ece4d1"/>
+  <g font-family="Palatino Linotype, Palatino, Georgia, serif">
+    <text x="20" y="44" font-size="24" letter-spacing="1" fill="#241d16">FIG. 2 &#8212; PACKET ANALYZER &#183; DPI ENGINE</text>
+    <text x="20" y="76" font-size="20" fill="#5a5348">documented packet flow &#8212; drawn before tuning</text>
+
+    <g fill="none" stroke="#241d16" stroke-width="1.5">
+      <rect x="60" y="96" width="380" height="46"/>
+      <rect x="110" y="156" width="380" height="46"/>
+      <rect x="160" y="216" width="380" height="46"/>
+      <rect x="210" y="276" width="380" height="46"/>
+      <rect x="260" y="336" width="380" height="46"/>
+    </g>
+
+    <g font-family="Palatino Linotype, Palatino, Georgia, serif" font-size="22" fill="#241d16">
+      <text x="76" y="126">ETHERNET FRAME</text>
+      <text x="126" y="186">IP / TCP SEGMENT</text>
+      <text x="176" y="246">HTTP HEADERS</text>
+      <text x="226" y="306">SNI EXTRACTION</text>
+      <text x="276" y="366">BLOCK / ALLOW</text>
+    </g>
+
+    <g fill="none" stroke="#5a5348" stroke-width="1">
+      <circle cx="34" cy="119" r="16"/>
+      <line x1="50" y1="119" x2="60" y2="119"/>
+      <circle cx="34" cy="179" r="16"/>
+      <line x1="50" y1="179" x2="110" y2="179"/>
+      <circle cx="34" cy="239" r="16"/>
+      <line x1="50" y1="239" x2="160" y2="239"/>
+      <circle cx="34" cy="299" r="16"/>
+      <line x1="50" y1="299" x2="210" y2="299"/>
+      <circle cx="34" cy="359" r="16"/>
+      <line x1="50" y1="359" x2="260" y2="359"/>
+    </g>
+    <g font-family="Palatino Linotype, Palatino, Georgia, serif" fill="#5a5348" font-size="20" text-anchor="middle">
+      <text x="34" y="126">1</text>
+      <text x="34" y="186">2</text>
+      <text x="34" y="246">3</text>
+      <text x="34" y="306">4</text>
+      <text x="34" y="366">5</text>
+    </g>
+
+    <path d="M440 119 L660 119 L660 359 L640 359" fill="none" stroke="#5a5348" stroke-width="1" stroke-dasharray="6 5"/>
+    <text x="686" y="239" font-size="20" letter-spacing="2" fill="#5a5348" text-anchor="middle" transform="rotate(90 686 239)">MULTI-THREADED</text>
+
+    <line x1="20" y1="400" x2="700" y2="400" stroke="#241d16" stroke-width="1"/>
+    <text x="20" y="426" font-size="20" letter-spacing="1.6" fill="#5a5348">MATERIALS: C++ &#183; 14 COMMITS</text>
+    <text x="700" y="426" font-size="20" letter-spacing="1.6" fill="#5a5348" text-anchor="end">ARCHIVE / FIG. 2</text>
+  </g>
+</svg>

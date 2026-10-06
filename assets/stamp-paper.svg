@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160" role="img" aria-label="Filed stamp: end of record, N.S., 2026.">
+  <rect x="0" y="0" width="720" height="160" fill="#ece4d1"/>
+  <g transform="rotate(-1.2 360 80)">
+    <rect x="16" y="16" width="688" height="128" fill="none" stroke="#241d16" stroke-width="2.5"/>
+    <rect x="28" y="28" width="664" height="104" fill="none" stroke="#241d16" stroke-width="1"/>
+    <g font-family="Palatino Linotype, Palatino, Georgia, serif" text-anchor="middle">
+      <text x="360" y="78" font-size="32" letter-spacing="4" fill="#241d16">FILED &#8212; END OF RECORD</text>
+      <text x="360" y="114" font-size="20" letter-spacing="2.4" fill="#5a5348">N.S. &#183; 2026 &#183; ARCHIVE COMPLETE</text>
+    </g>
+  </g>
+</svg>
