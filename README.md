@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/namann5/namann5/main/assets/title-block-blueprint.svg">
-  <img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/title-block-paper.svg" alt="Drawing sheet title block: Record of Naman Singh. Discipline: Backend and Security Engineering. Locality: Agra, Uttar Pradesh, India. Status: open to internships and freelance. Reference: github.com/namann5" width="720" height="400">
-</picture>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Backend+%26+AI-FULL-STACK+Engineer;Building+DeepScan%2C+NEXUS+%26+more;Open+to+internships+and+freelance+work)](https://git.io/typing-svg)
 
 # Naman Singh
 
@@ -159,9 +156,4 @@ JavaScript · TypeScript · Python · Java · C++ · HTML · CSS · Node.js · E
 
 [GitHub](https://github.com/namann5) · [LinkedIn](https://linkedin.com/in/naman-singh-513260299) · [email](mailto:naman.2002.as@gmail.com) · [noctratech.me](https://noctratech.me) · [LeetCode](https://leetcode.com/namann5)
 
-If you're hiring for a backend or security role — or need something built — my inbox is open.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/namann5/namann5/main/assets/stamp-blueprint.svg">
-  <img src="https://raw.githubusercontent.com/namann5/namann5/main/assets/stamp-paper.svg" alt="Filed stamp: end of record, N.S., 2026." width="720" height="160">
-</picture>
+If you're hiring for a backend/AI-ML role or need something built — deepfake detection, a chatbot, an internal tool — my inbox is open.
