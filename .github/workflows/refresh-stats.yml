@@ -1,0 +1,30 @@
+name: Refresh README stats cards
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stat cards
+        run: |
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&rank_icon=github" -o assets/stats-dark.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=namann5&show_icons=true&include_all_commits=true&theme=default&hide_border=true&rank_icon=github" -o assets/stats-light.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs-dark.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=namann5&layout=compact&theme=default&hide_border=true" -o assets/top-langs-light.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-*.svg assets/top-langs-*.svg
+          git diff --cached --quiet || git commit -m "Refresh README stats cards"
+          git push
