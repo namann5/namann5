@@ -117,3 +117,7 @@ Other things that made it through review, all merged:
   <a href="https://noctratech.me"><img src="https://img.shields.io/badge/noctratech.me-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
   <a href="https://leetcode.com/namann5"><img src="https://img.shields.io/badge/LeetCode-namann5-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"></a>
 </p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=namann5&style=flat&color=1f6feb" alt="Profile views">
+</p>
