@@ -39,13 +39,21 @@ Now: prepping for placements — DSA, system design, and security write-ups.
   fast path by consistent hash of the 5-tuple, so every packet of one
   connection always lands on the same thread. Live capture via libpcap,
   JSON rules + CLI, CI on Linux/macOS/Windows.
+- **[UpiWithoutInternet](https://github.com/namann5/UpiWithoutInternet)** —
+  offline UPI over a Bluetooth-style mesh: the payment hops phone-to-phone
+  encrypted until one device gets signal, then the Spring Boot backend claims
+  the ciphertext hash atomically — three bridges delivering the same packet at
+  once still settle exactly once — decrypts and pays out. Hybrid RSA-OAEP +
+  AES-256-GCM, freshness window, 47 tests. `Java` `Spring Boot`
 - **[namancraft](https://github.com/namann5/namancraft)** — a Minecraft-style
   3D portfolio in the browser: voxel world with portal dimensions for projects,
   skills and socials, custom voxel mesher, Blender pipeline that generates the
   world, day/night cycle, touch controls, live GitHub and LeetCode numbers.
   React Three Fiber. [Live](https://namann5.github.io/namancraft/)
 
-DeepScan, in one picture:
+How they work, in one picture:
+
+**DeepScan**
 
 ```mermaid
 flowchart LR
@@ -54,6 +62,28 @@ flowchart LR
     E -->|EXIF parse| F[Score fusion]
     X --> F
     F --> D[(MongoDB 7)]
+```
+
+**Packet_analyzer**
+
+```mermaid
+flowchart LR
+    C[PCAP file / live NIC] --> R[Reader thread]
+    R -->|hash of 5-tuple| L[Load balancers]
+    L --> F[Fast paths · SNI · rules]
+    F -->|pass| W[Write output PCAP]
+    F -->|block| D[Drop and count]
+```
+
+**UpiWithoutInternet**
+
+```mermaid
+flowchart LR
+    A[Sender phone · offline] -->|encrypt · RSA + AES-GCM| G[Mesh gossip · TTL hops]
+    G --> B[Bridge gets 4G]
+    B -->|HTTPS POST| H[SHA-256 + atomic claim]
+    H --> X[Decrypt · 24h freshness check]
+    X --> Z[Settle exactly once]
 ```
 
 ## What I patch
