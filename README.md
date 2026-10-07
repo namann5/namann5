@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=namann5&theme=discord&no-frame=true&no-margin=true&row=1&column=7" alt="GitHub trophies">
+  <img src="https://trophy.ryglcloud.net/?username=namann5&theme=discord&no-frame=true&no-margin=true&row=1&column=7" alt="GitHub trophies">
 </p>
 
 <p align="center">
