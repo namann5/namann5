@@ -39,8 +39,22 @@ Now: prepping for placements — DSA, system design, and security write-ups.
   fast path by consistent hash of the 5-tuple, so every packet of one
   connection always lands on the same thread. Live capture via libpcap,
   JSON rules + CLI, CI on Linux/macOS/Windows.
-- **[namancraft](https://github.com/namann5/namancraft)** — Minecraft-style
-  build mode that runs in the browser.
+- **[namancraft](https://github.com/namann5/namancraft)** — a Minecraft-style
+  3D portfolio in the browser: voxel world with portal dimensions for projects,
+  skills and socials, custom voxel mesher, Blender pipeline that generates the
+  world, day/night cycle, touch controls, live GitHub and LeetCode numbers.
+  React Three Fiber. [Live](https://namann5.github.io/namancraft/)
+
+DeepScan, in one picture:
+
+```mermaid
+flowchart LR
+    B[React SPA] -->|multipart upload| E[Express 5 · validation]
+    E -->|image bytes| X[FastAPI · PyTorch · Xception]
+    E -->|EXIF parse| F[Score fusion]
+    X --> F
+    F --> D[(MongoDB 7)]
+```
 
 ## What I patch
 
