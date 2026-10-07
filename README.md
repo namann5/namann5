@@ -10,6 +10,8 @@ injection paths closed, credentials pulled from source — because software shou
 survive a bad day, not just a demo. Open to internships, remote roles and
 freelance work.
 
+Now: prepping for placements — DSA, system design, and security write-ups.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
@@ -30,28 +32,33 @@ freelance work.
 - **[AnimeVerse](https://github.com/namann5/Anime-muesuem)** — a museum you walk
   through instead of scroll: era timelines, a cinema, a 3D character gallery on
   React + Firebase. 85 commits. [Live](https://animeverse-mvp.vercel.app) · `React` `Firebase`
-- **[Packet_analyzer](https://github.com/namann5/Packet_analyzer)** —
-  multi-threaded deep packet inspection engine written in C++.
+- **[Packet_analyzer](https://github.com/namann5/Packet_analyzer)** — a DPI
+  engine in C++. Parses PCAP byte-by-byte and pulls the hostname out of TLS
+  Client Hellos (HTTPS leaks SNI in plaintext before encryption starts), then
+  blocks flows by IP/app/domain rule. Packets route reader → load balancer →
+  fast path by consistent hash of the 5-tuple, so every packet of one
+  connection always lands on the same thread. Live capture via libpcap,
+  JSON rules + CLI, CI on Linux/macOS/Windows.
 - **[namancraft](https://github.com/namann5/namancraft)** — Minecraft-style
   build mode that runs in the browser.
 
 ## What I patch
 
-Representative diffs — not verbatim, but the shape of most of my merged PRs:
+Auth tokens used to go straight into the console — and from there into Metro
+logs, device logs and Sentry. From a [merged fix](https://github.com/SB2318/UltimateHealth/pull/2320):
 
 ```diff
-- logger.info("POST /api/otp/verify token=" + req.body.token)
-+ logger.info("POST /api/otp/verify", { userId: user.id, ok: true })
+- console.log('[Login] res.data.token:', res.data?.token);
++ console.log('[Login] res.data.token:', res.data?.token ? 'present' : 'absent');
 ```
 
-```diff
-- res.send(`<p>Welcome ${req.query.name}</p>`)
-+ res.send(`<p>${escapeHtml(req.query.name)}</p>`)
-```
+The log still tells you the token arrived; it just doesn't print the value.
 
-Beyond that: BOLA and cross-tenant holes closed, CSV formula injection fixed,
-open-redirect validation added, plaintext token persistence removed, hardcoded
-credentials pulled out of source.
+Other things that made it through review, all merged:
+
+- [Auth token never persisted in plaintext storage](https://github.com/SB2318/UltimateHealth/pull/2306)
+- [Bypassable regex sanitizer replaced with an entity-aware tag sanitizer](https://github.com/SB2318/UltimateHealth/pull/2354)
+- [Hardcoded Vultr API credential pulled out of source](https://github.com/SB2318/UltimateHealth/pull/2356)
 
 ## Open source
 
