@@ -53,15 +53,6 @@ Beyond that: BOLA and cross-tenant holes closed, CSV formula injection fixed,
 open-redirect validation added, plaintext token persistence removed, hardcoded
 credentials pulled out of source.
 
-## Activity
-
-1,786 contributions over 196 active days · best day 39 · 15 repositories of my own.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/weave-dark.svg">
-  <img src="assets/weave.svg" alt="Weaving diagram of merged open-source work: one vertical thread per repository, one horizontal band per month; thread width and band height are proportional to merged pull requests. February 2026 is an empty band." width="100%">
-</picture>
-
 ## Open source
 
 179 merged pull requests in repositories I don't own · 0 open —
