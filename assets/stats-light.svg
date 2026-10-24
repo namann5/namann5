@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Naman Singh's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 4, Total Commits  : 1597, Total PRs: 288, Total Issues: 255, Contributed to (last year): 19</desc>
+        <desc id="descId">Total Stars Earned: 4, Total Commits  : 1613, Total PRs: 288, Total Issues: 255, Contributed to (last year): 19</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 121.36629290492274;
+        stroke-dashoffset: 121.21357739886191;
       }
     }
   
