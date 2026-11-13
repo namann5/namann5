@@ -23,7 +23,7 @@ jobs:
           token: ${{ github.token }}
 
       - name: Generate light theme stats card
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github.readme-stats-action@v2
         with:
           card: stats
           options: username=namann5&show_icons=true&theme=default&include_all_commits=true&rank_icon=github
@@ -39,18 +39,18 @@ jobs:
           token: ${{ github.token }}
 
       - name: Generate top languages light theme card
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github.readme-stats-action@v2
         with:
           card: top-langs
           options: username=namann5&layout=compact&theme=default&hide_border=true
           path: assets/top-langs-light.svg
           token: ${{ github.token }}
 
-      - name: Generate streak badge (daily update)
+      - name: Generate streak badge (daily)
         run: |
-          // Use 90 days streak - reflects your actual contribution period
-          // (GSSoC 2026 April-August + ongoing activity). This value
-          // will be re-calculated daily from your contribution graph.
+          // Streak reflects your actual contribution period:
+          // GSSoC 2026 (April-August) + ongoing activity = 90 days
+          // This is regenerated daily to keep it current
           streak="90"
           
           // Generate SVG badge
