@@ -129,6 +129,6 @@ Other things that made it through review, all merged:
 
 <p align="center">
   <a href="https://github.com/namann5?tab=graphs">
-    <img src="https://img.shields.io/badge/streak-90%20days-0A66C2?style=for-the-badge" alt="Streak">
+    <img src="https://img.shields.io/badge/streak-150%20days-0A66C2?style=for-the-badge" alt="Streak">
   </a>
 </p>

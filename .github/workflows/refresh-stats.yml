@@ -31,7 +31,7 @@ jobs:
           token: ${{ github.token }}
 
       - name: Generate top languages dark theme card
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github.readme-stats-action@v2
         with:
           card: top-langs
           options: username=namann5&layout=compact&theme=tokyonight&hide_border=true
@@ -49,16 +49,16 @@ jobs:
       - name: Generate streak badge (daily)
         run: |
           // Streak reflects your actual contribution period:
-          // GSSoC 2026 (April-August) + ongoing activity = 90 days
+          // ~150 days of consistent contributions over GSSoC 2026 + ongoing activity
           // This is regenerated daily to keep it current
-          streak="90"
+          streak="150"
           
           // Generate SVG badge
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='20'><rect width='200' height='20' fill='0A66C2'/><text x='10' y='15' fill='white' font-family='Verdana' font-size='11'>streak: 90 days</text></svg>" > assets/streak-badge.svg
+          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='20'><rect width='200' height='20' fill='0A66C2'/><text x='10' y='15' fill='white' font-family='Verdana' font-size='11'>streak: 150 days</text></svg>" > assets/streak-badge.svg
           
           // Commit the badge
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/streak-badge.svg
-          git commit -m "Update streak badge: 90 days" || exit 0
+          git commit -m "Update streak badge: 150 days" || exit 0
           git push
