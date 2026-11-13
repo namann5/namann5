@@ -14,40 +14,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate dark theme stats SVG
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate dark theme stats card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: namann5
-          theme: tokyonight
-          show_icons: true
-          include_all_commits: true
-          rank_icon: github
-          output: assets/stats-dark.svg
+          card: stats
+          options: username=namann5&show_icons=true&theme=tokyonight&include_all_commits=true&rank_icon=github
+          path: assets/stats-dark.svg
+          token: ${{ github.token }}
 
-      - name: Generate light theme stats SVG
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate light theme stats card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: namann5
-          theme: default
-          show_icons: true
-          include_all_commits: true
-          rank_icon: github
-          output: assets/stats-light.svg
+          card: stats
+          options: username=namann5&show_icons=true&theme=default&include_all_commits=true&rank_icon=github
+          path: assets/stats-light.svg
+          token: ${{ github.token }}
 
-      - name: Generate top languages dark theme SVG
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate top languages dark theme card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: namann5
-          layout: compact
-          theme: tokyonight
-          hide_border: true
-          output: assets/top-langs-dark.svg
+          card: top-langs
+          options: username=namann5&layout=compact&theme=tokyonight&hide_border=true
+          path: assets/top-langs-dark.svg
+          token: ${{ github.token }}
 
-      - name: Generate top languages light theme SVG
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate top languages light theme card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: namann5
-          layout: compact
-          theme: default
-          hide_border: true
-          output: assets/top-langs-light.svg
+          card: top-langs
+          options: username=namann5&layout=compact&theme=default&hide_border=true
+          path: assets/top-langs-light.svg
+          token: ${{ github.token }}
