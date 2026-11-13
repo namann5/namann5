@@ -135,9 +135,3 @@ Other things that made it through review, all merged:
     <img src="https://img.shields.io/badge/streak-3%2B%20months-0A66C2?style=for-the-badge" alt="Streak">
   </a>
 </p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://github.com/darkside-dev/github-profile-snake/blob/master/generate-snake.php?username=namann5&theme=tokyonight" height="165" alt="Contribution Snake">
-</p>
