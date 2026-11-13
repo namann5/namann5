@@ -1,16 +1,15 @@
 <h1 align="center">Naman Singh</h1>
 
 <p align="center">
-  <b>Backend &amp; security engineering</b> · Agra, Uttar Pradesh, India
+  <b>Fullstack AI Engineer · SDE</b> · Agra, Uttar Pradesh, India</b>
 </p>
 
-I'm a backend engineer with a habit of reading source looking for the auth bug.
-Most of the work I'm proud of is unglamorous — tokens redacted out of logs,
-injection paths closed, credentials pulled from source — because software should
-survive a bad day, not just a demo. Open to internships, remote roles and
+I'm a Fullstack AI Engineer building intelligent systems with computer vision,
+NLP, and backend services. I explore auth bugs, source security, and ship
+production-grade AI implementations. Open to internships, remote roles and
 freelance work.
 
-Now: prepping for placements — DSA, system design, and security write-ups.
+Now: prepping for placements — DSA, system design, and AI write-ups.
 
 <p align="center">
   <picture>
@@ -25,9 +24,7 @@ Now: prepping for placements — DSA, system design, and security write-ups.
 
 ## What I build
 
-- **[DeepScan](https://github.com/namann5/Ai_deepfake)** — tells you whether an
-  image is AI-generated: Xception inference, EXIF camera/GPS forensics, weighted
-  score fusion across a four-service Docker stack. I owned backend and testing.
+- **[DeepScan](https://github.com/namann5/Ai_deepfake)** — tells you whether an image is AI-generated: Xception inference, EXIF camera/GPS forensics, weighted score fusion across a four-service Docker stack. I owned backend and testing.
   [Live](https://ai-deepfake-rouge.vercel.app) · `Node.js` `FastAPI` `PyTorch` `React` `MongoDB`
 - **[AnimeVerse](https://github.com/namann5/Anime-muesuem)** — a museum you walk
   through instead of scroll: era timelines, a cinema, a 3D character gallery on
