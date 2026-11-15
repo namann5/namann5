@@ -12,14 +12,9 @@ freelance work.
 Now: prepping for placements — DSA, system design, and AI write-ups.
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-    <img src="assets/stats-light.svg" height="165" alt="GitHub stats">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/top-langs-dark.svg">
-    <img src="assets/top-langs-light.svg" height="165" alt="Top languages">
-  </picture>
+  <a href="https://githubcard.com/namann5/card?utm_source=github&utm_medium=readme">
+    <img src="https://githubcard.com/namann5.svg" alt="GitHubCard">
+  </a>
 </p>
 
 ## What I build
