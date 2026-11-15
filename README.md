@@ -13,7 +13,7 @@ Now: prepping for placements — DSA, system design, and AI write-ups.
 
 <p align="center">
   <a href="https://githubcard.com/namann5/card?utm_source=github&utm_medium=readme">
-    <img src="https://githubcard.com/namann5.svg" alt="GitHubCard">
+    <img src="https://githubcard.com/namann5.svg?d=12IqjPwaw7T3" alt="namann5's GitHubCard">
   </a>
 </p>
 
