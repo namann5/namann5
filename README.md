@@ -113,17 +113,3 @@ Other things that made it through review, all merged:
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=namann5&style=flat&color=1f6feb" alt="Profile views">
 </p>
-
-## 📈 Contribution Stats
-
-<p align="center">
-  <a href="https://github.com/namann5?tab=contributions">
-    <img src="https://img.shields.io/badge/contributions-177%20merged%20PRs-0A66C2?style=for-the-badge" alt="Contributions">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/namann5?tab=graphs">
-    <img src="https://img.shields.io/badge/streak-150%20days-0A66C2?style=for-the-badge" alt="Streak">
-  </a>
-</p>
